@@ -1,0 +1,3346 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Programming Basics</title>
+    <meta name="description" content="First Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+
+	<script defer src="../js/script.js"></script>
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A);
+
+        .lst-kix_z9ypi1c9ifj3-2>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-2, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-1, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-3, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-5
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-2
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-7, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-0, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-8, lower-roman) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-4>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-4
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-5, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_le0h346em95v-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-5 0
+        }
+
+        ul.lst-kix_le0h346em95v-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-4, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-5, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-6, decimal) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-8, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-7, lower-latin) ". "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-6 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-2
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-1 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-3 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_hn53vb3ocyre-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hn53vb3ocyre-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_hn53vb3ocyre-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-8 0
+        }
+
+        .lst-kix_hn53vb3ocyre-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-5.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-5 0
+        }
+
+        .lst-kix_hn53vb3ocyre-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-8>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-8
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-3
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-6
+        }
+
+        .lst-kix_hn53vb3ocyre-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-4 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-5 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-0 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-6
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-8 0
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-5 0
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-2>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-2
+        }
+
+        .lst-kix_r109uyvbxeos-7>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-7
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-6
+        }
+
+        .lst-kix_r109uyvbxeos-6>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-6
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-3
+        }
+
+        .lst-kix_l90hhdt471tz-5>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-3>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-3, decimal) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-7>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-1, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-5
+        }
+
+        .lst-kix_r109uyvbxeos-7>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-5>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-3, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-7 0
+        }
+
+        .lst-kix_r109uyvbxeos-1>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-1, lower-latin) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-2>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-3 0
+        }
+
+        .lst-kix_i5yx34vs96em-6>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-6
+        }
+
+        ol.lst-kix_r109uyvbxeos-8.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-8 0
+        }
+
+        .lst-kix_l90hhdt471tz-0>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-8>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-8, lower-roman) ". "
+        }
+
+        ul.lst-kix_hn53vb3ocyre-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-6>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-6, decimal) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-8 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-1 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-2 0
+        }
+
+        .lst-kix_le0h346em95v-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-1 0
+        }
+
+        .lst-kix_le0h346em95v-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-1 0
+        }
+
+        .lst-kix_le0h346em95v-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-1.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-1 0
+        }
+
+        .lst-kix_te5tx1818qv-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_le0h346em95v-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_te5tx1818qv-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-7
+        }
+
+        .lst-kix_l90hhdt471tz-5>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-5
+        }
+
+        .lst-kix_te5tx1818qv-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_te5tx1818qv-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-0>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-4 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-7 0
+        }
+
+        .lst-kix_v8xs2tkb14vu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-1
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-8 0
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-6 0
+        }
+
+        ul.lst-kix_91xithwdszw3-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-5
+        }
+
+        ul.lst-kix_91xithwdszw3-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-1
+        }
+
+        ul.lst-kix_91xithwdszw3-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-2
+        }
+
+        ul.lst-kix_91xithwdszw3-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_lel17yktjca4-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-0
+        }
+
+        ul.lst-kix_91xithwdszw3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-8 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-3
+        }
+
+        .lst-kix_p1rqzwwj4p1g-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-2.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-2 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-1 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-7 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ovapphg3t8uo-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_428ya8ue2a7q-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-3 0
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-7
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-0
+        }
+
+        .lst-kix_ovapphg3t8uo-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-0 4
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-3 0
+        }
+
+        .lst-kix_lel17yktjca4-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-6 0
+        }
+
+        .lst-kix_l90hhdt471tz-6>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-6, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-0.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-0 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-3 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-8
+        }
+
+        .lst-kix_r109uyvbxeos-5>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-5
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-0 0
+        }
+
+        .lst-kix_l90hhdt471tz-2>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-2, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-8
+        }
+
+        .lst-kix_r109uyvbxeos-4>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-4, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-8, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-2 0
+        }
+
+        .lst-kix_r109uyvbxeos-0>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-0, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-5 0
+        }
+
+        .lst-kix_i5yx34vs96em-1>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-3
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-2 0
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-7
+        }
+
+        .lst-kix_i5yx34vs96em-5>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-5, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-3>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-3
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-4 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-4.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-4 0
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-0, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-1, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-1>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-1
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-8
+        }
+
+        ol.lst-kix_l90hhdt471tz-0.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-0 0
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-3, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-2, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-4, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-5 0
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-6, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-8, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-4 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-4.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-4 0
+        }
+
+        .lst-kix_pb5xe7caz2k8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l90hhdt471tz-2>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-2
+        }
+
+        .lst-kix_pb5xe7caz2k8-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-0
+        }
+
+        .lst-kix_i5yx34vs96em-8>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-8
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-3 0
+        }
+
+        .lst-kix_91xithwdszw3-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_91xithwdszw3-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-1>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-1
+        }
+
+        .lst-kix_jh8oad94l2zn-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-3
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-2 0
+        }
+
+        .lst-kix_91xithwdszw3-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-0 1
+        }
+
+        .lst-kix_jh8oad94l2zn-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-7
+        }
+
+        ol.lst-kix_l90hhdt471tz-5.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-5 0
+        }
+
+        .lst-kix_jh8oad94l2zn-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-0
+        }
+
+        .lst-kix_pb5xe7caz2k8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_jh8oad94l2zn-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ovapphg3t8uo-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-5 0
+        }
+
+        .lst-kix_428ya8ue2a7q-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-6 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-0 0
+        }
+
+        .lst-kix_ovapphg3t8uo-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-1
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-4
+        }
+
+        ul.lst-kix_ovapphg3t8uo-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_ovapphg3t8uo-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-8
+        }
+
+        ol.lst-kix_r109uyvbxeos-6.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-6 0
+        }
+
+        .lst-kix_i5yx34vs96em-5>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-5
+        }
+
+        .lst-kix_91xithwdszw3-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-2 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-4 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-4
+        }
+
+        .lst-kix_i5yx34vs96em-0>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-0
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-4
+        }
+
+        .lst-kix_bbqp7cp8bbkt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-2, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-4
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-0, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-6>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-6
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-1, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-8 0
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-4, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-3, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-7 0
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_428ya8ue2a7q-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-6
+        }
+
+        ul.lst-kix_428ya8ue2a7q-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-0>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-0, decimal) ". "
+        }
+
+        .lst-kix_te5tx1818qv-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-3 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-6.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-6 0
+        }
+
+        .lst-kix_r109uyvbxeos-2>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-2
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-2 0
+        }
+
+        .lst-kix_te5tx1818qv-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-8
+        }
+
+        .lst-kix_i5yx34vs96em-7>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-7
+        }
+
+        .lst-kix_l90hhdt471tz-7>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-7
+        }
+
+        .lst-kix_lel17yktjca4-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_lel17yktjca4-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-7.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-7 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-1 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_p1rqzwwj4p1g-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-4 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-7.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-7 0
+        }
+
+        .lst-kix_428ya8ue2a7q-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_te5tx1818qv-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-4
+        }
+
+        ul.lst-kix_te5tx1818qv-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_te5tx1818qv-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-8
+        }
+
+        ul.lst-kix_te5tx1818qv-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-0 4
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-7
+        }
+
+        .lst-kix_ovapphg3t8uo-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-6
+        }
+
+        .lst-kix_l90hhdt471tz-4>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-4, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-4
+        }
+
+        .lst-kix_lel17yktjca4-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-3.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-3 0
+        }
+
+        .lst-kix_ovapphg3t8uo-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-2>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-2
+        }
+
+        .lst-kix_l90hhdt471tz-0>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-0, lower-latin) ". "
+        }
+
+        .lst-kix_91xithwdszw3-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-6>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-6, decimal) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r109uyvbxeos-4>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-4
+        }
+
+        .lst-kix_r109uyvbxeos-2>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-2.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-2 0
+        }
+
+        .lst-kix_l90hhdt471tz-8>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-8, lower-roman) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-1
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-3, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_l90hhdt471tz-8.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-8 0
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-0, lower-latin) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_i5yx34vs96em-7>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-2
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-1.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-1 0
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c1 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 156pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c20 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c31 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 93.6pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c14 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #d9d2e9;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c47 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 93.6pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c45 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 93.6pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c6 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 156pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c25 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 93.6pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c10 {
+            margin-left: 36pt;
+            padding-top: 12pt;
+            padding-left: 0pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c8 {
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c46 {
+            -webkit-text-decoration-skip: none;
+            color: #000000;
+            text-decoration: underline;
+            vertical-align: baseline;
+            text-decoration-skip-ink: none;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c18 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 4pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c27 {
+            color: #404040;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 12pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c3 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c19 {
+            padding-top: 24pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c12 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c34 {
+            color: #404040;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 30pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c15 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c4 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c41 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c29 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c22 {
+            padding-top: 12pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c49 {
+            padding-top: 32pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c30 {
+            color: #ffffff;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Courier New";
+            font-style: normal
+        }
+
+        .c40 {
+            padding-top: 6pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c26 {
+            color: #a64d79;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c7 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c39 {
+            color: #666666;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-style: normal
+        }
+
+        .c9 {
+            color: #a31515;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.5pt;
+            font-style: normal
+        }
+
+        .c32 {
+            color: #039be5;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-style: normal
+        }
+
+        .c5 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: center
+        }
+
+        .c21 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-style: normal
+        }
+
+        .c36 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c11 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c17 {
+            font-family: "Courier New";
+            color: #9900ff;
+            font-weight: 700
+        }
+
+        .c44 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c28 {
+            margin-left: 36pt;
+            padding-left: 0pt
+        }
+
+        .c38 {
+            font-weight: 400;
+            font-family: "Proxima Nova"
+        }
+
+        .c16 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c2 {
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c42 {
+            font-weight: 400;
+            font-family: "Arial"
+        }
+
+        .c48 {
+            color: #cc0000
+        }
+
+        .c24 {
+            height: 0pt
+        }
+
+        .c23 {
+            font-weight: 700
+        }
+
+        .c35 {
+            height: 11pt
+        }
+
+        .c43 {
+            font-family: "Proxima Nova"
+        }
+
+        .c37 {
+            page-break-after: avoid
+        }
+
+        .c13 {
+            font-size: 10.5pt
+        }
+
+        .c33 {
+            color: #a64d79
+        }
+
+        .title {
+            padding-top: 10pt;
+            color: #404040;
+            font-weight: 700;
+            font-size: 30pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 6pt;
+            color: #404040;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #039be5;
+            font-size: 18pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 14pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 8pt;
+            -webkit-text-decoration-skip: none;
+            color: #666666;
+            text-decoration: underline;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            text-decoration-skip-ink: none;
+            font-family: "Trebuchet MS";
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c44 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+      </div>
+    <div>
+        <p class="c49"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
+        <p class="c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image_3.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    </div>
+    <p class="c3 title" id="h.kk1966kbedef"><span>Java Basics</span></p>
+    <p class="c29"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image_3.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    <h1 class="c19" id="h.vrhvb96nxxe9"><span>Program Structure</span></h1>
+    <p class="c22"><span>Every program in Java is written as a </span><span class="c23">Class</span><span class="c0">. We&rsquo;ll learn more about this much later in the course. For now, just use the defaults provided by the IDE.</span></p>
+    <p class="c22"><span class="c0">But the one thing we should be aware of now is&hellip;</span></p>
+    <p class="c22 c37 subtitle" id="h.gu00mnjlhxq3"><span>The main method</span></p>
+    <p class="c22"><span class="c0">Java will always start running in the main method! All of your programs will need this in order to run.</span></p><a id="t.eed1573da64bbb4761f997ba0471eb7fce2f153c"></a><a id="t.0"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">public class Main {</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; </span><span class="c26 c2">// Put your code here!</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;}</span></p>
+                <p class="c4"><span class="c7 c2">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c22"><span class="c42"><br></span><span>In Java every </span><span class="c23">open</span><span>&nbsp;curly brace { must have a matched </span><span class="c23">close</span><span class="c0">&nbsp;curly brace }. These are used to start and end a block of code.</span></p>
+    <h1 class="c19" id="h.2d2tywzdblqk"><span class="c32 c38">Printing in Java</span></h1>
+    <p class="c15"><span class="c0">You can print in a few ways, but I&rsquo;ll show you two:</span></p>
+    <p class="c15"><span class="c2">System.out.println(</span><span class="c17">value</span><span class="c7 c2">)</span></p>
+    <ul class="c16 lst-kix_te5tx1818qv-0 start">
+        <li class="c15 c28 li-bullet-0"><span>Prints </span><span class="c17">value</span><span>, attaching the newline character &ldquo;\n&rdquo; to the </span><span class="c23 c43 c46">end</span></li>
+    </ul>
+    <p class="c15"><span class="c2">System.out.print(</span><span class="c17">value</span><span class="c7 c2">)</span></p>
+    <ul class="c16 lst-kix_te5tx1818qv-0">
+        <li class="c15 c28 li-bullet-0"><span>Prints </span><span class="c17">value</span><span>&nbsp;with no newline character at the end, such that the next statement will be printed immediately after </span><span class="c17">value</span></li>
+    </ul>
+    <p class="c12"><span class="c0"></span></p>
+    <p class="c12"><span class="c0"></span></p>
+    <p class="c12"><span class="c0"></span></p><a id="t.e535534e7267b332b5276d4380715cfa2d327740"></a><a id="t.1"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">public class Main {</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.print(</span><span class="c21 c2 c13">&quot;beep&quot;);</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2 c13 c21">&quot;boop&quot;);</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c21 c2 c13">&quot;click clack moo cows that type&quot;);</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;}</span></p>
+                <p class="c4"><span class="c7 c2">}</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">beepboop</span></p>
+                <p class="c36"><span class="c7 c2">click clack moo cows that type</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c19" id="h.m2xeiqcssmd8"><span>Debugging</span></h1>
+    <p class="c40 c37 subtitle" id="h.r9o86xq1fnj5"><span class="c27">Syntax errors</span></p>
+    <p class="c22"><span>These are the types of errors that will prevent your code from running at all. Syntax errors occur because your code doesn&rsquo;t follow the &ldquo;grammar rules&rdquo; of Java.</span></p>
+    <p class="c22"><span class="c0">Some very common, basic errors in Java include:</span></p>
+    <ul class="c16 lst-kix_ovapphg3t8uo-0 start">
+        <li class="c10 li-bullet-0"><span class="c0">A semicolon ; missing</span></li>
+        <li class="c10 li-bullet-0"><span class="c0">The code has an open curly brace {, but no close curly brace }</span></li>
+        <li class="c10 li-bullet-0"><span>The code has an open quote &quot;, but no close quote &quot;</span></li>
+    </ul>
+    <p class="c22"><span>When you experience an error in your program, Java will </span><span>try</span><span class="c0">&nbsp;to help you fix it! The compiler will give you an error message. </span></p>
+    <h1 class="c19" id="h.q5xj2j1g28h2"><span>Commenting</span></h1>
+    <p class="c15"><span>Comments are little notes in your code. They won&rsquo;t actually affect the code or how it is run. In fact, the compiler will just ignore comments all together! But they are still a good idea to include so that you or other programmers can understand what&rsquo;s going on in your code. </span></p>
+    <p class="c15"><span class="c2">//</span><span class="c0">&nbsp;is used to mark the beginning of a single-line comment.</span></p>
+    <p class="c15"><span class="c2">/*</span><span>&nbsp;is used to start a multi-line comment. The comment will end with a </span><span class="c7 c2">*/</span></p>
+    <p class="c12"><span class="c0"></span></p>
+    <p class="c15"><span class="c0">The header comment that should start all of your files should include:</span></p>
+    <ul class="c16 lst-kix_vbwtcx7rz8af-0 start">
+        <li class="c15 c28 li-bullet-0"><span class="c0">Name of the Class or Program</span></li>
+        <li class="c15 c28 li-bullet-0"><span class="c0">Brief explanation of the purpose of the Class or Program</span></li>
+        <li class="c15 c28 li-bullet-0"><span class="c0">The programmer&rsquo;s name</span></li>
+        <li class="c15 c28 li-bullet-0"><span class="c0">Date of last modification</span></li>
+    </ul>
+    <p class="c15"><span class="c0">For example:</span></p><a id="t.38b11cf1fd4febe0253bdf3c6ffe27056bbb09c3"></a><a id="t.2"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c4"><span class="c26 c2">// Example Program</span></p>
+                <p class="c4"><span class="c26 c2">// An example header comment</span></p>
+                <p class="c4"><span class="c26 c2">// Written by Ms. Fisher</span></p>
+                <p class="c4"><span class="c26 c2">// Last updated: Feb 4, 2024</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c19" id="h.dgdbdw6zh3jc"><span class="c32 c38">Data Types</span></h1>
+    <p class="c22"><span>There are two types of data in Java: </span><span class="c23">primitive types</span><span>&nbsp;and </span><span class="c23">objects</span><span class="c0">.</span></p>
+    <ul class="c16 lst-kix_91xithwdszw3-0 start">
+        <li class="c10 li-bullet-0"><span class="c23">Primitive types</span><span class="c0">: Think of this as &ldquo;pure data&rdquo;. Just information with nothing fancy.</span></li>
+        <li class="c10 li-bullet-0"><span class="c23">Objects</span><span>: These are more complicated pieces of data and come with some methods that you can use with them. We will learn more about this later.</span></li>
+    </ul>
+    <p class="c40 c37 subtitle" id="h.tldjzhh5ybup"><span class="c27">Primitive Types</span></p><a id="t.3b7b078e69281c030cd2a7c68de8a060e0a4002e"></a><a id="t.3"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Type</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">What is it?</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">int</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Signed, whole numbers</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c2">-100</span><span>, </span><span class="c2">75</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">double</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Signed, decimal numbers</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c2">-0.123</span><span>, </span><span class="c2">3.14</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">char</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Single character, surrounded by single quotations</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c2">&#39;h&#39;</span><span>, </span><span class="c2">&#39;i&#39;</span><span>, </span><span class="c2">&#39;\n&#39;</span><span>, </span><span class="c2">&#39;=&#39;</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">boolean</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">True or false</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c2">true</span><span>, </span><span class="c7 c2">false</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c15"><span class="c0">There are other primitive types, but these are the ones you will use most often in this course.</span></p>
+    <p class="c40 c37 subtitle" id="h.gd2q4e2pp11z"><span class="c27">Objects</span></p><a id="t.8dfbacd8759e71a982c756d79efda875bda7a4bd"></a><a id="t.4"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Type</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">What is it?</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">String</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">A sequence of chars, surrounded by double quotations</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c2">&quot;hello&quot;</span><span>, </span><span class="c2">&quot;world&quot;</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c35 c37 c40 subtitle" id="h.qc3k4st049wl"><span class="c27"></span></p><a id="t.165831fb968241ae70ed2dbf56e5a46b0b68333f"></a><a id="t.5"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Type</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">What is it?</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">System</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">The standard input and output stream</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c41"><span class="c0">The thing you use to print to the console</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c15"><span class="c0">Again, there are many more, but these are the ones that you will need at this stage of the course.</span></p>
+    <h1 class="c19" id="h.80aej555dko9"><span class="c32 c38">Declaring variables</span></h1>
+    <p class="c22"><span>To declare a variable, you must tell Java its </span><span class="c23">data type</span><span>&nbsp;and its </span><span class="c23">name</span><span class="c0">. For example:</span></p>
+    <p class="c22"><span class="c7 c2">int score;</span></p>
+    <p class="c22"><span class="c0">After declaring a variable, you can give it a value using an equals sign = followed by the value. For example:</span></p>
+    <p class="c4"><span class="c7 c2">int score;</span></p>
+    <p class="c4"><span class="c2">score = 4;</span></p>
+    <p class="c22"><span class="c0">Or instead, you can set an initial value for the variable when you create it! For example:</span></p>
+    <p class="c4"><span class="c2">int score = 4;</span></p>
+    <p class="c22"><span class="c0">Another example with an Object:</span></p>
+    <p class="c4"><span class="c7 c2">String myName = &quot;Ms. Fisher&quot;;</span></p>
+    <p class="c4 c35"><span class="c7 c2"></span></p><a id="t.2c82ca801545c85ee21a149d8cc786ca8bbb2a71"></a><a id="t.6"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">public class Main {</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; String myExample = </span><span class="c2 c13">&quot;im declaring a string&quot;;</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2 c13">&quot;</span><span class="c2">myExample</span><span class="c2 c13">&quot;</span><span class="c2">);</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2">myExample);</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;}</span></p>
+                <p class="c4"><span class="c2">}</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">myExample</span></p>
+                <p class="c36"><span class="c7 c2">im declaring a string</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c22 c35"><span class="c0"></span></p>
+    <h1 class="c19" id="h.o3hy2dlumvmr"><span class="c32 c38">Naming variables</span></h1>
+    <p class="c22"><span class="c0">While you can name your variable almost anything, there are some rules and some guidelines.</span></p>
+    <p class="c22 c37 subtitle" id="h.6jfjiujwppeh"><span class="c27">Rules for naming variables:</span></p>
+    <p class="c22"><span class="c7 c23 c43">A variable name&hellip;</span></p>
+    <ol class="c16 lst-kix_z9ypi1c9ifj3-0 start" start="1">
+        <li class="c10 li-bullet-0"><span class="c0">Must start with a letter</span></li>
+        <li class="c10 li-bullet-0"><span class="c0">Must only include alphanumeric characters and underscores (No spaces!!)</span></li>
+        <li class="c10 li-bullet-0"><span class="c0">Cannot use any keywords or reserved words in Java (e.g. print, main, int, double, etc.)</span></li>
+        <li class="c10 li-bullet-0"><span class="c0">Is case-sensitive and spelling sensitive (e.g. foo, FOO)</span></li>
+    </ol>
+    <p class="c22 c37 subtitle" id="h.krfjn8yypumc"><span class="c27">Guidelines for naming variables:</span></p>
+    <ul class="c16 lst-kix_bbqp7cp8bbkt-0 start">
+        <li class="c10 li-bullet-0"><span class="c0">Use meaningful and descriptive variable names!</span></li>
+        <li class="c10 li-bullet-0"><span class="c0">Do not make your variable names too long</span></li>
+        <li class="c10 li-bullet-0"><span>Start variable names wit</span><span class="c42">h </span><span class="c0">a lowercase letter and use camelCase</span></li>
+    </ul>
+    <p class="c22 c37 subtitle" id="h.mhs9hn3q9338"><span class="c27">Why is it called camelCase?</span></p>
+    <p class="c4"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 267.80px; height: 196.50px;"><img alt="" src="images/image_2.png" style="width: 267.80px; height: 196.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+    <h1 class="c19" id="h.gn3xyd4ewmtd"><span class="c32 c38">Basic math operations</span></h1><a id="t.5b62073475f01a1f95c5c6f39ccb571a213f5134"></a><a id="t.7"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Operation</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Symbol</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Addition</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">+</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">3 + 2</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Subtraction</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">-</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">3 - 2</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Multiplication</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">*</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">3 * 2</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c12"><span class="c18"></span></p><a id="t.f1f98b3e7d50d3a173f717eb72e31cd8cb3267d3"></a><a id="t.8"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Operation</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Symbol</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Division</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">/</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">3 / 2</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Modulus</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">%</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">3 % 2</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c4 c35"><span class="c7 c2"></span></p><a id="t.b29578717b4a1cdba887537f9491027590f70d8e"></a><a id="t.9"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c4"><span class="c7 c2">int x = 10;</span></p>
+                <p class="c4"><span class="c7 c2">int y = 5;</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">x+y</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">x-y</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">x*y</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">x/y</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">x%y</span><span class="c7 c2">);</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c2 c33">// We don</span><span class="c26 c2">&#39;t need variables to do math</span></p>
+                <p class="c4"><span class="c26 c2">// But does Java know BEDMAS?</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">5+10*(2+1)</span><span class="c2">);</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">15</span></p>
+                <p class="c36"><span class="c7 c2">5</span></p>
+                <p class="c36"><span class="c7 c2">50</span></p>
+                <p class="c36"><span class="c7 c2">2</span></p>
+                <p class="c36"><span class="c7 c2">0</span></p>
+                <p class="c36"><span class="c7 c2">35</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c19" id="h.eja2uw958i7s"><span>Tricky division</span></h1><a id="t.dcf1e9e9dc7b63d4a4c81c5e544847ce21f3be1a"></a><a id="t.10"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c4"><span class="c7 c2">int a = 8;</span></p>
+                <p class="c4"><span class="c7 c2">int b = 10;</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">a/b</span><span class="c2">); </span><span class="c26 c2">// Division of only integers</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c7 c2">int c = 8;</span></p>
+                <p class="c4"><span class="c7 c2">double d = 10;</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">c/d</span><span class="c2">); </span><span class="c26 c2">// Division with a double</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">0</span></p>
+                <p class="c36"><span class="c7 c2">0.8</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c15"><span class="c23 c48">NOTE:</span><span class="c0">&nbsp;Java will try to guess what type of data the answer to a math problem is. If only integers are involved, Java will give an integer answer. Java will always round down in these cases.</span></p>
+    <h1 class="c19" id="h.kxuo25zbi7k5"><span class="c32 c38">Modulus operator</span></h1>
+    <p class="c22"><span class="c0">The modulus operator (%) is also known as the remainder operator. It returns the remainder after you divide the first number by the second. Remember long division?</span></p>
+    <p class="c4"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 250.00px; height: 121.00px;"><img alt="" src="images/image_4.png" style="width: 250.00px; height: 121.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><a id="t.e25e7239d460882897bc1ac4ab12cc4ed62ee178"></a><a id="t.11"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">10%2</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">11%2</span><span class="c2">);</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c7 c2">int a = 27;</span></p>
+                <p class="c4"><span class="c7 c2">int b = 3;</span></p>
+                <p class="c4"><span class="c2">System.out.println(</span><span class="c2 c13">a/b%b</span><span class="c2">);</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">0</span></p>
+                <p class="c36"><span class="c7 c2">1</span></p>
+                <p class="c36"><span class="c7 c2">0</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c22"><span class="c0"><br>There are a lot of uses for the modulus operator, but one common one is testing if a number is even or odd!</span></p>
+    <h1 class="c19" id="h.2zbee1fea7fx"><span class="c32 c38">Math class</span></h1>
+    <p class="c22"><span>Java has some basic math operations built in, but for more complicated ones, we need to use the </span><span class="c23">Math Class</span><span class="c0">. You can think of it as a collection of extra things that Java knows how to do already.</span></p>
+    <p class="c12"><span class="c18"></span></p><a id="t.acd21be7182372012ab946b34ee187096bfacffb"></a><a id="t.12"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Operation</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Method</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c5"><span class="c8">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Exponents</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">Math.pow(x,y)</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">Math.pow(3,2)</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Square Root</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">Math.sqrt(x)</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">Math.sqrt(64)</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">Rounding</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">Math.round(x)</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">Math.sqrt(2.6)</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c4 c35"><span class="c7 c2"></span></p><a id="t.6509bf387fb609513f75a405170e692e9a38f5fa"></a><a id="t.13"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">public class Main {</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; int x = 4;</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2 c13">Math.pow(x,2)</span><span class="c2">);</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2 c13">Math.sqrt(x)</span><span class="c7 c2">);</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2 c13">Math.round(10.1)</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; System.out.println(</span><span class="c2 c13">Math.round(10.8)</span><span class="c7 c2">);</span></p>
+                <p class="c4"><span class="c2">&nbsp; &nbsp; &nbsp; </span><span class="c2 c33">// Pay attention to what data types are returned!</span></p>
+                <p class="c4"><span class="c7 c2">&nbsp; &nbsp;}</span></p>
+                <p class="c4"><span class="c2">}</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">16.0</span></p>
+                <p class="c36"><span class="c7 c2">2.0</span></p>
+                <p class="c36"><span class="c7 c2">10</span></p>
+                <p class="c36"><span class="c7 c2">11</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c22 c35"><span class="c0"></span></p>
+    <p class="c22"><span class="c32 c38">Assignment operators</span></p>
+    <p class="c22"><span class="c0">Compound assignment operators are shortcuts that do a math operation and assignment in one step. For example, the following blocks of code do the exact same thing:</span></p>
+    <p class="c4"><span class="c7 c2">int x = 5;</span></p>
+    <p class="c4"><span class="c7 c2">x = x + 1;</span></p>
+    <p class="c4"><span>This will take what was inside </span><span class="c2">x</span><span>&nbsp;and then add 1 to it.</span></p>
+    <p class="c4 c35"><span class="c7 c42"></span></p>
+    <p class="c4"><span class="c7 c2">int x = 5;</span></p>
+    <p class="c4"><span class="c2">x += 1;</span></p>
+    <p class="c4"><span>This also adds 1 to whatever was inside of </span><span class="c2">x</span><span class="c0">.<br></span></p>
+    <p class="c4"><span>Each column means the same thing in Java</span></p><a id="t.a8995c54a93d788fc9a33aa3395904629215e30a"></a><a id="t.14"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5"><span class="c30 c23">+</span></p>
+            </td>
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5"><span class="c30 c23">-</span></p>
+            </td>
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5"><span class="c23 c30">*</span></p>
+            </td>
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5"><span class="c30 c23">/</span></p>
+            </td>
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5"><span class="c30 c23">%</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x = x + 1</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x = x - 1</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x = x * 2</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x = x / 2</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x = x % 2</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x += 1</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x -= 1</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x *= 2</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x /= 2</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x %= 2</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x++</span></p>
+            </td>
+            <td class="c25" colspan="1" rowspan="1">
+                <p class="c5"><span class="c7 c2">x--</span></p>
+            </td>
+            <td class="c47" colspan="1" rowspan="1">
+                <p class="c5 c35"><span class="c7 c2"></span></p>
+            </td>
+            <td class="c45" colspan="1" rowspan="1">
+                <p class="c5 c35"><span class="c7 c2"></span></p>
+            </td>
+            <td class="c45" colspan="1" rowspan="1">
+                <p class="c5 c35"><span class="c7 c2"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c12"><span class="c0"></span></p>
+    <p class="c12"><span class="c0"></span></p>
+    <p class="c4 c35"><span class="c2 c7"></span></p><a id="t.20613e1a408a5d16d9e7521dba2f504912ab7a1f"></a><a id="t.15"></a>
+    <table class="c11">
+        <tr class="c24">
+            <td class="c20" colspan="1" rowspan="1">
+                <p class="c4"><span class="c7 c2">int score = 0;</span></p>
+                <p class="c4"><span class="c7 c2">System.out.println(score);</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c7 c2">score++;</span></p>
+                <p class="c4"><span class="c7 c2">System.out.println(score);</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c7 c2">score *= 2;</span></p>
+                <p class="c4"><span class="c7 c2">System.out.println(score);</span></p>
+                <p class="c4 c35"><span class="c7 c2"></span></p>
+                <p class="c4"><span class="c7 c2">int penalty = 5;</span></p>
+                <p class="c4"><span class="c7 c2">score -= penalty/2;</span></p>
+                <p class="c4"><span class="c7 c2">System.out.println(score);</span></p>
+            </td>
+        </tr>
+        <tr class="c24">
+            <td class="c14" colspan="1" rowspan="1">
+                <p class="c36"><span class="c7 c2">0</span></p>
+                <p class="c36"><span class="c7 c2">1</span></p>
+                <p class="c36"><span class="c7 c2">2</span></p>
+                <p class="c36"><span class="c7 c2">0</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c22 c35"><span class="c0"></span></p>
+    <div>
+        <p class="c41"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 43.00px;"><img alt="" src="images/image1.png" style="width: 817.00px; height: 43.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="footer"></span></p>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+        <a class="button" href="https://docs.google.com/document/d/1qatPb3ZrdvoOCmGmO5k41j6VSgwAbezmtdartvYPkbs/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+</body>
+
+</html>

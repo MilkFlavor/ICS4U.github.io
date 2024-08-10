@@ -1,0 +1,1079 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Programming Basics</title>
+    <meta name="description" content="First Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+
+	<script defer src="../js/script.js"></script>
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=xTOoZr6X-i3kNg7pYrzMsg1x4-k0E_HIXubOFdbxQhsKzhWAUnPdd-i3NkA-yiRC);
+
+        ol.lst-kix_sbrl5va7d1q1-8.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-8 0
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-3.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-3 0
+        }
+
+        ul.lst-kix_rsa8287kx3fj-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_rsa8287kx3fj-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-0.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-0 2
+        }
+
+        .lst-kix_t67p6ylyyfk1-0>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-0
+        }
+
+        ul.lst-kix_rsa8287kx3fj-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-2.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-2 0
+        }
+
+        ol.lst-kix_48svtkx560bn-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-6.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-6 0
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-5.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-5 0
+        }
+
+        .lst-kix_sbrl5va7d1q1-8>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-8
+        }
+
+        .lst-kix_3ywlop6hfgpt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_cxroilb7cwc5-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_cxroilb7cwc5-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_3ywlop6hfgpt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_cxroilb7cwc5-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_cxroilb7cwc5-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_cxroilb7cwc5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_cxroilb7cwc5-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_cxroilb7cwc5-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_cxroilb7cwc5-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_cxroilb7cwc5-0>li {
+            counter-increment: lst-ctn-kix_cxroilb7cwc5-0
+        }
+
+        ul.lst-kix_8gu3u099rm00-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_8gu3u099rm00-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_8gu3u099rm00-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_48svtkx560bn-0.start {
+            counter-reset: lst-ctn-kix_48svtkx560bn-0 0
+        }
+
+        ul.lst-kix_8gu3u099rm00-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_8gu3u099rm00-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_8gu3u099rm00-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_cxroilb7cwc5-0>li:before {
+            content: "" counter(lst-ctn-kix_cxroilb7cwc5-0, decimal) ". "
+        }
+
+        .lst-kix_cxroilb7cwc5-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_rsa8287kx3fj-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_t67p6ylyyfk1-2>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-2
+        }
+
+        .lst-kix_cxroilb7cwc5-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_8gu3u099rm00-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_cxroilb7cwc5-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_8gu3u099rm00-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_cxroilb7cwc5-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_t67p6ylyyfk1-2>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_8gu3u099rm00-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_cxroilb7cwc5-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_t67p6ylyyfk1-1>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_48svtkx560bn-0>li {
+            counter-increment: lst-ctn-kix_48svtkx560bn-0
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_cxroilb7cwc5-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_cxroilb7cwc5-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_t67p6ylyyfk1-0>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-0, decimal) ". "
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-8.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-8 0
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-7.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-7 0
+        }
+
+        .lst-kix_cxroilb7cwc5-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_t67p6ylyyfk1-3>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-3
+        }
+
+        .lst-kix_cxroilb7cwc5-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_48svtkx560bn-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-0>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-0
+        }
+
+        .lst-kix_48svtkx560bn-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_48svtkx560bn-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-3>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-3
+        }
+
+        .lst-kix_t67p6ylyyfk1-8>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-8, lower-roman) ". "
+        }
+
+        .lst-kix_48svtkx560bn-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_48svtkx560bn-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-6>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-6
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-1.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-1 0
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-7.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-7 0
+        }
+
+        .lst-kix_t67p6ylyyfk1-3>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-3, decimal) ". "
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-0.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-0 2
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-6.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-6 0
+        }
+
+        .lst-kix_t67p6ylyyfk1-4>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-4, lower-latin) ". "
+        }
+
+        .lst-kix_t67p6ylyyfk1-5>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-5, lower-roman) ". "
+        }
+
+        .lst-kix_t67p6ylyyfk1-7>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-7, lower-latin) ". "
+        }
+
+        .lst-kix_48svtkx560bn-0>li:before {
+            content: "" counter(lst-ctn-kix_48svtkx560bn-0, decimal) ". "
+        }
+
+        .lst-kix_t67p6ylyyfk1-6>li:before {
+            content: "" counter(lst-ctn-kix_t67p6ylyyfk1-6, decimal) ". "
+        }
+
+        .lst-kix_48svtkx560bn-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_umxqodulyvfl-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-2>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-2, lower-roman) ". "
+        }
+
+        .lst-kix_sbrl5va7d1q1-1>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-1, lower-latin) ". "
+        }
+
+        .lst-kix_sbrl5va7d1q1-3>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-3, decimal) ". "
+        }
+
+        .lst-kix_umxqodulyvfl-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_umxqodulyvfl-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-0>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-0, decimal) ". "
+        }
+
+        .lst-kix_sbrl5va7d1q1-4>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-4, lower-latin) ". "
+        }
+
+        .lst-kix_umxqodulyvfl-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-6>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-6, decimal) ". "
+        }
+
+        .lst-kix_sbrl5va7d1q1-4>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-4
+        }
+
+        .lst-kix_sbrl5va7d1q1-5>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-5, lower-roman) ". "
+        }
+
+        .lst-kix_sbrl5va7d1q1-7>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-7, lower-latin) ". "
+        }
+
+        .lst-kix_umxqodulyvfl-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-1.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-1 0
+        }
+
+        .lst-kix_umxqodulyvfl-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_t67p6ylyyfk1-6>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-6
+        }
+
+        .lst-kix_umxqodulyvfl-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-4.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-4 0
+        }
+
+        .lst-kix_sbrl5va7d1q1-8>li:before {
+            content: "" counter(lst-ctn-kix_sbrl5va7d1q1-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_cxroilb7cwc5-0.start {
+            counter-reset: lst-ctn-kix_cxroilb7cwc5-0 0
+        }
+
+        .lst-kix_umxqodulyvfl-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_48svtkx560bn-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_umxqodulyvfl-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_48svtkx560bn-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_umxqodulyvfl-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_rsa8287kx3fj-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_rsa8287kx3fj-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-2.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-2 0
+        }
+
+        .lst-kix_rsa8287kx3fj-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_rsa8287kx3fj-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-5>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-5
+        }
+
+        .lst-kix_sbrl5va7d1q1-2>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-2
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_rsa8287kx3fj-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_rsa8287kx3fj-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_t67p6ylyyfk1-5>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-5
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_rsa8287kx3fj-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_t67p6ylyyfk1-8>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-8
+        }
+
+        .lst-kix_rsa8287kx3fj-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_3ywlop6hfgpt-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_3ywlop6hfgpt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_3ywlop6hfgpt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_3ywlop6hfgpt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_3ywlop6hfgpt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-7>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-7
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-5.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-5 0
+        }
+
+        .lst-kix_8gu3u099rm00-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_sbrl5va7d1q1-1>li {
+            counter-increment: lst-ctn-kix_sbrl5va7d1q1-1
+        }
+
+        .lst-kix_8gu3u099rm00-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_8gu3u099rm00-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_8gu3u099rm00-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_8gu3u099rm00-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_8gu3u099rm00-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8gu3u099rm00-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_3ywlop6hfgpt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_3ywlop6hfgpt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_3ywlop6hfgpt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_t67p6ylyyfk1-1>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-1
+        }
+
+        ul.lst-kix_umxqodulyvfl-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_umxqodulyvfl-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_8gu3u099rm00-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_8gu3u099rm00-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_t67p6ylyyfk1-7>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-7
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_t67p6ylyyfk1-4>li {
+            counter-increment: lst-ctn-kix_t67p6ylyyfk1-4
+        }
+
+        ul.lst-kix_48svtkx560bn-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_48svtkx560bn-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_t67p6ylyyfk1-4.start {
+            counter-reset: lst-ctn-kix_t67p6ylyyfk1-4 0
+        }
+
+        ol.lst-kix_sbrl5va7d1q1-3.start {
+            counter-reset: lst-ctn-kix_sbrl5va7d1q1-3 0
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c8 {
+            margin-left: 18pt;
+            padding-top: 6pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c0 {
+            padding-top: 6pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: center;
+            height: 11pt
+        }
+
+        .c9 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 12pt;
+            font-family: "Playfair Display";
+            font-style: normal
+        }
+
+        .c11 {
+            padding-top: 6pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c4 {
+            padding-top: 5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            margin-right: -1.5pt
+        }
+
+        .c6 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c10 {
+            color: #666666;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Lato";
+            font-style: normal
+        }
+
+        .c7 {
+            color: #f75d5d;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 16pt;
+            font-family: "Playfair Display";
+            font-style: normal
+        }
+
+        .c5 {
+            padding-top: 6pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c12 {
+            padding-top: 24pt;
+            padding-bottom: 10pt;
+            line-height: 1.0;
+            page-break-after: avoid;
+            text-align: left
+        }
+
+        .c2 {
+            font-size: 12pt;
+            font-family: "Lato";
+            color: #666666;
+            font-weight: 400
+        }
+
+        .c13 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c3 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c1 {
+            font-style: italic
+        }
+
+        .title {
+            padding-top: 5pt;
+            color: #f75d5d;
+            font-weight: 700;
+            font-size: 32pt;
+            padding-bottom: 0pt;
+            font-family: "Playfair Display";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Lato";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #666666;
+            font-size: 11pt;
+            font-family: "Lato"
+        }
+
+        p {
+            margin: 0;
+            color: #666666;
+            font-size: 11pt;
+            font-family: "Lato"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #f75d5d;
+            font-weight: 700;
+            font-size: 16pt;
+            padding-bottom: 0pt;
+            font-family: "Playfair Display";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Playfair Display";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Lato";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 8pt;
+            -webkit-text-decoration-skip: none;
+            color: #666666;
+            text-decoration: underline;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            text-decoration-skip-ink: none;
+            font-family: "Trebuchet MS";
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c13 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+      </div>
+    <p class="c4 title" id="h.7zjvfsa9ufi7"><span class="c2">PRACTICE</span><span><br>MATH EXERCISES</span></p>
+    <p class="c0"><span class="c6"></span></p>
+    <p class="c5"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 288.00px; height: 222.67px;"><img alt="" src="images/image4.gif" style="width: 288.00px; height: 222.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
+        <hr style="page-break-before:always;display:none;">
+    </p>
+    <h1 class="c12" id="h.kgeoyvxmqlb2"><span>Exercises</span></h1>
+    <ol class="c3 lst-kix_48svtkx560bn-0 start" start="1">
+        <li class="c8 li-bullet-0"><span class="c10">Generation I came out in 1996. The last number in the Pokedex at that time was 151.<br>Generation II came out in 1999. The last number in the Pokedex at that time was 251.<br>Generation III came out in 2002. The last number in the Pokedex at that time was 386.<br>Generation IV came out in 2006. The last number in the Pokedex at that time was 493.<br>Generation V came out in 2010. The last number in the Pokedex at that time was 649.<br>Generation VI came out in 2013. The last number in the Pokedex at that time was 809.<br>Using this data, write code to calculate how many Pok&eacute;mon are added to the Pok&eacute;dex on average, per year.<br></span></li>
+        <li class="c8 li-bullet-0"><span>Recall the formula to calculate the distance between two coordinates:<br><br></span><img src="images/image1.png"><span><br><br>Create variables for </span><img src="images/image2.png"><span>&nbsp;and </span><img src="images/image3.png"><span class="c10">. Assign whatever numerical values you&rsquo;d like. &nbsp;Then, write code to calculate and print the distance between your two points.</span></li>
+    </ol>
+    <p class="c11"><span class="c10"><br><br><br><br></span></p>
+    <ol class="c3 lst-kix_48svtkx560bn-0" start="3">
+        <li class="c8 li-bullet-0"><span class="c10">1 human year is 7 dog years haha oops. Define variables to hold the current year it is now and your birth year.<br><br>Write code to calculate your age in dog years.<br></span></li>
+        <li class="c8 li-bullet-0"><span>Create a variable to hold a certain number of seconds, and use it to print the amount of minutes and seconds it is equivalent to. For example, 130 seconds is equivalent to 2 minutes and 10 seconds. <br><br>Hint: Modulus is looking </span><span class="c1">mighty fine</span><span>&nbsp;for this question!</span></li>
+    </ol>
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+        <a class="button" href="https://docs.google.com/document/d/1eca1JsMy3OgtLDgAfezaN44Loq10GMJWq7NVmNPCECU/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+</body>
+
+</html>

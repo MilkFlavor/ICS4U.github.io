@@ -1,0 +1,3087 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Programming Basics</title>
+    <meta name="description" content="First Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A);
+
+        .lst-kix_z9ypi1c9ifj3-2>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-2, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-1, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-3, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-5
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-2
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-7, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-0, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-8, lower-roman) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-4>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-4
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-5, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_le0h346em95v-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-5 0
+        }
+
+        ul.lst-kix_le0h346em95v-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-4, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-5, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-6, decimal) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-8, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-7, lower-latin) ". "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-6 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-2
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-1 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-3 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_hn53vb3ocyre-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hn53vb3ocyre-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_hn53vb3ocyre-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-8 0
+        }
+
+        .lst-kix_hn53vb3ocyre-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-5.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-5 0
+        }
+
+        .lst-kix_hn53vb3ocyre-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-8>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-8
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-3
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-6
+        }
+
+        .lst-kix_hn53vb3ocyre-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-4 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-5 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-0 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-6
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-8 0
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-5 0
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-2>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-2
+        }
+
+        .lst-kix_r109uyvbxeos-7>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-7
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-6
+        }
+
+        ul.lst-kix_pltnxixhavry-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pltnxixhavry-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-6>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-6
+        }
+
+        .lst-kix_m5w41owby8wq-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_pltnxixhavry-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-3
+        }
+
+        ul.lst-kix_pltnxixhavry-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-5>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-3>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-3, decimal) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-7>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-1, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-5
+        }
+
+        .lst-kix_r109uyvbxeos-7>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-5>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-3, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-7 0
+        }
+
+        .lst-kix_r109uyvbxeos-1>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-1, lower-latin) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-2>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-3 0
+        }
+
+        .lst-kix_i5yx34vs96em-6>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-6
+        }
+
+        ol.lst-kix_r109uyvbxeos-8.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-8 0
+        }
+
+        .lst-kix_l90hhdt471tz-0>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-8>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-8, lower-roman) ". "
+        }
+
+        ul.lst-kix_hn53vb3ocyre-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-6>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-6, decimal) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-8 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-1 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-2 0
+        }
+
+        .lst-kix_le0h346em95v-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-1 0
+        }
+
+        .lst-kix_le0h346em95v-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-1 0
+        }
+
+        .lst-kix_le0h346em95v-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-1.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-1 0
+        }
+
+        .lst-kix_te5tx1818qv-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_le0h346em95v-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hv7nwkykyjeu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_v8xs2tkb14vu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-7
+        }
+
+        .lst-kix_l90hhdt471tz-5>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-5
+        }
+
+        .lst-kix_hv7nwkykyjeu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-0>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-0
+        }
+
+        ul.lst-kix_m5w41owby8wq-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-4 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-7 0
+        }
+
+        .lst-kix_v8xs2tkb14vu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-1
+        }
+
+        ul.lst-kix_m5w41owby8wq-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-8 0
+        }
+
+        ul.lst-kix_m5w41owby8wq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-6 0
+        }
+
+        ul.lst-kix_91xithwdszw3-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-5
+        }
+
+        ul.lst-kix_91xithwdszw3-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-1
+        }
+
+        ul.lst-kix_91xithwdszw3-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-2
+        }
+
+        ul.lst-kix_91xithwdszw3-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_lel17yktjca4-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-0
+        }
+
+        ul.lst-kix_91xithwdszw3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-8 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-3
+        }
+
+        .lst-kix_p1rqzwwj4p1g-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-2.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-2 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-1 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-7 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ovapphg3t8uo-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_428ya8ue2a7q-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-3 0
+        }
+
+        .lst-kix_m5w41owby8wq-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-7
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-0
+        }
+
+        .lst-kix_ovapphg3t8uo-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_m5w41owby8wq-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-0 4
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-3 0
+        }
+
+        .lst-kix_lel17yktjca4-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-6 0
+        }
+
+        .lst-kix_l90hhdt471tz-6>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-6, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-0.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-0 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-3 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-8
+        }
+
+        .lst-kix_r109uyvbxeos-5>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-5
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-0 0
+        }
+
+        .lst-kix_l90hhdt471tz-2>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-2, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-8
+        }
+
+        .lst-kix_r109uyvbxeos-4>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-4, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-8, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-2 0
+        }
+
+        .lst-kix_r109uyvbxeos-0>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-0, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-5 0
+        }
+
+        .lst-kix_i5yx34vs96em-1>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-1, lower-latin) ". "
+        }
+
+        .lst-kix_m5w41owby8wq-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-3
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-2 0
+        }
+
+        .lst-kix_hv7nwkykyjeu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-7
+        }
+
+        .lst-kix_i5yx34vs96em-5>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-5, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-3>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-3
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-4 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-4.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-4 0
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-0, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-1, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-1>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-1
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-8
+        }
+
+        ol.lst-kix_l90hhdt471tz-0.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-0 0
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-3, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-2, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-4, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-5 0
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-6, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-8, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-4 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-4.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-4 0
+        }
+
+        .lst-kix_pb5xe7caz2k8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l90hhdt471tz-2>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-2
+        }
+
+        .lst-kix_pb5xe7caz2k8-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-0
+        }
+
+        .lst-kix_i5yx34vs96em-8>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-8
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-3 0
+        }
+
+        .lst-kix_91xithwdszw3-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_91xithwdszw3-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-1>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-1
+        }
+
+        .lst-kix_jh8oad94l2zn-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-3
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-2 0
+        }
+
+        .lst-kix_91xithwdszw3-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-0 1
+        }
+
+        .lst-kix_jh8oad94l2zn-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-7
+        }
+
+        ol.lst-kix_l90hhdt471tz-5.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-5 0
+        }
+
+        .lst-kix_jh8oad94l2zn-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-0
+        }
+
+        .lst-kix_pb5xe7caz2k8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_jh8oad94l2zn-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-5 0
+        }
+
+        .lst-kix_428ya8ue2a7q-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_pltnxixhavry-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-6 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-0 0
+        }
+
+        .lst-kix_ovapphg3t8uo-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-1
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-4
+        }
+
+        ul.lst-kix_ovapphg3t8uo-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_ovapphg3t8uo-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-8
+        }
+
+        ol.lst-kix_r109uyvbxeos-6.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-6 0
+        }
+
+        .lst-kix_i5yx34vs96em-5>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-5
+        }
+
+        .lst-kix_91xithwdszw3-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-2 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-4 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-4
+        }
+
+        .lst-kix_i5yx34vs96em-0>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-0
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-4
+        }
+
+        .lst-kix_bbqp7cp8bbkt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-2, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-4
+        }
+
+        .lst-kix_hv7nwkykyjeu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-0, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-7, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l90hhdt471tz-6>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-6
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-1, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-8 0
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-4, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-3, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-7 0
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hv7nwkykyjeu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_428ya8ue2a7q-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-6
+        }
+
+        ul.lst-kix_428ya8ue2a7q-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-0>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-0, decimal) ". "
+        }
+
+        .lst-kix_te5tx1818qv-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-3
+        }
+
+        .lst-kix_hv7nwkykyjeu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-3 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-6.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-6 0
+        }
+
+        .lst-kix_r109uyvbxeos-2>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-2
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-2 0
+        }
+
+        .lst-kix_te5tx1818qv-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-8
+        }
+
+        .lst-kix_i5yx34vs96em-7>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-7
+        }
+
+        .lst-kix_l90hhdt471tz-7>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-7
+        }
+
+        .lst-kix_lel17yktjca4-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_lel17yktjca4-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-7.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-7 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-1 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_p1rqzwwj4p1g-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-4 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-7.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-7 0
+        }
+
+        .lst-kix_428ya8ue2a7q-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_te5tx1818qv-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-4
+        }
+
+        ul.lst-kix_te5tx1818qv-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_te5tx1818qv-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-8
+        }
+
+        ul.lst-kix_te5tx1818qv-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_pltnxixhavry-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_m5w41owby8wq-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-0.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-0 4
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-7
+        }
+
+        .lst-kix_ovapphg3t8uo-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-6
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-4>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-4
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-3.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-3 0
+        }
+
+        .lst-kix_ovapphg3t8uo-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-2>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-2
+        }
+
+        .lst-kix_l90hhdt471tz-0>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-0, lower-latin) ". "
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_91xithwdszw3-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-6>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-6, decimal) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r109uyvbxeos-4>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-4
+        }
+
+        .lst-kix_r109uyvbxeos-2>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-2.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-2 0
+        }
+
+        .lst-kix_l90hhdt471tz-8>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-8, lower-roman) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-1
+        }
+
+        .lst-kix_m5w41owby8wq-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-3, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_l90hhdt471tz-8.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-8 0
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_hv7nwkykyjeu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-0, lower-latin) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_i5yx34vs96em-7>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-2
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-1.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-1 0
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c36 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 206.2pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c37 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 261.8pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c27 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #d9d2e9;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c11 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c4 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 206.2pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c18 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 261.8pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c26 {
+            padding-top: 6pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c7 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c29 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 6pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c39 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c34 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c5 {
+            color: #666666;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c35 {
+            color: #404040;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 12pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c13 {
+            padding-top: 24pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c32 {
+            color: #404040;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 30pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c2 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c33 {
+            padding-top: 32pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c24 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c31 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c1 {
+            padding-top: 12pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c17 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c10 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c0 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: center
+        }
+
+        .c38 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c14 {
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c12 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c8 {
+            font-family: "Courier New";
+            color: #9900ff;
+            font-weight: 700
+        }
+
+        .c21 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c25 {
+            color: #ffffff;
+            font-family: "Proxima Nova"
+        }
+
+        .c20 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c23 {
+            margin-left: 72pt;
+            padding-left: 0pt
+        }
+
+        .c30 {
+            font-weight: 400;
+            font-family: "Arial"
+        }
+
+        .c22 {
+            margin-left: 36pt;
+            padding-left: 0pt
+        }
+
+        .c3 {
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c28 {
+            color: #cc0000
+        }
+
+        .c6 {
+            color: #a64d79
+        }
+
+        .c9 {
+            height: 11pt
+        }
+
+        .c15 {
+            font-style: italic
+        }
+
+        .c19 {
+            font-weight: 700
+        }
+
+        .c16 {
+            height: 0pt
+        }
+
+        .title {
+            padding-top: 10pt;
+            color: #404040;
+            font-weight: 700;
+            font-size: 30pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 6pt;
+            color: #404040;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #039be5;
+            font-size: 18pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 14pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 8pt;
+            -webkit-text-decoration-skip: none;
+            color: #666666;
+            text-decoration: underline;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            text-decoration-skip-ink: none;
+            font-family: "Trebuchet MS";
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c21 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+      </div>
+    <div>
+    <div>
+        <p class="c33"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
+        <p class="c17"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image_2.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    </div>
+    <p class="c39 title" id="h.kk1966kbedef"><span>Input &amp; Type Conversion</span></p>
+    <p class="c24"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image_2.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    <p class="c17"><span class="c7"><br>Disclaimer, there are a few ways to take input In Java, but I feel that this is the nicest way. But if your definition of &ldquo;nice&rdquo; does not align with my definition of &ldquo;nice&rdquo;, then you can explore and use another way!</span></p>
+    <h1 class="c13" id="h.2d2tywzdblqk"><span class="c34">Scanner Class</span></h1>
+    <p class="c17"><span class="c7">We need to use a Scanner Object to take input from the user.</span></p>
+    <p class="c1"><span class="c7">Our programs don&rsquo;t come with Scanners automatically, so we need to add the following line to the start of our programs in order to use the Scanner Class.</span></p>
+    <p class="c2"><span class="c10 c3">import java.util.Scanner;</span></p>
+    <p class="c1"><span class="c7">Then, to create a Scanner Object, you will need to add this line:</span></p>
+    <p class="c2"><span class="c10 c3">Scanner scannyBoi = new Scanner(System.in);</span></p>
+    <p class="c1"><span>Note that </span><span class="c3">scannyBoi</span><span>&nbsp;is just a name I picked for the variable to hold the Scanner. You can name it whatever you want. You&rsquo;ll probably want to name it something short though, like &ldquo;</span><span>sc&rdquo;</span><span>.</span></p>
+    <p class="c1"><span>We can use a different method to take input depending on what type of data we expect.</span></p>
+    <p class="c26 subtitle" id="h.c735efxp0yi"><span class="c35">Input methods</span></p><a id="t.7c843d8dc0d77f02430a499ab69d249e01572c8b"></a><a id="t.0"></a>
+    <table class="c12">
+        <tr class="c16">
+            <td class="c36" colspan="1" rowspan="1">
+                <p class="c0"><span class="c14 c25 c19">Method</span></p>
+            </td>
+            <td class="c37" colspan="1" rowspan="1">
+                <p class="c0"><span class="c14 c19 c25">Description</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c4" colspan="1" rowspan="1">
+                <p class="c0"><span class="c10 c3">nextLine()</span></p>
+            </td>
+            <td class="c18" colspan="1" rowspan="1">
+                <p class="c0"><span class="c7">Reads a String value, stopping at the \n from ENTER</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c4" colspan="1" rowspan="1">
+                <p class="c0"><span class="c10 c3">nextInt()</span></p>
+            </td>
+            <td class="c18" colspan="1" rowspan="1">
+                <p class="c0"><span class="c7">Reads an int value</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c4" colspan="1" rowspan="1">
+                <p class="c0"><span class="c10 c3">nextDouble()</span></p>
+            </td>
+            <td class="c18" colspan="1" rowspan="1">
+                <p class="c0"><span class="c7">Reads a double value</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1"><span><br></span><span class="c19 c28">NOTE:</span><span class="c7">&nbsp;If the user does not input the data type that the method expects, a runtime error will occur.</span></p>
+    <p class="c1"><span class="c7">As always, there are others. But these are the most commonly used in our course.</span></p>
+    <p class="c1"><span class="c7">To call these methods, you will need to use the Scanner Object that you had created earlier.</span></p><a id="t.b5f12171940b15595354141da9053aaae8eb527f"></a><a id="t.1"></a>
+    <table class="c12">
+        <tr class="c16">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">import java.util.Scanner;</span></p>
+                <p class="c2 c9"><span class="c10 c3"></span></p>
+                <p class="c2"><span class="c10 c3">public class Main {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; Scanner scannyBoi = new Scanner(System.in); </span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Prompt an input with a print statement</span><span class="c3"><br> &nbsp; &nbsp; &nbsp;System.out.println(&quot;Enter name, age, and height:&quot;);<br><br> &nbsp; &nbsp; &nbsp;</span><span class="c3 c6">// String input</span><span class="c3"><br> &nbsp; &nbsp; &nbsp;String name = scannyBoi.nextLine();<br><br> &nbsp; &nbsp; &nbsp;</span><span class="c3 c6">// Numerical input</span><span class="c10 c3"><br> &nbsp; &nbsp; &nbsp;int age = scannyBoi.nextInt();<br> &nbsp; &nbsp; &nbsp;double height = scannyBoi.nextDouble();<br><br> &nbsp; &nbsp; &nbsp;System.out.println(&quot;Name: &quot; + name);<br> &nbsp; &nbsp; &nbsp;System.out.println(&quot;Age: &quot; + age);<br> &nbsp; &nbsp; &nbsp;System.out.println(&quot;Height: &quot; + height);<br><br> &nbsp; &nbsp; &nbsp;scannyBoi.close();<br> &nbsp; }</span></p>
+                <p class="c2"><span class="c10 c3">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1"><span class="c30"><br></span><span class="c7">If the user enters a mix-matched data type, your program will break due to error.</span></p>
+    <p class="c1"><span>For example, if you use </span><span class="c3">nextInt()</span><span class="c7">&nbsp;and the user types the String &ldquo;Hello!&rdquo;</span></p>
+    <p class="c1"><span>There&rsquo;s a way to handle this, but we won&rsquo;t worry about it for now.</span></p>
+    <h1 class="c13" id="h.m2xeiqcssmd8"><span>Clearing the Scanner</span></h1>
+    <p class="c1"><span class="c7">When you type something into the console, you press &ldquo;enter&rdquo;! Pressing &ldquo;enter&rdquo;, or creating a newline is a special char, \n.</span></p>
+    <p class="c1"><span>When we use </span><span class="c3">nextLine()</span><span class="c7">, the Scanner will take everything including the \n, which was written in your String when you hit enter.</span></p>
+    <p class="c1"><span>But when you do </span><span class="c3">nextInt()</span><span class="c7">&nbsp;for example, Java grabs the number, not the \n (since \n is not an integer value).</span></p>
+    <p class="c1"><span><br>So to &ldquo;clear&rdquo; the \n for the next time you take input, you have to &ldquo;clear the Scanner&rdquo; of the hanging \n, by calling </span><span class="c3">nextLine()</span><span class="c7">&nbsp;one time - just to collect that \n!</span></p>
+    <p class="c1"><span class="c7">You should do this each time you take numerical input.</span></p>
+    <p class="c1"><span class="c7">If you don&rsquo;t, you&rsquo;ll notice this most when you take a String value after taking a numerical value, as the user will never have the chance to type in any String after a number. (The program will take the \n as the String instead.)</span></p><a id="t.2d79da13aef0273cf43f968e6da972ce8497a5d9"></a><a id="t.2"></a>
+    <table class="c12">
+        <tr class="c16">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">import java.util.Scanner;</span></p>
+                <p class="c2"><span class="c10 c3">public class Main {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; </span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c14 c3 c6">// Example without &quot;clearing&quot; the Scanner</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.print(&quot;Enter your favourite integer: &quot;);</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; int favInt = sc.nextInt();</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.print(&quot;Enter your favourite colour: &quot;);</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Didn&#39;t clear the Scanner so this will pick up the \n</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; String favColour = sc.nextLine(); </span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.println(&quot;Your favourite number is &quot; + favInt);</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// This won&#39;t work as expected</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.println(&quot;Your favourite colour is &quot; + favColour);</span></p>
+                <p class="c2 c9"><span class="c10 c3"></span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Example with clearing the Scanner</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.print(&quot;Enter your favourite integer: &quot;);</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; int favInt2 = sc.nextInt();</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.print(&quot;Enter your favourite colour: &quot;); &nbsp;</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; sc.nextLine(); </span><span class="c3 c6">// CLEARING THE SCANNER - VERY GOOD YES</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Now the user can type</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; String favColour2 = sc.nextLine(); </span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// This will work fine</span><span class="c10 c3">&nbsp; &nbsp; <br> &nbsp; &nbsp; &nbsp;System.out.println(&quot;Your favourite number is &quot; + favInt2); </span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.println(&quot;Your favourite colour is &quot; + favColour2);</span></p>
+                <p class="c2 c9"><span class="c10 c3"></span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; sc.close(); </span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;}</span></p>
+                <p class="c2"><span class="c10 c3">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1 c9"><span class="c30"><br></span></p>
+    <h1 class="c13" id="h.6t47i584so40"><span class="c34">Closing the Scanner</span></h1>
+    <p class="c1"><span class="c7">When you&rsquo;re done taking input, we can &ldquo;throw out&rdquo; our Scanner to save memory in our programs.</span></p>
+    <p class="c1"><span>Even if we may not need that memory (since our programs in this course are pretty small) it&rsquo;s still a good idea because not closing the Scanner can lead to &ldquo;</span><span class="c15">resource leaks</span><span class="c7">&rdquo;.</span></p>
+    <p class="c1"><span class="c7">Most of the time this doesn&rsquo;t affect your program, but resource leaks can sometimes cause your programs to behave strangely so it&rsquo;s worth closing them just to cover your bases.</span></p>
+    <h1 class="c13" id="h.q5xj2j1g28h2"><span>Casting</span></h1>
+    <p class="c1"><span>In Java, </span><span>type casting</span><span class="c7">&nbsp;is used to convert variable values from one primitive type to another.</span></p>
+    <p class="c1"><span class="c7">There are two types of casting:</span></p>
+    <ul class="c20 lst-kix_pltnxixhavry-0 start">
+        <li class="c1 c22 li-bullet-0"><span class="c19">Widening casting:</span><span class="c7">&nbsp;Going from a smaller data type to a larger type</span></li>
+    </ul>
+    <ul class="c20 lst-kix_pltnxixhavry-1 start">
+        <li class="c1 c23 li-bullet-0"><span class="c7">char &rarr; int &rarr; double</span></li>
+    </ul>
+    <ul class="c20 lst-kix_pltnxixhavry-0">
+        <li class="c1 c22 li-bullet-0"><span class="c19">Narrowing casting:</span><span class="c7">&nbsp;Going from a larger data type to a smaller type</span></li>
+    </ul>
+    <ul class="c20 lst-kix_pltnxixhavry-1 start">
+        <li class="c1 c23 li-bullet-0"><span class="c7">double &rarr; int &rarr; char</span></li>
+    </ul>
+    <p class="c1"><span class="c7">Widening casting can happen automatically, since it&rsquo;s easy to put a small thing into a larger space.</span></p>
+    <p class="c1"><span>Narrowing casting has to be done manually. When you put something large into a smaller space, not everything will fit. Therefore, you have to make the active choice to </span><span class="c15">lose</span><span class="c7">&nbsp;something.</span></p>
+    <p class="c1 c9"><span class="c10 c3"></span></p><a id="t.a9a0f5efb6eb09fcd712bc73e29c0b2ac8220760"></a><a id="t.3"></a>
+    <table class="c12">
+        <tr class="c16">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">public class Main {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c14 c3 c6">// Widening</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; int x = 8;</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; double wideX = x; </span><span class="c3 c6">// Automatically casts to a double </span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.println(wideX);</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;}</span></p>
+                <p class="c2"><span class="c3">}</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c27" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">8.0</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1 c9"><span class="c7"></span></p>
+    <h1 class="c13" id="h.dgdbdw6zh3jc"><span class="c34">Narrowing Cast</span></h1>
+    <p class="c1"><span>To narrow cast, write the type you want in brackets in front of the value to be cast. For instance, (int) and (double).</span></p><a id="t.00f1d16e70da042cf1df2db209e50e3bc41bebbf"></a><a id="t.4"></a>
+    <table class="c12">
+        <tr class="c16">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">public class Main {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Narrowing</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; double y = 1.8;</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; int narrowY = (int)y; </span><span class="c3 c6">// Manually casting double to int</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.println(narrowY);</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;}</span></p>
+                <p class="c2"><span class="c3">}</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c27" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">1</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c13" id="h.80aej555dko9"><span class="c34">Parsing</span></h1>
+    <p class="c1"><span class="c7">If we wanted to convert an Object to a primitive type, we parse the data. In our course, we will see this most commonly when converting from String &rarr; int, or <br>String &rarr; double.</span></p>
+    <p class="c17"><span class="c3">Integer.parseInt(</span><span class="c8">str</span><span class="c10 c3">)</span></p>
+    <ul class="c20 lst-kix_m5w41owby8wq-0 start">
+        <li class="c17 c22 li-bullet-0"><span class="c8">str</span><span class="c3">:</span><span class="c7">The String to be converted to a primitive int type</span></li>
+    </ul>
+    <p class="c17"><span class="c28 c19">NOTE:</span><span>&nbsp;Must be a value that could actually be converted to an int. For example, the call </span><span class="c3">Integer.parseInt(&quot;Not a number&quot;)</span><span>&nbsp;will break your code. Also, the call </span><span class="c3">Integer.parseInt(&quot;1.8&quot;)</span><span>&nbsp;would also cause an error, because </span><span class="c3">parseInt()</span><span class="c7">&nbsp;does not perform narrowing casts for you.</span></p>
+    <p class="c17"><span class="c3">Double.parseDouble(</span><span class="c8">str</span><span class="c10 c3">)</span></p>
+    <ul class="c20 lst-kix_m5w41owby8wq-0">
+        <li class="c17 c22 li-bullet-0"><span class="c8">str</span><span class="c3">:</span><span class="c7">The String to be converted to a primitive double type</span></li>
+    </ul>
+    <p class="c17 c9"><span class="c7"></span></p>
+    <p class="c17 c9"><span class="c7"></span></p>
+    <p class="c17 c9"><span class="c7"></span></p>
+    <p class="c17 c9"><span class="c7"></span></p>
+    <p class="c2 c9"><span class="c10 c3"></span></p><a id="t.220cb8b27eb2af14b02e4bc53dcb746566885dde"></a><a id="t.5"></a>
+    <table class="c12">
+        <tr class="c16">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c2"><span class="c10 c3">public class Main {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; String numStr = &quot;123&quot;;</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; int intFromStr = Integer.parseInt(numStr);</span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Automatic widening cast</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; double doubleFromStr = Double.parseDouble(numStr);</span></p>
+                <p class="c2 c9"><span class="c10 c3"></span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c3 c6">// Showing results from parsing</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp; &nbsp; System.out.println(intFromStr); &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+                <p class="c2"><span class="c3 c10">&nbsp; &nbsp; &nbsp; System.out.println(doubleFromStr);</span></p>
+                <p class="c2 c9"><span class="c10 c3"></span></p>
+                <p class="c2"><span class="c3">&nbsp; &nbsp; &nbsp; </span><span class="c14 c3 c6">// This will give an error</span></p>
+                <p class="c2"><span class="c14 c3 c6">&nbsp; &nbsp; &nbsp; // Since the String holds a decimal number, not an int</span></p>
+                <p class="c2"><span class="c3 c6 c14">&nbsp; &nbsp; &nbsp; /* String dubStr = &quot;3.14&quot;;</span></p>
+                <p class="c2"><span class="c14 c3 c6">&nbsp; &nbsp; &nbsp; int badInt = Integer.parseInt(dubStr);</span></p>
+                <p class="c2"><span class="c14 c3 c6">&nbsp; &nbsp; &nbsp; */</span></p>
+                <p class="c2"><span class="c10 c3">&nbsp; &nbsp;}</span></p>
+                <p class="c2"><span class="c3">}</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c27" colspan="1" rowspan="1">
+                <p class="c38"><span class="c10 c3">123</span></p>
+                <p class="c38"><span class="c10 c3">123.0</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1 c9"><span class="c29"></span></p>
+    <div>
+        <p class="c31"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 43.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 43.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="footer"></span></p>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+        <a class="button" href="https://docs.google.com/document/d/1-tONwQ5chwXZEpT6lzwExWHGmxIzomY7H2T7MT_-OUg/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+</body>
+
+</html>

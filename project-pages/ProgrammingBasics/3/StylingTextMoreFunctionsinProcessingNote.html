@@ -1,0 +1,2540 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Programming Basics</title>
+    <meta name="description" content="First Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+
+	<script defer src="../js/script.js"></script>
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A);
+
+        .lst-kix_wdf64lki3c2j-5>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-5
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-2
+        }
+
+        .lst-kix_l90hhdt471tz-4>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-4
+        }
+
+        ul.lst-kix_le0h346em95v-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-4, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-5, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-6, decimal) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-8, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-7, lower-latin) ". "
+        }
+
+        ul.lst-kix_le0h346em95v-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-6 0
+        }
+
+        ul.lst-kix_le0h346em95v-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-2
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-1 0
+        }
+
+        .lst-kix_hn53vb3ocyre-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-3.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-3 0
+        }
+
+        .lst-kix_hn53vb3ocyre-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_hn53vb3ocyre-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_hn53vb3ocyre-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hn53vb3ocyre-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_hn53vb3ocyre-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-8 0
+        }
+
+        .lst-kix_hn53vb3ocyre-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-5.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-5 0
+        }
+
+        .lst-kix_hn53vb3ocyre-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-8>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-8
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-3
+        }
+
+        .lst-kix_hn53vb3ocyre-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-4 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-5 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-6
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-8 0
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-5 0
+        }
+
+        .lst-kix_r109uyvbxeos-7>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-7
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-6
+        }
+
+        .lst-kix_r109uyvbxeos-6>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-6
+        }
+
+        .lst-kix_l90hhdt471tz-5>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-3>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-3, decimal) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-7>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-1, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-5
+        }
+
+        .lst-kix_r109uyvbxeos-7>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-5>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-3, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-7 0
+        }
+
+        .lst-kix_r109uyvbxeos-1>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-1, lower-latin) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-2>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-4, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-6>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-6
+        }
+
+        ol.lst-kix_r109uyvbxeos-8.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-8 0
+        }
+
+        .lst-kix_l90hhdt471tz-0>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-8>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-8, lower-roman) ". "
+        }
+
+        ul.lst-kix_hn53vb3ocyre-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-6>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-6, decimal) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-8 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-1 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-2 0
+        }
+
+        .lst-kix_le0h346em95v-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-1 0
+        }
+
+        .lst-kix_le0h346em95v-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-1 0
+        }
+
+        .lst-kix_le0h346em95v-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-1.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-1 0
+        }
+
+        .lst-kix_te5tx1818qv-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_le0h346em95v-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_te5tx1818qv-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l90hhdt471tz-5>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-5
+        }
+
+        .lst-kix_te5tx1818qv-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_te5tx1818qv-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-0>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-4 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-7 0
+        }
+
+        .lst-kix_v8xs2tkb14vu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-6 0
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-5
+        }
+
+        .lst-kix_l90hhdt471tz-1>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-1
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-2
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_lel17yktjca4-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_lel17yktjca4-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-8 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-3
+        }
+
+        .lst-kix_p1rqzwwj4p1g-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-2.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-2 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-1 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-7 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_428ya8ue2a7q-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-3 0
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-7
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-0 4
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-3 0
+        }
+
+        .lst-kix_lel17yktjca4-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-6 0
+        }
+
+        .lst-kix_l90hhdt471tz-6>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-6, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-0.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-0 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-3 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-8
+        }
+
+        .lst-kix_r109uyvbxeos-5>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-5
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-0 0
+        }
+
+        .lst-kix_l90hhdt471tz-2>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-2, lower-roman) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-8
+        }
+
+        .lst-kix_r109uyvbxeos-4>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-4, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-2 0
+        }
+
+        .lst-kix_r109uyvbxeos-0>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-0, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-5 0
+        }
+
+        .lst-kix_i5yx34vs96em-1>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-3
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-2 0
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-7
+        }
+
+        .lst-kix_i5yx34vs96em-5>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-5, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-3>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-3
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-4 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-4.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-4 0
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-0, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-1, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-1>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-1
+        }
+
+        ol.lst-kix_l90hhdt471tz-0.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-0 0
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-3, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-2, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-4, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-5 0
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-6, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-8, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-4 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-4.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-4 0
+        }
+
+        .lst-kix_pb5xe7caz2k8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l90hhdt471tz-2>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-2
+        }
+
+        .lst-kix_pb5xe7caz2k8-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-0
+        }
+
+        .lst-kix_i5yx34vs96em-8>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-8
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-3 0
+        }
+
+        .lst-kix_i5yx34vs96em-1>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-1
+        }
+
+        .lst-kix_jh8oad94l2zn-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-3
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-2 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-0 1
+        }
+
+        .lst-kix_jh8oad94l2zn-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-7
+        }
+
+        ol.lst-kix_l90hhdt471tz-5.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-5 0
+        }
+
+        .lst-kix_jh8oad94l2zn-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-0
+        }
+
+        .lst-kix_pb5xe7caz2k8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_jh8oad94l2zn-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_428ya8ue2a7q-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-5 0
+        }
+
+        .lst-kix_428ya8ue2a7q-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-0 0
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-4
+        }
+
+        .lst-kix_lel17yktjca4-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-8
+        }
+
+        ol.lst-kix_r109uyvbxeos-6.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-6 0
+        }
+
+        .lst-kix_i5yx34vs96em-5>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-5
+        }
+
+        ol.lst-kix_l90hhdt471tz-2.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-2 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-4
+        }
+
+        .lst-kix_i5yx34vs96em-0>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-0
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-4
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-2, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-4
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-0, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-6>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-6
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-1, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-8 0
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-4, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-3, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-7 0
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_428ya8ue2a7q-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-6
+        }
+
+        ul.lst-kix_428ya8ue2a7q-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-0>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-0, decimal) ". "
+        }
+
+        .lst-kix_te5tx1818qv-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-3 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-6.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-6 0
+        }
+
+        .lst-kix_r109uyvbxeos-2>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-2
+        }
+
+        .lst-kix_te5tx1818qv-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-8
+        }
+
+        .lst-kix_i5yx34vs96em-7>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-7
+        }
+
+        .lst-kix_l90hhdt471tz-7>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-7
+        }
+
+        .lst-kix_lel17yktjca4-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_lel17yktjca4-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-7.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-7 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_p1rqzwwj4p1g-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_p1rqzwwj4p1g-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-4 0
+        }
+
+        ol.lst-kix_l90hhdt471tz-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_428ya8ue2a7q-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_le0h346em95v-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-7.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-7 0
+        }
+
+        .lst-kix_428ya8ue2a7q-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_te5tx1818qv-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-4
+        }
+
+        ul.lst-kix_te5tx1818qv-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_te5tx1818qv-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-8
+        }
+
+        ul.lst-kix_te5tx1818qv-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-0 4
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-7
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-6
+        }
+
+        .lst-kix_l90hhdt471tz-4>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-4, lower-latin) ". "
+        }
+
+        .lst-kix_lel17yktjca4-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-3.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-3 0
+        }
+
+        .lst-kix_i5yx34vs96em-2>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-2
+        }
+
+        .lst-kix_l90hhdt471tz-0>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-0, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-6>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-6, decimal) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-4>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-4
+        }
+
+        .lst-kix_r109uyvbxeos-2>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-2.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-2 0
+        }
+
+        .lst-kix_l90hhdt471tz-8>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-8, lower-roman) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-1
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-3, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_l90hhdt471tz-8.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-8 0
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-0, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-7>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-2
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-1.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-1 0
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c23 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c13 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 245.2pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c11 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 246pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c31 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 245.2pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c35 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 0pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 243.8pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c32 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 0pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 244.5pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c1 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 0pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 244.5pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c38 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 0pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 243.8pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c24 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 0pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 0pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 0pt;
+            width: 246pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c27 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 4pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c8 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c36 {
+            color: #666666;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c20 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Courier New";
+            font-style: normal
+        }
+
+        .c14 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c4 {
+            padding-top: 24pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c28 {
+            color: #404040;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 30pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c25 {
+            padding-top: 12pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c33 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c9 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c29 {
+            padding-top: 32pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c40 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 1pt;
+            font-style: normal
+        }
+
+        .c15 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c5 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c26 {
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c2 {
+            font-family: "Courier New";
+            color: #9900ff;
+            font-weight: 700
+        }
+
+        .c37 {
+            font-family: "Courier New";
+            color: #6aa84f;
+            font-weight: 700
+        }
+
+        .c17 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c21 {
+            font-family: "Courier New";
+            color: #f65b35;
+            font-weight: 700
+        }
+
+        .c22 {
+            font-family: "Courier New";
+            color: #30e130;
+            font-weight: 700
+        }
+
+        .c16 {
+            font-family: "Courier New";
+            color: #4a86e8;
+            font-weight: 700
+        }
+
+        .c6 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c39 {
+            font-weight: 400;
+            font-family: "Proxima Nova"
+        }
+
+        .c19 {
+            margin-left: 36pt;
+            padding-left: 0pt
+        }
+
+        .c12 {
+            margin-left: 72pt;
+            padding-left: 0pt
+        }
+
+        .c3 {
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c34 {
+            orphans: 2;
+            widows: 2
+        }
+
+        .c7 {
+            color: #a64d79
+        }
+
+        .c30 {
+            height: 21pt
+        }
+
+        .c10 {
+            height: 11pt
+        }
+
+        .c18 {
+            height: 0pt
+        }
+
+        .title {
+            padding-top: 10pt;
+            color: #404040;
+            font-weight: 700;
+            font-size: 30pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 6pt;
+            color: #404040;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #039be5;
+            font-size: 18pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 14pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 8pt;
+            -webkit-text-decoration-skip: none;
+            color: #666666;
+            text-decoration: underline;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            text-decoration-skip-ink: none;
+            font-family: "Trebuchet MS";
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c17 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+    </div>
+
+    <div>
+        <p class="c29"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
+        <p class="c9"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image6.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    </div>
+    <p class="c14 title" id="h.kk1966kbedef"><span>Styling, Text &amp; More Functions in Processing</span></p>
+    <p class="c5 c34"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image6.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    <h1 class="c4" id="h.vrhvb96nxxe9"><span>Colouring the background</span></h1>
+    <p class="c9"><span class="c8">Sets the colour of a background to a specific colour.</span></p>
+    <p class="c9"><span class="c3">background(</span><span class="c2">[0&hellip;255]</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0 start">
+        <li class="c9 c19 li-bullet-0"><span class="c2">[0&hellip;255]</span><span class="c3">:</span><span>T</span><span class="c8">he number between 0 and 255 represents the shade of gray for the background</span></li>
+    </ul>
+    <ul class="c6 lst-kix_te5tx1818qv-1 start">
+        <li class="c9 c12 li-bullet-0"><span class="c8">0 is black</span></li>
+        <li class="c9 c12 li-bullet-0"><span class="c8">255 is white</span></li>
+    </ul>
+    <p class="c9"><span class="c3">background(</span><span class="c2">red</span><span class="c3">, </span><span class="c2">green</span><span class="c3">, </span><span class="c2">blue</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">red</span><span class="c3">:A</span><span class="c8">&nbsp;number from 0-255 to represent how much &ldquo;red&rdquo; you want</span></li>
+        <li class="c19 c25 li-bullet-0"><span class="c2">green</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;green&rdquo; you want</span></li>
+        <li class="c25 c19 li-bullet-0"><span class="c2">blue</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;blue&rdquo; you want</span></li>
+    </ul>
+    <p class="c9"><span class="c3">background(#</span><span class="c2">hexcode</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">hexcode</span><span class="c3">:</span><span class="c8">A hexadecimal number to represent the selected colour</span></li>
+    </ul>
+    <p class="c9"><span class="c8">The # should always be there!</span></p>
+    <p class="c9 c10"><span class="c8"></span></p><a id="t.38835e3077739455087a8952bc7420fac3f72207"></a><a id="t.0"></a>
+    <table class="c15">
+        <tr class="c18">
+            <td class="c23" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">size(500, 500);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c26 c3 c7">// Colouring with RGB</span></p>
+                <p class="c5"><span class="c0">background(209, 180, 250);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c3 c7">// Colouring with hex </span></p>
+                <p class="c5"><span class="c0">background(#d1b4fa);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c26 c3 c7">/* Since there&#39;s only one window, you&#39;ll only really need to call background() once</span></p>
+                <p class="c5"><span class="c3 c7">Processing will take the most recent call as your final background colour */</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c4" id="h.2d2tywzdblqk"><span>Colouring shapes</span></h1>
+    <p class="c9"><span class="c8">Fills in the colour of any shape you draw.</span></p>
+    <p class="c9"><span class="c8">This colour will be for all shapes after fill() or noFill() is called, until one of them is called again to change the setting!</span></p>
+    <p class="c9"><span class="c3">fill(</span><span class="c2">red</span><span class="c3">, </span><span class="c2">green</span><span class="c3">, </span><span class="c2">blue</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">red</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;red&rdquo; you want</span></li>
+        <li class="c25 c19 li-bullet-0"><span class="c2">green</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;green&rdquo; you want</span></li>
+        <li class="c25 c19 li-bullet-0"><span class="c2">blue</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;blue&rdquo; you want</span></li>
+    </ul>
+    <p class="c9"><span class="c3">fill(#</span><span class="c2">hexcode</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">hexcode</span><span class="c3">:</span><span class="c8">A hexadecimal number to represent the selected colour</span></li>
+    </ul>
+    <p class="c9"><span class="c0">noFill()</span></p>
+    <p class="c9"><span class="c8">Takes no parameters; will only draw the outline of your shape, leaving the filling transparent.</span></p>
+    <p class="c9 c10"><span class="c8"></span></p><a id="t.48399edf644be00dc88d0a5b2a8212ebbb79bc90"></a><a id="t.1"></a>
+    <table class="c15">
+        <tr class="c18">
+            <td class="c23" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">size(500, 500);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">fill(43, 5, 255);</span></p>
+                <p class="c5"><span class="c0">rect(0, 0, 249, 249);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c26 c3 c7">// Processing will keep the fill setting until you change it</span></p>
+                <p class="c5"><span class="c3 c7 c26">// This rectangle along with the previous will be blue</span></p>
+                <p class="c5"><span class="c0">rect(0, 250, 249, 249);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">noFill();</span></p>
+                <p class="c5"><span class="c3">rect(250, 0, 249, 249);</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c4" id="h.m2xeiqcssmd8"><span>Custom lines and outlines</span></h1>
+    <p class="c9"><span class="c8">Change the colour of a line or outline of a shape.</span></p>
+    <p class="c9"><span class="c8">Just like fill, the colour settings of a line will stay the same until you call one of the functions below to change it.</span></p>
+    <p class="c9"><span class="c3">stroke(</span><span class="c2">red</span><span class="c3">, </span><span class="c2">green</span><span class="c3">, </span><span class="c2">blue</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">red</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;red&rdquo; you want</span></li>
+        <li class="c25 c19 li-bullet-0"><span class="c2">green</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;green&rdquo; you want</span></li>
+        <li class="c25 c19 li-bullet-0"><span class="c2">blue</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;blue&rdquo; you want</span></li>
+    </ul>
+    <p class="c9"><span class="c3">stroke(#</span><span class="c2">hexcode</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">hexcode</span><span class="c3">:</span><span class="c8">A hexadecimal number to represent the selected colour</span></li>
+    </ul>
+    <p class="c9"><span class="c3">strokeWeight(</span><span class="c2">width</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_le0h346em95v-0 start">
+        <li class="c9 c19 li-bullet-0"><span class="c2">Width</span><span class="c3">:</span><span class="c8">The number of pixels wide the line will be</span></li>
+    </ul>
+    <p class="c9"><span class="c3">strokeCap(</span><span class="c2">style</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_le0h346em95v-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">style</span><span class="c3">:</span><span class="c8">You can choose ROUND, SQUARE, or PROJECT</span></li>
+    </ul>
+    <p class="c9"><span class="c0">noStroke()</span></p>
+    <p class="c9"><span class="c8">Takes no parameters; will make all lines and outlines transparent.</span></p>
+    <p class="c9 c10"><span class="c8"></span></p><a id="t.62bfa1bfe8f0ba1743b3280296c74d19037b4c9a"></a><a id="t.2"></a>
+    <table class="c15">
+        <tr class="c18">
+            <td class="c23" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">size(500, 500);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">noStroke();</span></p>
+                <p class="c5"><span class="c0">ellipse(250, 125, 100, 100);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">stroke(100, 94, 7);</span></p>
+                <p class="c5"><span class="c0">strokeWeight(4);</span></p>
+                <p class="c5"><span class="c0">ellipse(250, 375, 100, 100);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">strokeWeight(12);</span></p>
+                <p class="c5"><span class="c0">line(10, 250, 490, 250);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">strokeCap(ROUND);</span></p>
+                <p class="c5"><span class="c0">stroke(10, 93, 100);</span></p>
+                <p class="c5"><span class="c0">line(10, 270, 490, 270);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c0">strokeCap(SQUARE);</span></p>
+                <p class="c5"><span class="c3">line(10, 230, 490, 230);</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c4" id="h.q5xj2j1g28h2"><span class="c20">Drawing a custom shape</span></h1>
+    <p class="c9"><span class="c8">Basically play connect-the-dots with Processing.</span></p>
+    <p class="c9"><span class="c8">Allows you to draw any organic shape with vertices.</span></p>
+    <p class="c9"><span>To create a custom shape, you will call the </span><span class="c3">beginShape()</span><span>&nbsp;to start, and</span><span>&nbsp;</span><span class="c3">endShape()</span><span class="c8">&nbsp;to tell Processing that you are done. All vertices will go in between, like so: </span></p>
+    <p class="c9"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 373.76px; height: 137.17px;"><img alt="" src="images/image5.png" style="width: 373.76px; height: 137.17px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+    <p class="c9"><span class="c3">vertex(</span><span class="c2">x</span><span class="c3">, </span><span class="c2">y</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">x</span><span class="c3">:</span><span>T</span><span class="c8">he x-coordinate of the vertex</span></li>
+        <li class="c9 c19 li-bullet-0"><span class="c2">y</span><span class="c3">:</span><span>T</span><span class="c8">he y-coordinate of the vertex</span></li>
+    </ul>
+    <p class="c9"><span class="c8">Processing will use a straight edge to connect vertices marked with vertex()</span></p>
+    <p class="c9 c10"><span class="c27"></span></p><a id="t.853c276cf507c22ac4b534188428d8947285a181"></a><a id="t.3"></a>
+    <table class="c15">
+        <tr class="c30">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">beginShape();</span></p>
+                <p class="c5"><span class="c0">vertex(30,20);</span></p>
+                <p class="c5"><span class="c0">vertex(85,20);</span></p>
+                <p class="c5"><span class="c0">vertex(85,75);</span></p>
+                <p class="c5"><span class="c0">vertex(30,75);</span></p>
+                <p class="c5"><span class="c3">endShape();</span></p>
+            </td>
+            <td class="c38" colspan="1" rowspan="2">
+                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 121.84px; height: 128.50px;"><img alt="" src="images/image2.png" style="width: 121.84px; height: 128.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+            </td>
+        </tr>
+        <tr class="c30">
+            <td class="c24" colspan="1" rowspan="1">
+                <p class="c5 c10"><span class="c0"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c9 c10"><span class="c39 c40"></span></p><a id="t.8be9175e9a917c2f7b14ff2f739b9887e9bad8a9"></a><a id="t.4"></a>
+    <table class="c15">
+        <tr class="c30">
+            <td class="c13" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">beginShape();</span></p>
+                <p class="c5"><span class="c0">vertex(30,20);</span></p>
+                <p class="c5"><span class="c0">vertex(85,20);</span></p>
+                <p class="c5"><span class="c0">vertex(85,75);</span></p>
+                <p class="c5"><span class="c0">vertex(30,75);</span></p>
+                <p class="c5"><span class="c3">endShape(CLOSE); </span><span class="c26 c3 c7">// Notice CLOSE </span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="2">
+                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 123.56px; height: 128.50px;"><img alt="" src="images/image7.png" style="width: 123.56px; height: 128.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+            </td>
+        </tr>
+        <tr class="c30">
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5 c10"><span class="c0"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c9 c10"><span class="c8"></span></p><a id="t.67ed08544ceb0c64557400596e44e5c3c5e26da2"></a><a id="t.5"></a>
+    <table class="c15">
+        <tr class="c30">
+            <td class="c13" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3">beginShape();<br></span><span class="c21">vertex(30,20)<br></span><span class="c2">vertex(85,20)</span><span class="c21"><br></span><span class="c37">vertex(85,75)</span><span class="c22"><br></span><span class="c16">vertex(30,75)</span></p>
+                <p class="c5"><span class="c3">endShape(CLOSE);</span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="2">
+                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.53px; height: 125.50px;"><img alt="" src="images/image3.png" style="width: 124.53px; height: 125.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+            </td>
+        </tr>
+        <tr class="c30">
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5 c10"><span class="c0"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c9 c10"><span class="c8"></span></p><a id="t.528d5dfa2fa49e7024fd1727c1139eb16d65bbd9"></a><a id="t.6"></a>
+    <table class="c15">
+        <tr class="c30">
+            <td class="c13" colspan="1" rowspan="1">
+                <p class="c5"><span class="c3">beginShape();</span><span class="c21"><br></span><span class="c2">vertex(85,20)<br></span><span class="c21">vertex(30,20)<br></span><span class="c37">vertex(85,75)</span><span class="c22"><br></span><span class="c16">vertex(30,75)</span></p>
+                <p class="c5"><span class="c3">endShape(); </span><span class="c26 c3 c7">// Order matters! </span></p>
+            </td>
+            <td class="c1" colspan="1" rowspan="2">
+                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 125.37px; height: 132.50px;"><img alt="" src="images/image8.png" style="width: 132.61px; height: 132.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+            </td>
+        </tr>
+        <tr class="c30">
+            <td class="c31" colspan="1" rowspan="1">
+                <p class="c5 c10"><span class="c0"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c9"><span class="c3">curveVertex(</span><span class="c2">x</span><span class="c3">, </span><span class="c2">y</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">x</span><span class="c3">:</span><span class="c8">The x-coordinate of the vertex</span></li>
+        <li class="c9 c19 li-bullet-0"><span class="c2">y</span><span class="c3">:</span><span>The y-coordinate of the vertex</span></li>
+    </ul>
+    <p class="c9"><span class="c8">Processing will use a curved edge to connect vertices marked with curveVertex()</span></p>
+    <p class="c9 c10"><span class="c27"></span></p><a id="t.6b71e62ecd5d2f9677dddd9a586af168d71cab6c"></a><a id="t.7"></a>
+    <table class="c15">
+        <tr class="c30">
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">beginShape();</span></p>
+                <p class="c5"><span class="c0">curveVertex(336, 364); curveVertex(336, 364);</span></p>
+                <p class="c5"><span class="c3">curveVertex(272, 76); curveVertex(84, 68); curveVertex(128, 400); curveVertex(128, 400); endShape(CLOSE);</span></p>
+            </td>
+            <td class="c38" colspan="1" rowspan="2">
+                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 222.43px; height: 220.50px;"><img alt="" src="images/image4.png" style="width: 222.43px; height: 220.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+            </td>
+        </tr>
+        <tr class="c30">
+            <td class="c24" colspan="1" rowspan="1">
+                <p class="c5 c10"><span class="c0"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c9 c10"><span class="c8"></span></p>
+    <h1 class="c4" id="h.dgdbdw6zh3jc"><span class="c20">Adding &amp; styling text</span></h1>
+    <p class="c9"><span class="c3">text(&quot;</span><span class="c2">text</span><span class="c3">&quot;, </span><span class="c2">x</span><span class="c3">, </span><span class="c2">y</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">text</span><span class="c3">:</span><span class="c8">The text you would like to display</span></li>
+    </ul>
+    <ul class="c6 lst-kix_te5tx1818qv-1 start">
+        <li class="c9 c12 li-bullet-0"><span>Remember to leave the quotation marks (</span><span class="c3">&quot;</span><span>&nbsp;</span><span class="c3">&quot;</span><span class="c8">) around it!</span></li>
+    </ul>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">x</span><span>, </span><span class="c2">y</span><span class="c3">:</span><span class="c8">The coordinate of the top-left corner of the text</span></li>
+    </ul>
+    <p class="c9"><span class="c3">text(&quot;</span><span class="c2">text</span><span class="c3">&quot;, </span><span class="c2">x1</span><span class="c3">, </span><span class="c2">y1</span><span class="c3">, </span><span class="c2">x2</span><span class="c3">, </span><span class="c2">y2</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">text</span><span class="c3">:</span><span class="c8">The text you would like to display</span></li>
+    </ul>
+    <ul class="c6 lst-kix_te5tx1818qv-1 start">
+        <li class="c9 c12 li-bullet-0"><span>Remember to leave the quotation marks (</span><span class="c3">&quot;</span><span>&nbsp;</span><span class="c3">&quot;</span><span class="c8">) around it!</span></li>
+    </ul>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">x1</span><span>, </span><span class="c2">y1</span><span class="c3">:</span><span class="c8">The coordinate of the top-left corner of the text</span></li>
+        <li class="c9 c19 li-bullet-0"><span class="c2">x2</span><span>, </span><span class="c2">y2</span><span class="c3">:</span><span class="c8">The coordinate of the bottom-right corner of the text</span></li>
+    </ul>
+    <p class="c9"><span class="c3">textSize(</span><span class="c2">fontSize</span><span class="c0">)</span></p>
+    <ul class="c6 lst-kix_te5tx1818qv-0">
+        <li class="c9 c19 li-bullet-0"><span class="c2">fontSize</span><span class="c3">:</span><span class="c8">A number to represent how large you want the text to appear</span></li>
+    </ul>
+    <p class="c9"><span>To colour text, we just use </span><span class="c3">fill()</span><span class="c8">, like we did to colour shapes earlier!</span></p>
+    <p class="c9 c10"><span class="c27"></span></p><a id="t.3bbaeaea1515213b9c851940dfea6d5b9e078c88"></a><a id="t.8"></a>
+    <table class="c15">
+        <tr class="c18">
+            <td class="c23" colspan="1" rowspan="1">
+                <p class="c5"><span class="c0">size(300, 300);</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c3 c7">// Notice that the styling comes before we use the text() function </span><span class="c0">textSize(16);</span></p>
+                <p class="c5"><span class="c3">fill(200, 0, 250);</span><span class="c3 c7">&nbsp;// purple</span></p>
+                <p class="c5"><span class="c0">text(&quot;meep morp zeep robot captain engage&quot;, 10, 10, 200, 250);</span></p>
+                <p class="c5"><span class="c3">fill(0, 255, 0); </span><span class="c3 c7">// green</span></p>
+                <p class="c5 c10"><span class="c0"></span></p>
+                <p class="c5"><span class="c26 c3 c7">// The text ends up being purple</span></p>
+                <p class="c5"><span class="c3 c7">// We don&#39;t see this green colour because it was called AFTER text()</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c9 c10"><span class="c8"></span></p>
+    <div>
+        <p class="c33"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 43.00px;"><img alt="" src="images/image1.png" style="width: 817.00px; height: 43.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="footer"></span></p>
+    </div>
+
+    <!-- FOOTER -->
+        <div id="footer">
+            <!-- 
+              TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+      
+              This should be the same across all pages.
+            -->
+            <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+              <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+            </a>
+            <!-- 
+              TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+            
+              This should be the same across all pages.
+            -->
+            <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+              <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+            </a>
+            <!-- 
+              TODO - Change the email after "mailto" to your contact email 
+            
+              This should be the same across all pages.
+            -->
+            <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+              <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+            </a>
+
+            <a class="button" href="https://docs.google.com/document/d/1CK_AoMH5Ly5qMemtQPKA7kRSPxTrQipaGZ9mu6TSbhI/edit?usp=sharing">
+                <span class="button-text">Read as PDF</span>
+                <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+
+
+</body>
+
+</html>
