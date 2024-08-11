@@ -2,18 +2,35 @@
 
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <link rel="icon" href="../assets/images/1311.png" />
-     <title>Programming Basics</title>
-    <meta name="description" content="First Chapter of ICS4U">
+     <title>Flow Structures</title>
+    <meta name="description" content="Second Chapter of ICS4U">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet" href="../../../css/layout.css">
+		<link rel="stylesheet" href="../../../css/layout.css">
     <link rel="stylesheet" href="../../../css/typography.css">
     <link rel="stylesheet" href="../../../css/utilities.css">
 
-	<script defer src="../js/script.js"></script>
+		<script defer src="../../../js/script.js"></script>
     <style type="text/css">
         @import url(https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A);
+
+        .lst-kix_z9ypi1c9ifj3-2>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-2, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-1, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-3, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-6, decimal) ". "
+        }
 
         .lst-kix_wdf64lki3c2j-5>li {
             counter-increment: lst-ctn-kix_wdf64lki3c2j-5
@@ -23,8 +40,88 @@
             counter-increment: lst-ctn-kix_8vsi0wpbee47-2
         }
 
+        .lst-kix_z9ypi1c9ifj3-7>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-7, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-0, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-8, lower-roman) ". "
+        }
+
+        .lst-kix_r6kx37hmbdo8-8>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_l90hhdt471tz-4>li {
             counter-increment: lst-ctn-kix_l90hhdt471tz-4
+        }
+
+        .lst-kix_r6kx37hmbdo8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r6kx37hmbdo8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r6kx37hmbdo8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-1 {
+            list-style-type: none
         }
 
         ul.lst-kix_le0h346em95v-7 {
@@ -35,6 +132,18 @@
             list-style-type: none
         }
 
+        ul.lst-kix_xxeu1qxpdltt-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-5 0
+        }
+
+        .lst-kix_40jbkv9xmssj-5>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-5
+        }
+
         ul.lst-kix_le0h346em95v-8 {
             list-style-type: none
         }
@@ -43,7 +152,15 @@
             list-style-type: none
         }
 
+        ul.lst-kix_xxeu1qxpdltt-5 {
+            list-style-type: none
+        }
+
         ol.lst-kix_c7aq0g78wdwq-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-8 {
             list-style-type: none
         }
 
@@ -51,7 +168,19 @@
             list-style-type: none
         }
 
+        ul.lst-kix_xxeu1qxpdltt-7 {
+            list-style-type: none
+        }
+
         ul.lst-kix_le0h346em95v-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-2 {
             list-style-type: none
         }
 
@@ -63,7 +192,23 @@
             list-style-type: none
         }
 
+        ul.lst-kix_fjre9nmsucqf-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-1 {
+            list-style-type: none
+        }
+
         ul.lst-kix_le0h346em95v-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-4 {
             list-style-type: none
         }
 
@@ -71,12 +216,52 @@
             list-style-type: none
         }
 
+        ul.lst-kix_fjre9nmsucqf-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-5 {
+            list-style-type: none
+        }
+
         .lst-kix_ti40x3gm2qz5-4>li:before {
             content: "" counter(lst-ctn-kix_ti40x3gm2qz5-4, lower-latin) ". "
         }
 
+        ul.lst-kix_fjre9nmsucqf-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r6kx37hmbdo8-1>li:before {
+            content: "\0025cb   "
+        }
+
         .lst-kix_ti40x3gm2qz5-5>li:before {
             content: "" counter(lst-ctn-kix_ti40x3gm2qz5-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-8 {
+            list-style-type: none
         }
 
         .lst-kix_ti40x3gm2qz5-6>li:before {
@@ -91,7 +276,19 @@
             content: "" counter(lst-ctn-kix_ti40x3gm2qz5-7, lower-latin) ". "
         }
 
+        ul.lst-kix_bbqp7cp8bbkt-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-5 {
+            list-style-type: none
+        }
+
         ul.lst-kix_le0h346em95v-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-8 {
             list-style-type: none
         }
 
@@ -99,8 +296,16 @@
             list-style-type: none
         }
 
+        ul.lst-kix_xxeu1qxpdltt-0 {
+            list-style-type: none
+        }
+
         ol.lst-kix_l90hhdt471tz-6.start {
             counter-reset: lst-ctn-kix_l90hhdt471tz-6 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-7 {
+            list-style-type: none
         }
 
         ul.lst-kix_le0h346em95v-2 {
@@ -115,16 +320,36 @@
             counter-reset: lst-ctn-kix_wdf64lki3c2j-1 0
         }
 
+        ul.lst-kix_bbqp7cp8bbkt-0 {
+            list-style-type: none
+        }
+
         .lst-kix_hn53vb3ocyre-0>li:before {
             content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-1 {
+            list-style-type: none
         }
 
         ol.lst-kix_i5yx34vs96em-3.start {
             counter-reset: lst-ctn-kix_i5yx34vs96em-3 0
         }
 
+        ul.lst-kix_bbqp7cp8bbkt-4 {
+            list-style-type: none
+        }
+
         .lst-kix_hn53vb3ocyre-3>li:before {
             content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-3 {
+            list-style-type: none
         }
 
         .lst-kix_hn53vb3ocyre-2>li:before {
@@ -187,6 +412,10 @@
             counter-increment: lst-ctn-kix_r109uyvbxeos-3
         }
 
+        .lst-kix_z9ypi1c9ifj3-6>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-6
+        }
+
         .lst-kix_hn53vb3ocyre-5>li:before {
             content: "\0025a0   "
         }
@@ -211,6 +440,10 @@
             counter-reset: lst-ctn-kix_c7aq0g78wdwq-5 0
         }
 
+        ol.lst-kix_z9ypi1c9ifj3-0.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-0 0
+        }
+
         .lst-kix_ti40x3gm2qz5-6>li {
             counter-increment: lst-ctn-kix_ti40x3gm2qz5-6
         }
@@ -221,6 +454,10 @@
 
         ul.lst-kix_p1rqzwwj4p1g-7 {
             list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-3.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-3 0
         }
 
         ul.lst-kix_p1rqzwwj4p1g-0 {
@@ -259,16 +496,84 @@
             counter-reset: lst-ctn-kix_i5yx34vs96em-5 0
         }
 
+        ul.lst-kix_vbwtcx7rz8af-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-2>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-2
+        }
+
         .lst-kix_r109uyvbxeos-7>li {
             counter-increment: lst-ctn-kix_r109uyvbxeos-7
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-8 {
+            list-style-type: none
         }
 
         .lst-kix_c7aq0g78wdwq-6>li {
             counter-increment: lst-ctn-kix_c7aq0g78wdwq-6
         }
 
+        ul.lst-kix_pltnxixhavry-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pltnxixhavry-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-7 {
+            list-style-type: none
+        }
+
         .lst-kix_r109uyvbxeos-6>li {
             counter-increment: lst-ctn-kix_r109uyvbxeos-6
+        }
+
+        .lst-kix_m5w41owby8wq-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_pltnxixhavry-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-3
+        }
+
+        ul.lst-kix_pltnxixhavry-8 {
+            list-style-type: none
         }
 
         .lst-kix_l90hhdt471tz-5>li:before {
@@ -303,6 +608,10 @@
             list-style-type: none
         }
 
+        ol.lst-kix_40jbkv9xmssj-8.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-8 0
+        }
+
         ol.lst-kix_ti40x3gm2qz5-4 {
             list-style-type: none
         }
@@ -316,6 +625,26 @@
         }
 
         ol.lst-kix_ti40x3gm2qz5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-0 {
             list-style-type: none
         }
 
@@ -333,6 +662,10 @@
 
         ol.lst-kix_wdf64lki3c2j-3 {
             list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-5.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-5 0
         }
 
         ol.lst-kix_wdf64lki3c2j-2 {
@@ -391,6 +724,10 @@
             list-style-type: none
         }
 
+        .lst-kix_m5w41owby8wq-1>li:before {
+            content: "\0025cb   "
+        }
+
         ul.lst-kix_pb5xe7caz2k8-0 {
             list-style-type: none
         }
@@ -407,6 +744,10 @@
             list-style-type: none
         }
 
+        .lst-kix_m5w41owby8wq-3>li:before {
+            content: "\0025cf   "
+        }
+
         ul.lst-kix_pb5xe7caz2k8-4 {
             list-style-type: none
         }
@@ -417,6 +758,10 @@
 
         .lst-kix_i5yx34vs96em-4>li:before {
             content: "" counter(lst-ctn-kix_i5yx34vs96em-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-3 0
         }
 
         .lst-kix_i5yx34vs96em-6>li {
@@ -507,6 +852,10 @@
             counter-reset: lst-ctn-kix_c7aq0g78wdwq-1 0
         }
 
+        ul.lst-kix_r2i7lcuqgqhm-0 {
+            list-style-type: none
+        }
+
         .lst-kix_le0h346em95v-3>li:before {
             content: "\0025cf   "
         }
@@ -519,48 +868,128 @@
             counter-reset: lst-ctn-kix_8vsi0wpbee47-1 0
         }
 
+        ul.lst-kix_r2i7lcuqgqhm-4 {
+            list-style-type: none
+        }
+
         .lst-kix_le0h346em95v-6>li:before {
             content: "\0025cf   "
+        }
+
+        ul.lst-kix_r2i7lcuqgqhm-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r2i7lcuqgqhm-2 {
+            list-style-type: none
         }
 
         ol.lst-kix_i5yx34vs96em-1.start {
             counter-reset: lst-ctn-kix_i5yx34vs96em-1 0
         }
 
+        ul.lst-kix_r2i7lcuqgqhm-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r2i7lcuqgqhm-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r2i7lcuqgqhm-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r2i7lcuqgqhm-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r2i7lcuqgqhm-5 {
+            list-style-type: none
+        }
+
         .lst-kix_te5tx1818qv-1>li:before {
             content: "\0025cb   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-7.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-7 0
         }
 
         .lst-kix_le0h346em95v-7>li:before {
             content: "\0025cb   "
         }
 
+        .lst-kix_hv7nwkykyjeu-2>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_v8xs2tkb14vu-7>li:before {
             content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-2 {
+            list-style-type: none
         }
 
         .lst-kix_te5tx1818qv-5>li:before {
             content: "\0025a0   "
         }
 
+        .lst-kix_40jbkv9xmssj-8>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-8
+        }
+
+        ul.lst-kix_m5w41owby8wq-3 {
+            list-style-type: none
+        }
+
         .lst-kix_v8xs2tkb14vu-8>li:before {
             content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-7
         }
 
         .lst-kix_l90hhdt471tz-5>li {
             counter-increment: lst-ctn-kix_l90hhdt471tz-5
         }
 
+        .lst-kix_hv7nwkykyjeu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-5 {
+            list-style-type: none
+        }
+
         .lst-kix_te5tx1818qv-6>li:before {
             content: "\0025cf   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-6 {
+            list-style-type: none
         }
 
         .lst-kix_te5tx1818qv-2>li:before {
             content: "\0025a0   "
         }
 
+        ul.lst-kix_m5w41owby8wq-7 {
+            list-style-type: none
+        }
+
         .lst-kix_r109uyvbxeos-0>li {
             counter-increment: lst-ctn-kix_r109uyvbxeos-0
+        }
+
+        ul.lst-kix_m5w41owby8wq-8 {
+            list-style-type: none
         }
 
         ol.lst-kix_wdf64lki3c2j-4.start {
@@ -583,16 +1012,84 @@
             counter-increment: lst-ctn-kix_c7aq0g78wdwq-1
         }
 
+        ul.lst-kix_m5w41owby8wq-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-8 0
+        }
+
+        ul.lst-kix_m5w41owby8wq-1 {
+            list-style-type: none
+        }
+
         ol.lst-kix_8vsi0wpbee47-6.start {
             counter-reset: lst-ctn-kix_8vsi0wpbee47-6 0
+        }
+
+        .lst-kix_fjre9nmsucqf-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_fjre9nmsucqf-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_40jbkv9xmssj-1>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-1, lower-latin) ". "
+        }
+
+        .lst-kix_fjre9nmsucqf-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-1 {
+            list-style-type: none
         }
 
         .lst-kix_8vsi0wpbee47-5>li {
             counter-increment: lst-ctn-kix_8vsi0wpbee47-5
         }
 
+        ul.lst-kix_91xithwdszw3-2 {
+            list-style-type: none
+        }
+
         .lst-kix_l90hhdt471tz-1>li {
             counter-increment: lst-ctn-kix_l90hhdt471tz-1
+        }
+
+        .lst-kix_xxeu1qxpdltt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_91xithwdszw3-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-5>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-5, lower-roman) ". "
+        }
+
+        .lst-kix_xxeu1qxpdltt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_40jbkv9xmssj-6>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-6, decimal) ". "
         }
 
         ol.lst-kix_c7aq0g78wdwq-6.start {
@@ -603,12 +1100,28 @@
             counter-increment: lst-ctn-kix_wdf64lki3c2j-2
         }
 
+        .lst-kix_fjre9nmsucqf-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-8 {
+            list-style-type: none
+        }
+
         .lst-kix_c7aq0g78wdwq-3>li {
             counter-increment: lst-ctn-kix_c7aq0g78wdwq-3
         }
 
         .lst-kix_v8xs2tkb14vu-0>li:before {
             content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-5 {
+            list-style-type: none
         }
 
         .lst-kix_lel17yktjca4-0>li:before {
@@ -627,6 +1140,26 @@
             content: "\0025a0   "
         }
 
+        .lst-kix_vbwtcx7rz8af-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-0
+        }
+
+        ul.lst-kix_91xithwdszw3-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-2>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-2, lower-roman) ". "
+        }
+
         ol.lst-kix_ti40x3gm2qz5-8.start {
             counter-reset: lst-ctn-kix_ti40x3gm2qz5-8 0
         }
@@ -639,6 +1172,22 @@
             content: "\0025cb   "
         }
 
+        .lst-kix_vbwtcx7rz8af-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-5>li:before {
+            content: "\0025a0   "
+        }
+
         ol.lst-kix_i5yx34vs96em-2.start {
             counter-reset: lst-ctn-kix_i5yx34vs96em-2 0
         }
@@ -649,6 +1198,14 @@
 
         .lst-kix_p1rqzwwj4p1g-5>li:before {
             content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-7 0
+        }
+
+        .lst-kix_40jbkv9xmssj-6>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-6
         }
 
         ol.lst-kix_ti40x3gm2qz5-7.start {
@@ -667,6 +1224,18 @@
             content: "\0025cb   "
         }
 
+        .lst-kix_ovapphg3t8uo-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-8>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_428ya8ue2a7q-6>li:before {
             content: "\0025cf   "
         }
@@ -675,12 +1244,28 @@
             counter-reset: lst-ctn-kix_wdf64lki3c2j-3 0
         }
 
+        .lst-kix_m5w41owby8wq-8>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_8vsi0wpbee47-7>li {
             counter-increment: lst-ctn-kix_8vsi0wpbee47-7
         }
 
         .lst-kix_wdf64lki3c2j-0>li {
             counter-increment: lst-ctn-kix_wdf64lki3c2j-0
+        }
+
+        .lst-kix_ovapphg3t8uo-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_40jbkv9xmssj-1>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-1
+        }
+
+        .lst-kix_m5w41owby8wq-4>li:before {
+            content: "\0025cb   "
         }
 
         .lst-kix_p1rqzwwj4p1g-8>li:before {
@@ -731,6 +1316,14 @@
             content: "" counter(lst-ctn-kix_l90hhdt471tz-2, lower-roman) ". "
         }
 
+        .lst-kix_bbqp7cp8bbkt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-0>li:before {
+            content: "\0025cf   "
+        }
+
         .lst-kix_c7aq0g78wdwq-8>li {
             counter-increment: lst-ctn-kix_c7aq0g78wdwq-8
         }
@@ -743,12 +1336,28 @@
             content: "" counter(lst-ctn-kix_r109uyvbxeos-8, lower-roman) ". "
         }
 
+        .lst-kix_bbqp7cp8bbkt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-5
+        }
+
         ol.lst-kix_c7aq0g78wdwq-2.start {
             counter-reset: lst-ctn-kix_c7aq0g78wdwq-2 0
         }
 
         .lst-kix_r109uyvbxeos-0>li:before {
             content: "" counter(lst-ctn-kix_r109uyvbxeos-0, decimal) ". "
+        }
+
+        .lst-kix_71tx4o9juzo2-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_71tx4o9juzo2-6>li:before {
+            content: "\0025cf   "
         }
 
         ol.lst-kix_wdf64lki3c2j-5.start {
@@ -759,12 +1368,20 @@
             content: "" counter(lst-ctn-kix_i5yx34vs96em-1, lower-latin) ". "
         }
 
+        .lst-kix_m5w41owby8wq-0>li:before {
+            content: "\0025cf   "
+        }
+
         .lst-kix_i5yx34vs96em-3>li {
             counter-increment: lst-ctn-kix_i5yx34vs96em-3
         }
 
         ol.lst-kix_8vsi0wpbee47-2.start {
             counter-reset: lst-ctn-kix_8vsi0wpbee47-2 0
+        }
+
+        .lst-kix_hv7nwkykyjeu-5>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_c7aq0g78wdwq-6>li:before {
@@ -819,6 +1436,10 @@
             counter-increment: lst-ctn-kix_r109uyvbxeos-1
         }
 
+        .lst-kix_z9ypi1c9ifj3-8>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-8
+        }
+
         ol.lst-kix_l90hhdt471tz-0.start {
             counter-reset: lst-ctn-kix_l90hhdt471tz-0 0
         }
@@ -863,6 +1484,10 @@
             content: "" counter(lst-ctn-kix_8vsi0wpbee47-5, lower-roman) ". "
         }
 
+        .lst-kix_40jbkv9xmssj-7>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-7
+        }
+
         ol.lst-kix_c7aq0g78wdwq-4.start {
             counter-reset: lst-ctn-kix_c7aq0g78wdwq-4 0
         }
@@ -891,6 +1516,10 @@
             counter-increment: lst-ctn-kix_8vsi0wpbee47-0
         }
 
+        ol.lst-kix_40jbkv9xmssj-4.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-4 0
+        }
+
         .lst-kix_i5yx34vs96em-8>li {
             counter-increment: lst-ctn-kix_i5yx34vs96em-8
         }
@@ -899,8 +1528,48 @@
             counter-reset: lst-ctn-kix_8vsi0wpbee47-3 0
         }
 
+        .lst-kix_r2i7lcuqgqhm-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_91xithwdszw3-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_91xithwdszw3-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-7>li:before {
+            content: "\0025cb   "
+        }
+
         .lst-kix_i5yx34vs96em-1>li {
             counter-increment: lst-ctn-kix_i5yx34vs96em-1
+        }
+
+        .lst-kix_r2i7lcuqgqhm-6>li:before {
+            content: "\0025cf   "
         }
 
         .lst-kix_jh8oad94l2zn-2>li:before {
@@ -915,12 +1584,20 @@
             counter-reset: lst-ctn-kix_wdf64lki3c2j-2 0
         }
 
+        .lst-kix_91xithwdszw3-8>li:before {
+            content: "\0025a0   "
+        }
+
         ol.lst-kix_ti40x3gm2qz5-0.start {
             counter-reset: lst-ctn-kix_ti40x3gm2qz5-0 1
         }
 
         .lst-kix_jh8oad94l2zn-1>li:before {
             content: "\0025cb   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-8>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_c7aq0g78wdwq-7>li {
@@ -971,8 +1648,28 @@
             content: "\0025cb   "
         }
 
+        .lst-kix_pltnxixhavry-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_40jbkv9xmssj-3>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-3
+        }
+
         .lst-kix_jh8oad94l2zn-5>li:before {
             content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-1>li:before {
+            content: "\0025cb   "
         }
 
         .lst-kix_jh8oad94l2zn-6>li:before {
@@ -983,8 +1680,24 @@
             content: "\0025a0   "
         }
 
+        .lst-kix_pltnxixhavry-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r2i7lcuqgqhm-2>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_jh8oad94l2zn-7>li:before {
             content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-0>li:before {
+            content: "\0025cf   "
         }
 
         .lst-kix_428ya8ue2a7q-3>li:before {
@@ -993,6 +1706,10 @@
 
         .lst-kix_428ya8ue2a7q-5>li:before {
             content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-7>li:before {
+            content: "\0025cb   "
         }
 
         ol.lst-kix_l90hhdt471tz-2 {
@@ -1023,6 +1740,10 @@
             list-style-type: none
         }
 
+        .lst-kix_pltnxixhavry-5>li:before {
+            content: "\0025a0   "
+        }
+
         ol.lst-kix_l90hhdt471tz-0 {
             list-style-type: none
         }
@@ -1031,16 +1752,76 @@
             list-style-type: none
         }
 
+        .lst-kix_ovapphg3t8uo-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-6 0
+        }
+
         ol.lst-kix_wdf64lki3c2j-0.start {
             counter-reset: lst-ctn-kix_wdf64lki3c2j-0 0
+        }
+
+        .lst-kix_ovapphg3t8uo-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-1
         }
 
         .lst-kix_c7aq0g78wdwq-4>li {
             counter-increment: lst-ctn-kix_c7aq0g78wdwq-4
         }
 
+        ul.lst-kix_ovapphg3t8uo-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-2 {
+            list-style-type: none
+        }
+
         .lst-kix_lel17yktjca4-7>li:before {
             content: "\0025cb   "
+        }
+
+        ul.lst-kix_ovapphg3t8uo-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-8>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_r109uyvbxeos-8>li {
@@ -1055,20 +1836,64 @@
             counter-increment: lst-ctn-kix_i5yx34vs96em-5
         }
 
+        .lst-kix_91xithwdszw3-1>li:before {
+            content: "\0025cb   "
+        }
+
         ol.lst-kix_l90hhdt471tz-2.start {
             counter-reset: lst-ctn-kix_l90hhdt471tz-2 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-4 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_71tx4o9juzo2-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_71tx4o9juzo2-3>li:before {
+            content: "\0025cf   "
         }
 
         .lst-kix_ti40x3gm2qz5-4>li {
             counter-increment: lst-ctn-kix_ti40x3gm2qz5-4
         }
 
+        .lst-kix_40jbkv9xmssj-4>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-4
+        }
+
         .lst-kix_i5yx34vs96em-0>li {
             counter-increment: lst-ctn-kix_i5yx34vs96em-0
         }
 
+        .lst-kix_71tx4o9juzo2-5>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_8vsi0wpbee47-4>li {
             counter-increment: lst-ctn-kix_8vsi0wpbee47-4
+        }
+
+        .lst-kix_bbqp7cp8bbkt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-6.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-6 0
         }
 
         .lst-kix_wdf64lki3c2j-2>li:before {
@@ -1077,6 +1902,10 @@
 
         .lst-kix_wdf64lki3c2j-4>li {
             counter-increment: lst-ctn-kix_wdf64lki3c2j-4
+        }
+
+        .lst-kix_hv7nwkykyjeu-4>li:before {
+            content: "\0025cb   "
         }
 
         .lst-kix_wdf64lki3c2j-6>li:before {
@@ -1091,8 +1920,16 @@
             content: "" counter(lst-ctn-kix_wdf64lki3c2j-0, lower-latin) ". "
         }
 
+        .lst-kix_hv7nwkykyjeu-6>li:before {
+            content: "\0025cf   "
+        }
+
         .lst-kix_c7aq0g78wdwq-7>li:before {
             content: "" counter(lst-ctn-kix_c7aq0g78wdwq-7, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-8>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_l90hhdt471tz-6>li {
@@ -1299,6 +2136,10 @@
             list-style-type: none
         }
 
+        .lst-kix_hv7nwkykyjeu-3>li:before {
+            content: "\0025cf   "
+        }
+
         ul.lst-kix_lel17yktjca4-3 {
             list-style-type: none
         }
@@ -1347,8 +2188,20 @@
             counter-increment: lst-ctn-kix_8vsi0wpbee47-3
         }
 
+        ol.lst-kix_40jbkv9xmssj-1.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-1 0
+        }
+
+        .lst-kix_hv7nwkykyjeu-0>li:before {
+            content: "\0025cf   "
+        }
+
         .lst-kix_v8xs2tkb14vu-2>li:before {
             content: "\0025a0   "
+        }
+
+        .lst-kix_71tx4o9juzo2-7>li:before {
+            content: "\0025cb   "
         }
 
         .lst-kix_te5tx1818qv-3>li:before {
@@ -1363,12 +2216,44 @@
             counter-reset: lst-ctn-kix_i5yx34vs96em-6 0
         }
 
+        .lst-kix_71tx4o9juzo2-8>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_r109uyvbxeos-2>li {
             counter-increment: lst-ctn-kix_r109uyvbxeos-2
         }
 
+        ol.lst-kix_z9ypi1c9ifj3-2.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-2 0
+        }
+
+        .lst-kix_40jbkv9xmssj-7>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-7, lower-latin) ". "
+        }
+
+        .lst-kix_fjre9nmsucqf-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_40jbkv9xmssj-8>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-8, lower-roman) ". "
+        }
+
+        .lst-kix_fjre9nmsucqf-3>li:before {
+            content: "\0025cf   "
+        }
+
         .lst-kix_te5tx1818qv-8>li:before {
             content: "\0025a0   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-1>li:before {
+            content: "\0025cb   "
         }
 
         .lst-kix_te5tx1818qv-7>li:before {
@@ -1379,6 +2264,10 @@
             list-style-type: none
         }
 
+        .lst-kix_xxeu1qxpdltt-4>li:before {
+            content: "\0025cb   "
+        }
+
         ul.lst-kix_jh8oad94l2zn-4 {
             list-style-type: none
         }
@@ -1387,7 +2276,19 @@
             list-style-type: none
         }
 
+        .lst-kix_xxeu1qxpdltt-5>li:before {
+            content: "\0025a0   "
+        }
+
         ul.lst-kix_jh8oad94l2zn-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_fjre9nmsucqf-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-1 {
             list-style-type: none
         }
 
@@ -1395,16 +2296,60 @@
             list-style-type: none
         }
 
+        ul.lst-kix_r6kx37hmbdo8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-3 {
+            list-style-type: none
+        }
+
         .lst-kix_wdf64lki3c2j-8>li {
             counter-increment: lst-ctn-kix_wdf64lki3c2j-8
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-0>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-0, decimal) ". "
         }
 
         .lst-kix_i5yx34vs96em-7>li {
             counter-increment: lst-ctn-kix_i5yx34vs96em-7
         }
 
+        .lst-kix_fjre9nmsucqf-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-6 {
+            list-style-type: none
+        }
+
         .lst-kix_l90hhdt471tz-7>li {
             counter-increment: lst-ctn-kix_l90hhdt471tz-7
+        }
+
+        .lst-kix_fjre9nmsucqf-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-8 {
+            list-style-type: none
         }
 
         .lst-kix_lel17yktjca4-2>li:before {
@@ -1423,8 +2368,28 @@
             counter-reset: lst-ctn-kix_i5yx34vs96em-7 0
         }
 
+        .lst-kix_40jbkv9xmssj-4>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-4, lower-latin) ". "
+        }
+
+        .lst-kix_xxeu1qxpdltt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_40jbkv9xmssj-3>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-3, decimal) ". "
+        }
+
         ul.lst-kix_jh8oad94l2zn-1 {
             list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-1 0
+        }
+
+        ol.lst-kix_40jbkv9xmssj-2.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-2 0
         }
 
         ul.lst-kix_jh8oad94l2zn-0 {
@@ -1437,6 +2402,10 @@
 
         ul.lst-kix_jh8oad94l2zn-2 {
             list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-2>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_p1rqzwwj4p1g-6>li:before {
@@ -1457,6 +2426,10 @@
 
         ul.lst-kix_v8xs2tkb14vu-3 {
             list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-6>li:before {
+            content: "\0025cf   "
         }
 
         ul.lst-kix_v8xs2tkb14vu-4 {
@@ -1483,6 +2456,10 @@
             list-style-type: none
         }
 
+        .lst-kix_vbwtcx7rz8af-7>li:before {
+            content: "\0025cb   "
+        }
+
         ul.lst-kix_v8xs2tkb14vu-6 {
             list-style-type: none
         }
@@ -1491,7 +2468,15 @@
             counter-reset: lst-ctn-kix_l90hhdt471tz-4 0
         }
 
+        ol.lst-kix_z9ypi1c9ifj3-6 {
+            list-style-type: none
+        }
+
         ol.lst-kix_l90hhdt471tz-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5 {
             list-style-type: none
         }
 
@@ -1499,12 +2484,32 @@
             list-style-type: none
         }
 
+        ol.lst-kix_z9ypi1c9ifj3-8 {
+            list-style-type: none
+        }
+
         ol.lst-kix_l90hhdt471tz-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1 {
             list-style-type: none
         }
 
         .lst-kix_le0h346em95v-1>li:before {
             content: "\0025cb   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4 {
+            list-style-type: none
         }
 
         .lst-kix_428ya8ue2a7q-1>li:before {
@@ -1515,7 +2520,19 @@
             content: "\0025a0   "
         }
 
+        ol.lst-kix_z9ypi1c9ifj3-3 {
+            list-style-type: none
+        }
+
         .lst-kix_le0h346em95v-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-3>li:before {
             content: "\0025cf   "
         }
 
@@ -1525,6 +2542,10 @@
 
         .lst-kix_428ya8ue2a7q-4>li:before {
             content: "\0025cb   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-0.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-0 0
         }
 
         ul.lst-kix_te5tx1818qv-1 {
@@ -1575,6 +2596,18 @@
             list-style-type: none
         }
 
+        .lst-kix_40jbkv9xmssj-0>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-0
+        }
+
+        .lst-kix_pltnxixhavry-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_m5w41owby8wq-6>li:before {
+            content: "\0025cf   "
+        }
+
         ol.lst-kix_r109uyvbxeos-0.start {
             counter-reset: lst-ctn-kix_r109uyvbxeos-0 4
         }
@@ -1583,12 +2616,40 @@
             counter-increment: lst-ctn-kix_ti40x3gm2qz5-7
         }
 
+        .lst-kix_ovapphg3t8uo-3>li:before {
+            content: "\0025cf   "
+        }
+
         .lst-kix_8vsi0wpbee47-6>li {
             counter-increment: lst-ctn-kix_8vsi0wpbee47-6
         }
 
+        ul.lst-kix_hv7nwkykyjeu-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-5 {
+            list-style-type: none
+        }
+
         .lst-kix_l90hhdt471tz-4>li:before {
             content: "" counter(lst-ctn-kix_l90hhdt471tz-4, lower-latin) ". "
+        }
+
+        .lst-kix_40jbkv9xmssj-2>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-2
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-4
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-7 {
+            list-style-type: none
         }
 
         .lst-kix_lel17yktjca4-6>li:before {
@@ -1599,16 +2660,88 @@
             counter-reset: lst-ctn-kix_r109uyvbxeos-3 0
         }
 
+        .lst-kix_ovapphg3t8uo-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-8 {
+            list-style-type: none
+        }
+
         .lst-kix_i5yx34vs96em-2>li {
             counter-increment: lst-ctn-kix_i5yx34vs96em-2
+        }
+
+        ol.lst-kix_40jbkv9xmssj-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-7 {
+            list-style-type: none
         }
 
         .lst-kix_l90hhdt471tz-0>li:before {
             content: "" counter(lst-ctn-kix_l90hhdt471tz-0, lower-latin) ". "
         }
 
+        ol.lst-kix_40jbkv9xmssj-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_91xithwdszw3-2>li:before {
+            content: "\0025a0   "
+        }
+
         .lst-kix_r109uyvbxeos-6>li:before {
             content: "" counter(lst-ctn-kix_r109uyvbxeos-6, decimal) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-4>li:before {
+            content: "\0025cb   "
         }
 
         .lst-kix_r109uyvbxeos-4>li {
@@ -1619,6 +2752,10 @@
             content: "" counter(lst-ctn-kix_r109uyvbxeos-2, lower-roman) ". "
         }
 
+        .lst-kix_71tx4o9juzo2-0>li:before {
+            content: "\0025cf   "
+        }
+
         ol.lst-kix_r109uyvbxeos-2.start {
             counter-reset: lst-ctn-kix_r109uyvbxeos-2 0
         }
@@ -1627,12 +2764,20 @@
             content: "" counter(lst-ctn-kix_l90hhdt471tz-8, lower-roman) ". "
         }
 
+        .lst-kix_71tx4o9juzo2-4>li:before {
+            content: "\0025cb   "
+        }
+
         .lst-kix_c7aq0g78wdwq-8>li:before {
             content: "" counter(lst-ctn-kix_c7aq0g78wdwq-8, lower-roman) ". "
         }
 
         .lst-kix_wdf64lki3c2j-1>li {
             counter-increment: lst-ctn-kix_wdf64lki3c2j-1
+        }
+
+        .lst-kix_m5w41owby8wq-2>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_wdf64lki3c2j-1>li:before {
@@ -1658,8 +2803,16 @@
             min-width: 18pt
         }
 
+        .lst-kix_hv7nwkykyjeu-7>li:before {
+            content: "\0025cb   "
+        }
+
         .lst-kix_c7aq0g78wdwq-0>li:before {
             content: "" counter(lst-ctn-kix_c7aq0g78wdwq-0, lower-latin) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-8>li:before {
+            content: "\0025a0   "
         }
 
         .lst-kix_i5yx34vs96em-7>li:before {
@@ -1688,7 +2841,7 @@
             padding: 0
         }
 
-        .c23 {
+        .c1 {
             border-right-style: solid;
             padding: 5pt 5pt 5pt 5pt;
             border-bottom-color: #000000;
@@ -1707,173 +2860,7 @@
             border-bottom-style: solid
         }
 
-        .c13 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 1pt;
-            border-right-width: 1pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 1pt;
-            border-top-style: solid;
-            background-color: #cfe2f3;
-            border-left-style: solid;
-            border-bottom-width: 1pt;
-            width: 245.2pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c11 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 1pt;
-            border-right-width: 1pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 1pt;
-            border-top-style: solid;
-            background-color: #cfe2f3;
-            border-left-style: solid;
-            border-bottom-width: 1pt;
-            width: 246pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c31 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 1pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 245.2pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c35 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 243.8pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c32 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 244.5pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c1 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 1pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 244.5pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c38 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 0pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 1pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 243.8pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
-        .c24 {
-            border-right-style: solid;
-            padding: 5pt 5pt 5pt 5pt;
-            border-bottom-color: #000000;
-            border-top-width: 1pt;
-            border-right-width: 0pt;
-            border-left-color: #000000;
-            vertical-align: top;
-            border-right-color: #000000;
-            border-left-width: 0pt;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-bottom-width: 0pt;
-            width: 246pt;
-            border-top-color: #000000;
-            border-bottom-style: solid
-        }
-
         .c27 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 4pt;
-            font-family: "Proxima Nova";
-            font-style: normal
-        }
-
-        .c8 {
-            color: #000000;
-            font-weight: 400;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 11pt;
-            font-family: "Proxima Nova";
-            font-style: normal
-        }
-
-        .c36 {
             color: #666666;
             font-weight: 400;
             text-decoration: none;
@@ -1883,7 +2870,7 @@
             font-style: normal
         }
 
-        .c20 {
+        .c9 {
             color: #039be5;
             font-weight: 400;
             text-decoration: none;
@@ -1893,7 +2880,27 @@
             font-style: normal
         }
 
-        .c0 {
+        .c10 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c7 {
+            color: #404040;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c14 {
             color: #000000;
             font-weight: 400;
             text-decoration: none;
@@ -1903,7 +2910,37 @@
             font-style: normal
         }
 
-        .c14 {
+        .c19 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 5pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c2 {
+            color: #a64d79;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Courier New";
+            font-style: normal
+        }
+
+        .c16 {
+            padding-top: 24pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c24 {
             padding-top: 10pt;
             padding-bottom: 0pt;
             line-height: 1.0;
@@ -1914,35 +2951,15 @@
         }
 
         .c4 {
-            padding-top: 24pt;
+            padding-top: 10pt;
             padding-bottom: 0pt;
             line-height: 1.25;
-            page-break-after: avoid;
             orphans: 2;
             widows: 2;
             text-align: left
         }
 
-        .c28 {
-            color: #404040;
-            font-weight: 700;
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 30pt;
-            font-family: "Proxima Nova";
-            font-style: normal
-        }
-
-        .c25 {
-            padding-top: 12pt;
-            padding-bottom: 12pt;
-            line-height: 1.15;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c33 {
+        .c23 {
             padding-top: 10pt;
             padding-bottom: 0pt;
             line-height: 1.25;
@@ -1951,16 +2968,7 @@
             text-align: center
         }
 
-        .c9 {
-            padding-top: 10pt;
-            padding-bottom: 0pt;
-            line-height: 1.25;
-            orphans: 2;
-            widows: 2;
-            text-align: left
-        }
-
-        .c29 {
+        .c15 {
             padding-top: 32pt;
             padding-bottom: 0pt;
             line-height: 1.25;
@@ -1969,114 +2977,87 @@
             text-align: left
         }
 
-        .c40 {
-            color: #000000;
+        .c26 {
             text-decoration: none;
             vertical-align: baseline;
-            font-size: 1pt;
+            font-size: 30pt;
+            font-family: "Proxima Nova";
             font-style: normal
         }
 
-        .c15 {
+        .c21 {
             border-spacing: 0;
             border-collapse: collapse;
             margin-right: auto
         }
 
-        .c5 {
+        .c8 {
             padding-top: 0pt;
             padding-bottom: 0pt;
             line-height: 1.0;
             text-align: left
         }
 
-        .c26 {
-            text-decoration: none;
-            vertical-align: baseline;
-            font-size: 11pt;
-            font-style: normal
-        }
-
-        .c2 {
+        .c3 {
+            background-color: #cfe2f3;
             font-family: "Courier New";
-            color: #9900ff;
-            font-weight: 700
+            font-weight: 400
         }
 
-        .c37 {
-            font-family: "Courier New";
-            color: #6aa84f;
-            font-weight: 700
-        }
-
-        .c17 {
+        .c18 {
             background-color: #ffffff;
             max-width: 468pt;
             padding: 72pt 72pt 72pt 72pt
         }
 
-        .c21 {
-            font-family: "Courier New";
-            color: #f65b35;
+        .c0 {
+            color: #cc0000;
             font-weight: 700
         }
 
-        .c22 {
-            font-family: "Courier New";
-            color: #30e130;
-            font-weight: 700
-        }
-
-        .c16 {
-            font-family: "Courier New";
-            color: #4a86e8;
-            font-weight: 700
-        }
-
-        .c6 {
-            padding: 0;
-            margin: 0
-        }
-
-        .c39 {
-            font-weight: 400;
-            font-family: "Proxima Nova"
-        }
-
-        .c19 {
-            margin-left: 36pt;
-            padding-left: 0pt
-        }
-
-        .c12 {
-            margin-left: 72pt;
-            padding-left: 0pt
-        }
-
-        .c3 {
-            font-weight: 400;
-            font-family: "Courier New"
-        }
-
-        .c34 {
+        .c25 {
             orphans: 2;
             widows: 2
         }
 
-        .c7 {
-            color: #a64d79
+        .c11 {
+            margin-left: 36pt;
+            padding-left: 0pt
         }
 
-        .c30 {
-            height: 21pt
+        .c28 {
+            padding: 0;
+            margin: 0
         }
 
-        .c10 {
+        .c17 {
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c6 {
+            color: #404040;
+            font-style: italic
+        }
+
+        .c20 {
             height: 11pt
         }
 
-        .c18 {
+        .c13 {
+            color: #404040
+        }
+
+        .c5 {
+            font-weight: 700
+        }
+
+        .c12 {
             height: 0pt
+        }
+
+        .c22 {
+            color: #a64d79
         }
 
         .title {
@@ -2203,7 +3184,7 @@
     </style>
 </head>
 
-<body class="c17 doc-content">
+<body class="c18 doc-content">
     <!-- NAVBAR -->
     <div class="navbar">
         <a class="nav-title-link" href="../../../index.html">
@@ -2214,324 +3195,119 @@
             <span class="button-text">Give Me a Star!</span>
           </a>
         </a>
-    </div>
-
+      </div>
     <div>
-        <p class="c29"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
-        <p class="c9"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image6.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+        <p class="c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
+        <p class="c4"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image2.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
     </div>
-    <p class="c14 title" id="h.kk1966kbedef"><span>Styling, Text &amp; More Functions in Processing</span></p>
-    <p class="c5 c34"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image6.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
-    <h1 class="c4" id="h.vrhvb96nxxe9"><span>Colouring the background</span></h1>
-    <p class="c9"><span class="c8">Sets the colour of a background to a specific colour.</span></p>
-    <p class="c9"><span class="c3">background(</span><span class="c2">[0&hellip;255]</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0 start">
-        <li class="c9 c19 li-bullet-0"><span class="c2">[0&hellip;255]</span><span class="c3">:</span><span>T</span><span class="c8">he number between 0 and 255 represents the shade of gray for the background</span></li>
-    </ul>
-    <ul class="c6 lst-kix_te5tx1818qv-1 start">
-        <li class="c9 c12 li-bullet-0"><span class="c8">0 is black</span></li>
-        <li class="c9 c12 li-bullet-0"><span class="c8">255 is white</span></li>
-    </ul>
-    <p class="c9"><span class="c3">background(</span><span class="c2">red</span><span class="c3">, </span><span class="c2">green</span><span class="c3">, </span><span class="c2">blue</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">red</span><span class="c3">:A</span><span class="c8">&nbsp;number from 0-255 to represent how much &ldquo;red&rdquo; you want</span></li>
-        <li class="c19 c25 li-bullet-0"><span class="c2">green</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;green&rdquo; you want</span></li>
-        <li class="c25 c19 li-bullet-0"><span class="c2">blue</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;blue&rdquo; you want</span></li>
-    </ul>
-    <p class="c9"><span class="c3">background(#</span><span class="c2">hexcode</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">hexcode</span><span class="c3">:</span><span class="c8">A hexadecimal number to represent the selected colour</span></li>
-    </ul>
-    <p class="c9"><span class="c8">The # should always be there!</span></p>
-    <p class="c9 c10"><span class="c8"></span></p><a id="t.38835e3077739455087a8952bc7420fac3f72207"></a><a id="t.0"></a>
-    <table class="c15">
-        <tr class="c18">
-            <td class="c23" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">size(500, 500);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c26 c3 c7">// Colouring with RGB</span></p>
-                <p class="c5"><span class="c0">background(209, 180, 250);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c3 c7">// Colouring with hex </span></p>
-                <p class="c5"><span class="c0">background(#d1b4fa);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c26 c3 c7">/* Since there&#39;s only one window, you&#39;ll only really need to call background() once</span></p>
-                <p class="c5"><span class="c3 c7">Processing will take the most recent call as your final background colour */</span></p>
+    <p class="c24 title" id="h.kk1966kbedef"><span>Value-returning Methods</span></p>
+    <p class="c8 c25"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image2.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    <p class="c4"><span><br></span><span class="c9">What is a return method?</span></p>
+    <p class="c4"><span>We have touched on this already, but a </span><span class="c0">value-returning method</span><span class="c10">&nbsp;is a method that can send a value back to the statement which called it. </span></p>
+    <p class="c4"><span>You are already experienced at using value-returning methods. For example, </span><span class="c3">Integer.parseInt()</span><span class="c10">&nbsp;is a value returning method...</span></p><a id="t.af53a7166d1e55d85393b10b398e829604747e16"></a><a id="t.0"></a>
+    <table class="c21">
+        <tr class="c12">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c8"><span class="c14">int num;</span></p>
+                <p class="c8"><span class="c14">num = Integer.parseInt(&quot;700&quot;);</span></p>
             </td>
         </tr>
     </table>
-    <h1 class="c4" id="h.2d2tywzdblqk"><span>Colouring shapes</span></h1>
-    <p class="c9"><span class="c8">Fills in the colour of any shape you draw.</span></p>
-    <p class="c9"><span class="c8">This colour will be for all shapes after fill() or noFill() is called, until one of them is called again to change the setting!</span></p>
-    <p class="c9"><span class="c3">fill(</span><span class="c2">red</span><span class="c3">, </span><span class="c2">green</span><span class="c3">, </span><span class="c2">blue</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">red</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;red&rdquo; you want</span></li>
-        <li class="c25 c19 li-bullet-0"><span class="c2">green</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;green&rdquo; you want</span></li>
-        <li class="c25 c19 li-bullet-0"><span class="c2">blue</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;blue&rdquo; you want</span></li>
-    </ul>
-    <p class="c9"><span class="c3">fill(#</span><span class="c2">hexcode</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">hexcode</span><span class="c3">:</span><span class="c8">A hexadecimal number to represent the selected colour</span></li>
-    </ul>
-    <p class="c9"><span class="c0">noFill()</span></p>
-    <p class="c9"><span class="c8">Takes no parameters; will only draw the outline of your shape, leaving the filling transparent.</span></p>
-    <p class="c9 c10"><span class="c8"></span></p><a id="t.48399edf644be00dc88d0a5b2a8212ebbb79bc90"></a><a id="t.1"></a>
-    <table class="c15">
-        <tr class="c18">
-            <td class="c23" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">size(500, 500);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">fill(43, 5, 255);</span></p>
-                <p class="c5"><span class="c0">rect(0, 0, 249, 249);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c26 c3 c7">// Processing will keep the fill setting until you change it</span></p>
-                <p class="c5"><span class="c3 c7 c26">// This rectangle along with the previous will be blue</span></p>
-                <p class="c5"><span class="c0">rect(0, 250, 249, 249);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">noFill();</span></p>
-                <p class="c5"><span class="c3">rect(250, 0, 249, 249);</span></p>
+    <p class="c4"><span>The second line passes the </span><span>String</span><span>&nbsp;&ldquo;700&rdquo; argument into the method. The method returns the </span><span>int</span><span>&nbsp;value 700, which is assigned to the </span><span class="c3">num</span><span>&nbsp;variable by the </span><span>=</span><span class="c10">&nbsp;operator.</span></p>
+    <h1 class="c16" id="h.chto247rp9sq"><span class="c9">Defining a value-returning method</span></h1>
+    <p class="c4"><span class="c7">To create your own value-returning method, you must decide what type of value the method will return. This is because it will be part of your method header! This time, instead of &ldquo;void&rdquo; though, we will specify the data type that is being returned.</span></p>
+    <p class="c4"><span class="c7">For example, this method adds two numbers together and returns the result...</span></p><a id="t.442cdfeb22ef65d01f692252892dc4ef24678cc7"></a><a id="t.1"></a>
+    <table class="c21">
+        <tr class="c12">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c8"><span class="c2">/** </span></p>
+                <p class="c8"><span class="c2">&nbsp;* Sums two integers together.</span></p>
+                <p class="c8"><span class="c2">&nbsp;* @param numA The first number to be summed</span></p>
+                <p class="c8"><span class="c2">&nbsp;* @param numB The second number to be summed</span></p>
+                <p class="c8"><span class="c2">&nbsp;* @return The sum of the two arguments</span></p>
+                <p class="c8"><span class="c17 c22">&nbsp;*/</span></p>
+                <p class="c8"><span class="c14">public static int sum(int numA, int numB) {</span></p>
+                <p class="c8"><span class="c14">&nbsp; &nbsp;int result = numA + numB;</span></p>
+                <p class="c8"><span class="c14">&nbsp; &nbsp;return result;</span></p>
+                <p class="c8"><span class="c17">} </span><span class="c17 c22">// end sum</span></p>
             </td>
         </tr>
     </table>
-    <h1 class="c4" id="h.m2xeiqcssmd8"><span>Custom lines and outlines</span></h1>
-    <p class="c9"><span class="c8">Change the colour of a line or outline of a shape.</span></p>
-    <p class="c9"><span class="c8">Just like fill, the colour settings of a line will stay the same until you call one of the functions below to change it.</span></p>
-    <p class="c9"><span class="c3">stroke(</span><span class="c2">red</span><span class="c3">, </span><span class="c2">green</span><span class="c3">, </span><span class="c2">blue</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">red</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;red&rdquo; you want</span></li>
-        <li class="c25 c19 li-bullet-0"><span class="c2">green</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;green&rdquo; you want</span></li>
-        <li class="c25 c19 li-bullet-0"><span class="c2">blue</span><span class="c3">:</span><span class="c8">A number from 0-255 to represent how much &ldquo;blue&rdquo; you want</span></li>
+    <ul class="c28 lst-kix_r2i7lcuqgqhm-0 start">
+        <li class="c4 c11 li-bullet-0"><span class="c3">int</span><span class="c13">&nbsp;specifies that this particular method is returning an </span><span class="c13">int</span><span class="c13">&nbsp;value. If we were writing a method that returned a different data type, then that data type should be specified in place of </span><span class="c3">int</span><span class="c7">.</span></li>
+        <li class="c4 c11 li-bullet-0"><span class="c3">return</span><span class="c13">&nbsp;will cause the method to </span><span class="c13 c5">end execution</span><span class="c13">&nbsp;and return a value to the statement that called the method. A return method </span><span class="c6">must</span><span class="c7">&nbsp;return something, or an error will occur!</span></li>
     </ul>
-    <p class="c9"><span class="c3">stroke(#</span><span class="c2">hexcode</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">hexcode</span><span class="c3">:</span><span class="c8">A hexadecimal number to represent the selected colour</span></li>
-    </ul>
-    <p class="c9"><span class="c3">strokeWeight(</span><span class="c2">width</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_le0h346em95v-0 start">
-        <li class="c9 c19 li-bullet-0"><span class="c2">Width</span><span class="c3">:</span><span class="c8">The number of pixels wide the line will be</span></li>
-    </ul>
-    <p class="c9"><span class="c3">strokeCap(</span><span class="c2">style</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_le0h346em95v-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">style</span><span class="c3">:</span><span class="c8">You can choose ROUND, SQUARE, or PROJECT</span></li>
-    </ul>
-    <p class="c9"><span class="c0">noStroke()</span></p>
-    <p class="c9"><span class="c8">Takes no parameters; will make all lines and outlines transparent.</span></p>
-    <p class="c9 c10"><span class="c8"></span></p><a id="t.62bfa1bfe8f0ba1743b3280296c74d19037b4c9a"></a><a id="t.2"></a>
-    <table class="c15">
-        <tr class="c18">
-            <td class="c23" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">size(500, 500);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">noStroke();</span></p>
-                <p class="c5"><span class="c0">ellipse(250, 125, 100, 100);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">stroke(100, 94, 7);</span></p>
-                <p class="c5"><span class="c0">strokeWeight(4);</span></p>
-                <p class="c5"><span class="c0">ellipse(250, 375, 100, 100);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">strokeWeight(12);</span></p>
-                <p class="c5"><span class="c0">line(10, 250, 490, 250);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">strokeCap(ROUND);</span></p>
-                <p class="c5"><span class="c0">stroke(10, 93, 100);</span></p>
-                <p class="c5"><span class="c0">line(10, 270, 490, 270);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c0">strokeCap(SQUARE);</span></p>
-                <p class="c5"><span class="c3">line(10, 230, 490, 230);</span></p>
+    <p class="c4"><span class="c0">IMPORTANT:</span><span>&nbsp;The return statement must also be returning a value with the same data type specified in the method header, or a data type otherwise compatible with it. If this condition is not fulfilled, a compiler error will occur. Java will automatically widen the value of the return expression, if necessary, but will never narrow it.</span></p>
+    <h1 class="c16" id="h.cwpgxthk12l6"><span class="c9">Calling a value-returning method</span></h1>
+    <p class="c4"><span>It&rsquo;s the same as any other method. </span><span>The key to note is that since the method </span><span class="c5">returns</span><span>&nbsp;something, the return value should likely be </span><span class="c5">stored in a variable</span><span class="c10">&nbsp;somewhere, unless the value is just being printed or written to a file.</span></p>
+    <p class="c4"><span>For example, using the </span><span class="c3">sum()</span><span>&nbsp;method from earlier...</span></p><a id="t.e485bde130ee0847e1b2374ec31d4c3e074d4d8f"></a><a id="t.2"></a>
+    <table class="c21">
+        <tr class="c12">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c8"><span class="c14">int sumNum = sum(1, 2);</span></p>
             </td>
         </tr>
     </table>
-    <h1 class="c4" id="h.q5xj2j1g28h2"><span class="c20">Drawing a custom shape</span></h1>
-    <p class="c9"><span class="c8">Basically play connect-the-dots with Processing.</span></p>
-    <p class="c9"><span class="c8">Allows you to draw any organic shape with vertices.</span></p>
-    <p class="c9"><span>To create a custom shape, you will call the </span><span class="c3">beginShape()</span><span>&nbsp;to start, and</span><span>&nbsp;</span><span class="c3">endShape()</span><span class="c8">&nbsp;to tell Processing that you are done. All vertices will go in between, like so: </span></p>
-    <p class="c9"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 373.76px; height: 137.17px;"><img alt="" src="images/image5.png" style="width: 373.76px; height: 137.17px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
-    <p class="c9"><span class="c3">vertex(</span><span class="c2">x</span><span class="c3">, </span><span class="c2">y</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">x</span><span class="c3">:</span><span>T</span><span class="c8">he x-coordinate of the vertex</span></li>
-        <li class="c9 c19 li-bullet-0"><span class="c2">y</span><span class="c3">:</span><span>T</span><span class="c8">he y-coordinate of the vertex</span></li>
-    </ul>
-    <p class="c9"><span class="c8">Processing will use a straight edge to connect vertices marked with vertex()</span></p>
-    <p class="c9 c10"><span class="c27"></span></p><a id="t.853c276cf507c22ac4b534188428d8947285a181"></a><a id="t.3"></a>
-    <table class="c15">
-        <tr class="c30">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">beginShape();</span></p>
-                <p class="c5"><span class="c0">vertex(30,20);</span></p>
-                <p class="c5"><span class="c0">vertex(85,20);</span></p>
-                <p class="c5"><span class="c0">vertex(85,75);</span></p>
-                <p class="c5"><span class="c0">vertex(30,75);</span></p>
-                <p class="c5"><span class="c3">endShape();</span></p>
-            </td>
-            <td class="c38" colspan="1" rowspan="2">
-                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 121.84px; height: 128.50px;"><img alt="" src="images/image2.png" style="width: 121.84px; height: 128.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
-            </td>
-        </tr>
-        <tr class="c30">
-            <td class="c24" colspan="1" rowspan="1">
-                <p class="c5 c10"><span class="c0"></span></p>
+    <p class="c4"><span>Now the result of </span><span class="c3">sum()</span><span>, 3, can be used in the program by referencing </span><span class="c3">sumNum</span><span>, which holds the returned value from the call </span><span class="c3">sum(1, 2)</span><span class="c10">.</span></p>
+    <p class="c4"><span>Using the </span><span class="c3">sum()</span><span>&nbsp;method from earlier to print the result to the console...</span></p><a id="t.1e79f7aaa95cc27aca97b80185e2af02ee228699"></a><a id="t.3"></a>
+    <table class="c21">
+        <tr class="c12">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c8"><span class="c14">System.out.print(sum(1,2));</span></p>
             </td>
         </tr>
     </table>
-    <p class="c9 c10"><span class="c39 c40"></span></p><a id="t.8be9175e9a917c2f7b14ff2f739b9887e9bad8a9"></a><a id="t.4"></a>
-    <table class="c15">
-        <tr class="c30">
-            <td class="c13" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">beginShape();</span></p>
-                <p class="c5"><span class="c0">vertex(30,20);</span></p>
-                <p class="c5"><span class="c0">vertex(85,20);</span></p>
-                <p class="c5"><span class="c0">vertex(85,75);</span></p>
-                <p class="c5"><span class="c0">vertex(30,75);</span></p>
-                <p class="c5"><span class="c3">endShape(CLOSE); </span><span class="c26 c3 c7">// Notice CLOSE </span></p>
-            </td>
-            <td class="c1" colspan="1" rowspan="2">
-                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 123.56px; height: 128.50px;"><img alt="" src="images/image7.png" style="width: 123.56px; height: 128.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
-            </td>
-        </tr>
-        <tr class="c30">
-            <td class="c31" colspan="1" rowspan="1">
-                <p class="c5 c10"><span class="c0"></span></p>
+    <p class="c4"><span>Now the result of </span><span class="c3">sum()</span><span class="c10">, 3, will be printed to the console. This result cannot be used later, as it was not stored!</span></p>
+    <h1 class="c16" id="h.z0wrqm8rhum"><span class="c9">Documenting return</span></h1>
+    <p class="c4"><span>If our methods have return statements, we need to add the @return tag to our comments. </span><span>This should come after all @param tags. </span><span>The comment should only have </span><span class="c5">one</span><span class="c10">&nbsp;@return explanation, to describe the context of what is being returned.</span></p>
+    <p class="c4"><span>The general format of a method header with a return statement...</span></p><a id="t.a87ea056acd5e33808617afc9f978a1a61f28c95"></a><a id="t.4"></a>
+    <table class="c21">
+        <tr class="c12">
+            <td class="c1" colspan="1" rowspan="1">
+                <p class="c8"><span class="c2">/**</span></p>
+                <p class="c8"><span class="c2">&nbsp;* Purpose of the method goes here&hellip;</span></p>
+                <p class="c8"><span class="c2">&nbsp;* &hellip;</span></p>
+                <p class="c8"><span class="c2">&nbsp;* @return A brief description of what is being returned. Notice the &nbsp;</span></p>
+                <p class="c8"><span class="c2">&nbsp;* &nbsp; &nbsp; &nbsp; &nbsp; data type does not have to be specified.</span></p>
+                <p class="c8"><span class="c2">&nbsp;*/</span></p>
             </td>
         </tr>
     </table>
-    <p class="c9 c10"><span class="c8"></span></p><a id="t.67ed08544ceb0c64557400596e44e5c3c5e26da2"></a><a id="t.5"></a>
-    <table class="c15">
-        <tr class="c30">
-            <td class="c13" colspan="1" rowspan="1">
-                <p class="c5"><span class="c3">beginShape();<br></span><span class="c21">vertex(30,20)<br></span><span class="c2">vertex(85,20)</span><span class="c21"><br></span><span class="c37">vertex(85,75)</span><span class="c22"><br></span><span class="c16">vertex(30,75)</span></p>
-                <p class="c5"><span class="c3">endShape(CLOSE);</span></p>
-            </td>
-            <td class="c1" colspan="1" rowspan="2">
-                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.53px; height: 125.50px;"><img alt="" src="images/image3.png" style="width: 124.53px; height: 125.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
-            </td>
-        </tr>
-        <tr class="c30">
-            <td class="c31" colspan="1" rowspan="1">
-                <p class="c5 c10"><span class="c0"></span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c9 c10"><span class="c8"></span></p><a id="t.528d5dfa2fa49e7024fd1727c1139eb16d65bbd9"></a><a id="t.6"></a>
-    <table class="c15">
-        <tr class="c30">
-            <td class="c13" colspan="1" rowspan="1">
-                <p class="c5"><span class="c3">beginShape();</span><span class="c21"><br></span><span class="c2">vertex(85,20)<br></span><span class="c21">vertex(30,20)<br></span><span class="c37">vertex(85,75)</span><span class="c22"><br></span><span class="c16">vertex(30,75)</span></p>
-                <p class="c5"><span class="c3">endShape(); </span><span class="c26 c3 c7">// Order matters! </span></p>
-            </td>
-            <td class="c1" colspan="1" rowspan="2">
-                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 125.37px; height: 132.50px;"><img alt="" src="images/image8.png" style="width: 132.61px; height: 132.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
-            </td>
-        </tr>
-        <tr class="c30">
-            <td class="c31" colspan="1" rowspan="1">
-                <p class="c5 c10"><span class="c0"></span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c9"><span class="c3">curveVertex(</span><span class="c2">x</span><span class="c3">, </span><span class="c2">y</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">x</span><span class="c3">:</span><span class="c8">The x-coordinate of the vertex</span></li>
-        <li class="c9 c19 li-bullet-0"><span class="c2">y</span><span class="c3">:</span><span>The y-coordinate of the vertex</span></li>
-    </ul>
-    <p class="c9"><span class="c8">Processing will use a curved edge to connect vertices marked with curveVertex()</span></p>
-    <p class="c9 c10"><span class="c27"></span></p><a id="t.6b71e62ecd5d2f9677dddd9a586af168d71cab6c"></a><a id="t.7"></a>
-    <table class="c15">
-        <tr class="c30">
-            <td class="c11" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">beginShape();</span></p>
-                <p class="c5"><span class="c0">curveVertex(336, 364); curveVertex(336, 364);</span></p>
-                <p class="c5"><span class="c3">curveVertex(272, 76); curveVertex(84, 68); curveVertex(128, 400); curveVertex(128, 400); endShape(CLOSE);</span></p>
-            </td>
-            <td class="c38" colspan="1" rowspan="2">
-                <p class="c5"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 222.43px; height: 220.50px;"><img alt="" src="images/image4.png" style="width: 222.43px; height: 220.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
-            </td>
-        </tr>
-        <tr class="c30">
-            <td class="c24" colspan="1" rowspan="1">
-                <p class="c5 c10"><span class="c0"></span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c9 c10"><span class="c8"></span></p>
-    <h1 class="c4" id="h.dgdbdw6zh3jc"><span class="c20">Adding &amp; styling text</span></h1>
-    <p class="c9"><span class="c3">text(&quot;</span><span class="c2">text</span><span class="c3">&quot;, </span><span class="c2">x</span><span class="c3">, </span><span class="c2">y</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">text</span><span class="c3">:</span><span class="c8">The text you would like to display</span></li>
-    </ul>
-    <ul class="c6 lst-kix_te5tx1818qv-1 start">
-        <li class="c9 c12 li-bullet-0"><span>Remember to leave the quotation marks (</span><span class="c3">&quot;</span><span>&nbsp;</span><span class="c3">&quot;</span><span class="c8">) around it!</span></li>
-    </ul>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">x</span><span>, </span><span class="c2">y</span><span class="c3">:</span><span class="c8">The coordinate of the top-left corner of the text</span></li>
-    </ul>
-    <p class="c9"><span class="c3">text(&quot;</span><span class="c2">text</span><span class="c3">&quot;, </span><span class="c2">x1</span><span class="c3">, </span><span class="c2">y1</span><span class="c3">, </span><span class="c2">x2</span><span class="c3">, </span><span class="c2">y2</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">text</span><span class="c3">:</span><span class="c8">The text you would like to display</span></li>
-    </ul>
-    <ul class="c6 lst-kix_te5tx1818qv-1 start">
-        <li class="c9 c12 li-bullet-0"><span>Remember to leave the quotation marks (</span><span class="c3">&quot;</span><span>&nbsp;</span><span class="c3">&quot;</span><span class="c8">) around it!</span></li>
-    </ul>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">x1</span><span>, </span><span class="c2">y1</span><span class="c3">:</span><span class="c8">The coordinate of the top-left corner of the text</span></li>
-        <li class="c9 c19 li-bullet-0"><span class="c2">x2</span><span>, </span><span class="c2">y2</span><span class="c3">:</span><span class="c8">The coordinate of the bottom-right corner of the text</span></li>
-    </ul>
-    <p class="c9"><span class="c3">textSize(</span><span class="c2">fontSize</span><span class="c0">)</span></p>
-    <ul class="c6 lst-kix_te5tx1818qv-0">
-        <li class="c9 c19 li-bullet-0"><span class="c2">fontSize</span><span class="c3">:</span><span class="c8">A number to represent how large you want the text to appear</span></li>
-    </ul>
-    <p class="c9"><span>To colour text, we just use </span><span class="c3">fill()</span><span class="c8">, like we did to colour shapes earlier!</span></p>
-    <p class="c9 c10"><span class="c27"></span></p><a id="t.3bbaeaea1515213b9c851940dfea6d5b9e078c88"></a><a id="t.8"></a>
-    <table class="c15">
-        <tr class="c18">
-            <td class="c23" colspan="1" rowspan="1">
-                <p class="c5"><span class="c0">size(300, 300);</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c3 c7">// Notice that the styling comes before we use the text() function </span><span class="c0">textSize(16);</span></p>
-                <p class="c5"><span class="c3">fill(200, 0, 250);</span><span class="c3 c7">&nbsp;// purple</span></p>
-                <p class="c5"><span class="c0">text(&quot;meep morp zeep robot captain engage&quot;, 10, 10, 200, 250);</span></p>
-                <p class="c5"><span class="c3">fill(0, 255, 0); </span><span class="c3 c7">// green</span></p>
-                <p class="c5 c10"><span class="c0"></span></p>
-                <p class="c5"><span class="c26 c3 c7">// The text ends up being purple</span></p>
-                <p class="c5"><span class="c3 c7">// We don&#39;t see this green colour because it was called AFTER text()</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c9 c10"><span class="c8"></span></p>
-
+    <p class="c4 c20"><span class="c19"></span></p>
+    <div>
+        <p class="c23"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 43.00px;"><img alt="" src="images/image1.png" style="width: 817.00px; height: 43.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="footer"></span></p>
+    </div>
     <!-- FOOTER -->
-        <div id="footer">
-            <!-- 
-              TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-      
-              This should be the same across all pages.
-            -->
-            <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
-              <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
-            </a>
-            <!-- 
-              TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-            
-              This should be the same across all pages.
-            -->
-            <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
-              <image src="../../../assets/icons/github.svg" class="footer-icon"/>
-            </a>
-            <!-- 
-              TODO - Change the email after "mailto" to your contact email 
-            
-              This should be the same across all pages.
-            -->
-            <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
-              <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
-            </a>
-
-            <a class="button" href="https://docs.google.com/document/d/1CK_AoMH5Ly5qMemtQPKA7kRSPxTrQipaGZ9mu6TSbhI/edit?usp=sharing">
-                <span class="button-text">Read as PDF</span>
-                <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-          </div>
-
-
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+        <a class="button" href="https://docs.google.com/document/d/1cqSs3NfF44-6bAjKTUauNnMkde6ZU-TUS5K-HcDERS4/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
 </body>
 
 </html>

@@ -1,0 +1,3375 @@
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Programming Basics</title>
+    <meta name="description" content="First Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+
+	<script defer src="../../../js/script.js"></script>
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A);
+
+        .lst-kix_z9ypi1c9ifj3-2>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-2, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-1, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-3, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-5
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-2
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-7, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-0, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-8, lower-roman) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-4>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-4
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-5, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_le0h346em95v-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-5 0
+        }
+
+        ul.lst-kix_le0h346em95v-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-6, decimal) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-8, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-7, lower-latin) ". "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-6 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-2
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-1 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-3 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_hn53vb3ocyre-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hn53vb3ocyre-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_hn53vb3ocyre-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-8 0
+        }
+
+        .lst-kix_hn53vb3ocyre-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-5.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-5 0
+        }
+
+        .lst-kix_hn53vb3ocyre-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-8>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-8
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-3
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-6
+        }
+
+        .lst-kix_hn53vb3ocyre-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-4 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-5 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-0 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-6
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-8 0
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-5 0
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-2>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-2
+        }
+
+        .lst-kix_r109uyvbxeos-7>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-7
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-6
+        }
+
+        ul.lst-kix_pltnxixhavry-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pltnxixhavry-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-6>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-6
+        }
+
+        .lst-kix_m5w41owby8wq-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_pltnxixhavry-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-3
+        }
+
+        ul.lst-kix_pltnxixhavry-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-5>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-3>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-3, decimal) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-7>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-1, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-5
+        }
+
+        .lst-kix_r109uyvbxeos-7>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-5>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-3, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-7 0
+        }
+
+        .lst-kix_r109uyvbxeos-1>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-1, lower-latin) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-2>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-3 0
+        }
+
+        .lst-kix_i5yx34vs96em-6>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-6
+        }
+
+        ol.lst-kix_r109uyvbxeos-8.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-8 0
+        }
+
+        .lst-kix_l90hhdt471tz-0>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-8>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-8, lower-roman) ". "
+        }
+
+        ul.lst-kix_hn53vb3ocyre-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-6>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-6, decimal) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-8 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-1 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-2 0
+        }
+
+        .lst-kix_le0h346em95v-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-1 0
+        }
+
+        .lst-kix_le0h346em95v-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-1 0
+        }
+
+        .lst-kix_le0h346em95v-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-1.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-1 0
+        }
+
+        .lst-kix_te5tx1818qv-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_le0h346em95v-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hv7nwkykyjeu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_v8xs2tkb14vu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-7
+        }
+
+        .lst-kix_l90hhdt471tz-5>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-5
+        }
+
+        .lst-kix_hv7nwkykyjeu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-0>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-0
+        }
+
+        ul.lst-kix_m5w41owby8wq-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-4 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-7 0
+        }
+
+        .lst-kix_v8xs2tkb14vu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-1
+        }
+
+        ul.lst-kix_m5w41owby8wq-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-8 0
+        }
+
+        ul.lst-kix_m5w41owby8wq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-6 0
+        }
+
+        .lst-kix_fjre9nmsucqf-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_fjre9nmsucqf-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_fjre9nmsucqf-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-5
+        }
+
+        ul.lst-kix_91xithwdszw3-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-1
+        }
+
+        ul.lst-kix_91xithwdszw3-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-2
+        }
+
+        .lst-kix_fjre9nmsucqf-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_lel17yktjca4-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-0
+        }
+
+        ul.lst-kix_91xithwdszw3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-8 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-3
+        }
+
+        .lst-kix_p1rqzwwj4p1g-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-2.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-2 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-1 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-7 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ovapphg3t8uo-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_428ya8ue2a7q-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-3 0
+        }
+
+        .lst-kix_m5w41owby8wq-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-7
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-0
+        }
+
+        .lst-kix_ovapphg3t8uo-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_m5w41owby8wq-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-0 4
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-3 0
+        }
+
+        .lst-kix_lel17yktjca4-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-6 0
+        }
+
+        .lst-kix_l90hhdt471tz-6>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-6, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-0.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-0 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-3 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-8
+        }
+
+        .lst-kix_r109uyvbxeos-5>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-5
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-0 0
+        }
+
+        .lst-kix_l90hhdt471tz-2>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-2, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-8
+        }
+
+        .lst-kix_r109uyvbxeos-4>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-4, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-8, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-2 0
+        }
+
+        .lst-kix_r109uyvbxeos-0>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-0, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-5 0
+        }
+
+        .lst-kix_i5yx34vs96em-1>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-1, lower-latin) ". "
+        }
+
+        .lst-kix_m5w41owby8wq-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-3
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-2 0
+        }
+
+        .lst-kix_hv7nwkykyjeu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-7
+        }
+
+        .lst-kix_i5yx34vs96em-5>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-5, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-3>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-3
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-4 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-4.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-4 0
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-0, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-1, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-1>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-1
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-8
+        }
+
+        ol.lst-kix_l90hhdt471tz-0.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-0 0
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-3, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-2, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-4, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-5 0
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-6, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-8, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-4 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-4.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-4 0
+        }
+
+        .lst-kix_pb5xe7caz2k8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l90hhdt471tz-2>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-2
+        }
+
+        .lst-kix_pb5xe7caz2k8-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-0
+        }
+
+        .lst-kix_i5yx34vs96em-8>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-8
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-3 0
+        }
+
+        .lst-kix_91xithwdszw3-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_91xithwdszw3-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-1>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-1
+        }
+
+        .lst-kix_jh8oad94l2zn-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-3
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-2 0
+        }
+
+        .lst-kix_91xithwdszw3-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-0 1
+        }
+
+        .lst-kix_jh8oad94l2zn-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-7
+        }
+
+        ol.lst-kix_l90hhdt471tz-5.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-5 0
+        }
+
+        .lst-kix_jh8oad94l2zn-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-0
+        }
+
+        .lst-kix_pb5xe7caz2k8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_jh8oad94l2zn-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-5 0
+        }
+
+        .lst-kix_428ya8ue2a7q-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_pltnxixhavry-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-6 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-0 0
+        }
+
+        .lst-kix_ovapphg3t8uo-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-1
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-4
+        }
+
+        ul.lst-kix_ovapphg3t8uo-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_ovapphg3t8uo-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-8
+        }
+
+        ol.lst-kix_r109uyvbxeos-6.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-6 0
+        }
+
+        .lst-kix_i5yx34vs96em-5>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-5
+        }
+
+        .lst-kix_91xithwdszw3-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-2 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-4 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-4
+        }
+
+        .lst-kix_i5yx34vs96em-0>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-0
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-4
+        }
+
+        .lst-kix_bbqp7cp8bbkt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-2, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-4
+        }
+
+        .lst-kix_hv7nwkykyjeu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-0, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-7, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l90hhdt471tz-6>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-6
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-1, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-8 0
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-4, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-3, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-7 0
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hv7nwkykyjeu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_428ya8ue2a7q-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-6
+        }
+
+        ul.lst-kix_428ya8ue2a7q-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-0>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-0, decimal) ". "
+        }
+
+        .lst-kix_te5tx1818qv-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-3
+        }
+
+        .lst-kix_hv7nwkykyjeu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-3 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-6.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-6 0
+        }
+
+        .lst-kix_r109uyvbxeos-2>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-2
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-2 0
+        }
+
+        .lst-kix_fjre9nmsucqf-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_fjre9nmsucqf-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_te5tx1818qv-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_te5tx1818qv-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_fjre9nmsucqf-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-8
+        }
+
+        .lst-kix_i5yx34vs96em-7>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-7
+        }
+
+        .lst-kix_fjre9nmsucqf-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l90hhdt471tz-7>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-7
+        }
+
+        .lst-kix_fjre9nmsucqf-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_lel17yktjca4-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-7.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-7 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-1 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_p1rqzwwj4p1g-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-4 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-7.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-7 0
+        }
+
+        .lst-kix_428ya8ue2a7q-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_te5tx1818qv-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-4
+        }
+
+        ul.lst-kix_te5tx1818qv-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_te5tx1818qv-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-8
+        }
+
+        ul.lst-kix_te5tx1818qv-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_pltnxixhavry-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_m5w41owby8wq-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-0.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-0 4
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-7
+        }
+
+        .lst-kix_ovapphg3t8uo-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-6
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-4>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-4
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-3.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-3 0
+        }
+
+        .lst-kix_ovapphg3t8uo-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-2>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-2
+        }
+
+        .lst-kix_l90hhdt471tz-0>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-0, lower-latin) ". "
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_91xithwdszw3-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-6>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-6, decimal) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r109uyvbxeos-4>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-4
+        }
+
+        .lst-kix_r109uyvbxeos-2>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-2.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-2 0
+        }
+
+        .lst-kix_l90hhdt471tz-8>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-8, lower-roman) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-1
+        }
+
+        .lst-kix_m5w41owby8wq-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-3, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_l90hhdt471tz-8.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-8 0
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_hv7nwkykyjeu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-0, lower-latin) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_i5yx34vs96em-7>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-2
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-1.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-1 0
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c21 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c40 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 197.2pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c30 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 126.8pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c44 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #039be5;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 144pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c15 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #d9d2e9;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c37 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 126.8pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c33 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 197.2pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c32 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: middle;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 144pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c0 {
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c8 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Courier New";
+            font-style: normal
+        }
+
+        .c5 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c1 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Courier New";
+            font-style: normal
+        }
+
+        .c2 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c18 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 14pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c39 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c13 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c43 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c16 {
+            padding-top: 24pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c47 {
+            color: #666666;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c9 {
+            padding-top: 12pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c4 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c42 {
+            color: #404040;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 30pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c3 {
+            padding-top: 12pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c45 {
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 12pt;
+            font-style: normal
+        }
+
+        .c46 {
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 6pt;
+            font-style: normal
+        }
+
+        .c29 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            page-break-after: avoid;
+            text-align: left
+        }
+
+        .c50 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            text-align: center
+        }
+
+        .c31 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            text-align: left
+        }
+
+        .c10 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c20 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: center
+        }
+
+        .c24 {
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c49 {
+            padding-top: 32pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            text-align: left
+        }
+
+        .c41 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            text-align: center
+        }
+
+        .c28 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c48 {
+            margin-left: 72pt;
+            padding-left: 0pt
+        }
+
+        .c19 {
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c14 {
+            page-break-after: avoid;
+            height: 14pt
+        }
+
+        .c35 {
+            margin-left: 36pt;
+            padding-left: 0pt
+        }
+
+        .c25 {
+            color: #cc0000;
+            font-weight: 700
+        }
+
+        .c36 {
+            color: #000000;
+            font-family: "Proxima Nova"
+        }
+
+        .c7 {
+            font-weight: 700;
+            font-family: "Courier New"
+        }
+
+        .c27 {
+            orphans: 2;
+            widows: 2
+        }
+
+        .c34 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c11 {
+            height: 0pt
+        }
+
+        .c17 {
+            height: 11pt
+        }
+
+        .c26 {
+            font-weight: 700
+        }
+
+        .c38 {
+            page-break-after: avoid
+        }
+
+        .c12 {
+            font-style: italic
+        }
+
+        .c23 {
+            color: #9900ff
+        }
+
+        .c22 {
+            color: #a64d79
+        }
+
+        .title {
+            padding-top: 10pt;
+            color: #404040;
+            font-weight: 700;
+            font-size: 30pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 6pt;
+            color: #404040;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #039be5;
+            font-size: 18pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 14pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 8pt;
+            -webkit-text-decoration-skip: none;
+            color: #666666;
+            text-decoration: underline;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            text-decoration-skip-ink: none;
+            font-family: "Trebuchet MS";
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c28 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+    </div>
+    <div>
+        <p class="c27 c49"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
+        <p class="c31 c27"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image3.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    </div>
+    <p class="c27 c29 title" id="h.kk1966kbedef"><span>Conditionals</span></p>
+    <p class="c20 c27"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image3.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    <p class="c27 c31"><span><br></span><span>Our programs so far have run sequentially - one line after another from top to bottom. But there are ways to alter the order in which our code executes. One is with if-statements.</span></p>
+    <h1 class="c16" id="h.xwbmpa701vwm"><span>If-statements</span></h1>
+    <p class="c3"><span class="c5">We can use if-statement to control whether or not certain code runs. In an if-statement, if the condition is true then the next statement or a block of statements will execute. If the condition is false then the next statement or block of statements is skipped.</span></p>
+    <p class="c27 c41"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 278.00px; height: 300.50px;"><img alt="" src="images/image2.png" style="width: 278.00px; height: 300.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+    <p class="c4"><span class="c7">if (</span><span class="c7 c23">condition</span><span class="c1">) {</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp;</span><span class="c24 c19 c22">// Replace with code</span></p>
+    <p class="c4"><span class="c1">}</span></p>
+    <p class="c4"><span class="c24 c19 c22">// Then the program would resume the regular flow of code</span></p>
+    <p class="c4 c17"><span class="c24 c19 c22"></span></p>
+    <p class="c3"><span>What if you want to pick between two possibilities? The following flowchart demonstrates that if the condition is true, one block of statements is executed, but if the condition is false, a different block of statements inside the else clause is executed, before resuming the regular flow of code.</span></p>
+    <p class="c9"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 351.50px; height: 237.55px;"><img alt="" src="images/image5.png" style="width: 351.50px; height: 237.55px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+    <p class="c4"><span class="c7">if (</span><span class="c7 c23">condition</span><span class="c1">) {</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp;</span><span class="c19 c22">// Replace with code that would happen if the condition is true</span></p>
+    <p class="c4"><span class="c1">} else {</span></p>
+    <p class="c4"><span class="c7">&nbsp; </span><span class="c19 c22">// Replace with code that would happen if the condition is false</span></p>
+    <p class="c4"><span class="c1">}</span></p>
+    <p class="c4"><span class="c19 c22 c24">// Then the program would resume the regular flow of code</span></p>
+    <p class="c3"><span class="c5">If there are to be more than 2 possibilities, we can combine &ldquo;else&rdquo; and &ldquo;if&rdquo; to &ldquo;else if&rdquo; to create 3 or more possibilities. In this case, the computer would evaluate each condition from first to last, entering only the first condition that is true. If none are true, Java would default to &ldquo;else&rdquo;, if it is part of the structure.</span></p>
+    <p class="c9"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 461.50px; height: 328.16px;"><img alt="" src="images/image4.png" style="width: 461.50px; height: 328.16px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+    <p class="c4"><span class="c7">if (</span><span class="c7 c23">condition</span><span class="c1">) {</span></p>
+    <p class="c4"><span class="c7">&nbsp; </span><span class="c24 c19 c22">// Code given that the first if is true</span></p>
+    <p class="c4"><span class="c7">} else if (</span><span class="c7 c23">2nd condition</span><span class="c1">) {</span></p>
+    <p class="c4"><span class="c7">&nbsp; </span><span class="c19 c22">// Code given that the second if is true</span></p>
+    <p class="c4"><span class="c7">} else if (</span><span class="c7 c23">3rd condition</span><span class="c1">) {</span></p>
+    <p class="c4"><span class="c7">&nbsp; </span><span class="c19 c22">// Code given that the third if is true</span></p>
+    <p class="c4"><span class="c7">} </span><span class="c24 c19 c22">// You can have as many else ifs as you want</span></p>
+    <p class="c3"><span class="c5">Recall from 1-way if-statements that an if-statement does NOT require an &ldquo;else&rdquo; portion.</span></p>
+    <p class="c3"><span>If you include one though, it&rsquo;ll always be the last block.</span></p><a id="t.275cd44320321af446cec971b194d82fd458afaa"></a><a id="t.0"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">import java.util.Scanner;</span></p>
+                <p class="c4"><span class="c8">public class Main {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; System.out.print(&quot;Input your name: &quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; String name = sc.nextLine().toLowerCase();</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; if (name.contains(&quot;w&quot;)) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;8% of American names contain a w&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; System.out.println(&quot;Cool name!&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c16" id="h.2d2tywzdblqk"><span>Conditions</span></h1>
+    <p class="c31 c27"><span>When writing if-statements, we need to be able to write a condition that can either be &ldquo;true&rdquo; or &ldquo;false&rdquo;. These types of statements are called &ldquo;</span><span class="c26">boolean expressions</span><span class="c5">&rdquo;.<br></span></p><a id="t.0fc885fa7d25483581e5e54db199bacee15d701d"></a><a id="t.1"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c30" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Operation</span></p>
+            </td>
+            <td class="c40" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">What is it?</span></p>
+            </td>
+            <td class="c44" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Example</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c37" colspan="1" rowspan="1">
+                <p class="c6"><span class="c8">==</span></p>
+            </td>
+            <td class="c33" colspan="1" rowspan="1">
+                <p class="c6"><span class="c5">Tests if two things are equal</span></p>
+            </td>
+            <td class="c32" colspan="1" rowspan="1">
+                <p class="c6"><span class="c19">var1 == 4</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c37" colspan="1" rowspan="1">
+                <p class="c6"><span class="c8">!=</span></p>
+            </td>
+            <td class="c33" colspan="1" rowspan="1">
+                <p class="c6"><span class="c5">Tests if two things are not equal</span></p>
+            </td>
+            <td class="c32" colspan="1" rowspan="1">
+                <p class="c6"><span class="c19">var1 != 4</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c37" colspan="1" rowspan="1">
+                <p class="c6"><span class="c19">&gt; </span><span>and</span><span class="c8">&nbsp;&lt;</span></p>
+            </td>
+            <td class="c33" colspan="1" rowspan="1">
+                <p class="c6"><span class="c5">Tests if one is greater or less than</span></p>
+            </td>
+            <td class="c32" colspan="1" rowspan="1">
+                <p class="c6"><span class="c19">var1 &lt; 4</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c37" colspan="1" rowspan="1">
+                <p class="c6"><span class="c19">&gt;= </span><span>and</span><span class="c8">&nbsp;&lt;=</span></p>
+            </td>
+            <td class="c33" colspan="1" rowspan="1">
+                <p class="c6"><span class="c5">Tests if one is greater than or equal to, or less than or equal to</span></p>
+            </td>
+            <td class="c32" colspan="1" rowspan="1">
+                <p class="c6"><span class="c8">var1 &gt;= 4</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c3"><span class="c25">Remember:</span><span>&nbsp;One = sign changes the value of a variable. Two == equal signs are used to test if a variable holds a certain value, without changing its value!</span></p><a id="t.b8eada22644d5400657f1934e6959410a35942c0"></a><a id="t.2"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">Scanner sc = new Scanner(System.in);</span></p>
+                <p class="c4 c17"><span class="c8"></span></p>
+                <p class="c4"><span class="c8">System.out.print(&quot;Input a number: &quot;);</span></p>
+                <p class="c4"><span class="c8">int num = sc.nextInt();</span></p>
+                <p class="c4 c17"><span class="c8"></span></p>
+                <p class="c4"><span class="c8">if (num &gt; 10) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;Too high!&quot;);</span></p>
+                <p class="c4"><span class="c8">} else if (num &lt; 10) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;Too low!&quot;);</span></p>
+                <p class="c4"><span class="c8">} else { </span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;Yes, that&#39;s right!&quot;);</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <h2 class="c13" id="h.dvid6h437wve"><span class="c18"><br>Comparing Strings</span></h2>
+    <p class="c31 c27"><span class="c5">When you use the == comparison operator with Strings, the code may not behave how you&rsquo;d expect. For instance:</span></p><a id="t.a9693e00dee59ff1d1d0f45726ebd17072d7dc4d"></a><a id="t.3"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">Scanner sc = new Scanner(System.in);</span></p>
+                <p class="c4 c17"><span class="c8"></span></p>
+                <p class="c4"><span class="c19">String userInput = sc.nextLine(); </span><span class="c24 c19 c22">// Assume the user inputs &quot;hello&quot;</span></p>
+                <p class="c4 c17"><span class="c8"></span></p>
+                <p class="c4"><span class="c8">if (userInput == &quot;hello&quot;) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;equal!&quot;);</span></p>
+                <p class="c4"><span class="c8">} else {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;not equal!&quot;);</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c15" colspan="1" rowspan="1">
+                <p class="c20"><span class="c8">not equal!</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c31 c27"><span>&ldquo;not equal&rdquo; will always be printed in this scenario. This is because of the way variables and data are stored. The </span><span class="c19">userInput</span><span class="c5">&nbsp;variable is pointing not to the actual, literal String &ldquo;hello&rdquo;, but the place in memory where the String &ldquo;hello&rdquo; has been stored by your program.</span></p>
+    <p class="c31 c27"><span>So when you compare the variable </span><span class="c19">userInput</span><span class="c5">, which is pointing to a memory address, to the actual String &ldquo;hello&rdquo;, it will always say they are not equal. You&rsquo;re comparing apples to oranges.</span></p>
+    <p class="c31 c27"><span>Therefore, with Strings, you will almost always want to use the </span><span class="c19">equals()</span><span class="c5">&nbsp;method to compare Strings, which will compare the String that is stored at the memory address, rather than the memory address itself.</span></p>
+    <h1 class="c16" id="h.5gma2it775h"><span class="c43">Switch-statements</span></h1>
+    <p class="c31 c27"><span class="c5">If you&rsquo;re just testing for equality, a switch-statement could be used in place of an if-statement. A switch statement will test equality for a given variable, and will perform defined code depending on what the variable is equal to.</span></p>
+    <p class="c4 c17"><span class="c1"></span></p>
+    <p class="c4"><span class="c7">switch (</span><span class="c7 c23">variable</span><span class="c1">) {</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp;case </span><span class="c7 c23">value1</span><span class="c1">:</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; </span><span class="c24 c19 c22">// Replace with code that would happen if variable == value1</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; break;</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp;case </span><span class="c7 c23">value2, value3</span><span class="c1">:</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; </span><span class="c24 c19 c22">// Replace with code that would happen if variable == value2 </span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; </span><span class="c24 c19 c22">// OR if variable == value3 </span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; </span><span class="c24 c19 c22">// As many cases as you need could be added</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; break;</span></p>
+    <p class="c4"><span class="c1">&nbsp; &nbsp;default:</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; </span><span class="c24 c19 c22">// Replace with code that would happen if no cases are true</span></p>
+    <p class="c4"><span class="c7">&nbsp; &nbsp; &nbsp; </span><span class="c24 c19 c22">// default is optional to include</span></p>
+    <p class="c4"><span class="c1">}</span></p>
+    <p class="c4"><span class="c24 c19 c22">// Then the program would resume the regular flow of code</span></p>
+    <p class="c31 c27"><span class="c5">Things to keep in mind when using switch-statements:</span></p>
+    <ul class="c34 lst-kix_fjre9nmsucqf-0 start">
+        <li class="c31 c27 c35 li-bullet-0"><span>The </span><span class="c19">break</span><span class="c5">&nbsp;statements are not required, but if they are not included, ALL cases after the true case will evaluate</span></li>
+        <li class="c31 c35 c27 li-bullet-0"><span>The case values, like </span><span class="c7 c23">value1</span><span>&nbsp;and </span><span class="c7 c23">value2</span><span>, and </span><span class="c7 c23">value3</span><span>, must be constant values and </span><span class="c24 c26 c36">not variables</span></li>
+        <li class="c31 c35 c27 li-bullet-0"><span class="c5">Each of the case values must be unique, or else the code will not compile</span></li>
+        <li class="c31 c35 c27 li-bullet-0"><span class="c5">Switch statements can only use byte, short, int, long, String, and enum types</span></li>
+    </ul>
+    <ul class="c34 lst-kix_fjre9nmsucqf-1 start">
+        <li class="c31 c27 c48 li-bullet-0"><span class="c5">No float or double allowed</span></li>
+    </ul>
+    <ul class="c34 lst-kix_fjre9nmsucqf-0">
+        <li class="c31 c35 c27 li-bullet-0"><span>Switch-statements will automatically compare String values as if it were using the </span><span class="c19">equals()</span><span class="c5">&nbsp;method<br><br></span></li>
+    </ul><a id="t.ab52c5d3e7069c5f6001d1ad7a0b08f48df8ec4f"></a><a id="t.4"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">String day = &quot;Friday&quot;;</span></p>
+                <p class="c4"><span class="c8">switch (day) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;case &quot;Monday&quot;:</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; System.out.println(&quot;Start of the week!&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; break;</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;case &quot;Saturday&quot;:</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; System.out.println(&quot;The weekend begins!&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; break;</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;default:</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; System.out.println(&quot;Just another day...&quot;);</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c16" id="h.m2xeiqcssmd8"><span>Logic Operators</span></h1>
+    <h2 class="c3 c38" id="h.w10cz6ru19up"><span class="c18">&amp;&amp; (And Operator)</span></h2>
+    <p class="c3"><span>Use </span><span class="c19">&amp;&amp;</span><span>&nbsp;as a logical </span><span class="c26">and</span><span>&nbsp;to join two boolean expressions and your if-statement code will only be executed only if </span><span class="c26">both</span><span>&nbsp;are true.<br>What if you want to go out and your parents say you can go out if you clean your room </span><span class="c26">and</span><span class="c5">&nbsp;do your homework?</span></p><a id="t.341f29557127b60d07c33c9e2658db70c770cbed"></a><a id="t.5"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">public class Main {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; boolean cleanedRoom = true;</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; boolean didHomework = false;</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; </span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; if (cleanedRoom &amp;&amp; didHomework) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;You can go out&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; } else {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;Sucks to suck&quot;); }</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;}</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c15" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">Sucks to suck</span></p>
+            </td>
+        </tr>
+    </table>
+    <h2 class="c3 c14" id="h.9bb6ch3ej4z6"><span class="c36 c45"></span></h2>
+    <h2 class="c3 c38" id="h.pdngbohajk8"><span class="c18">|| (Or Operator)</span></h2>
+    <p class="c3"><span>In English, we often use an exclusive-or like in the sentence &ldquo;do you want to be player 1 </span><span class="c12">or</span><span>&nbsp;player 2?&rdquo;, where you can&rsquo;t be both player 1 </span><span class="c12">and</span><span>&nbsp;player 2. In programming, the or-operator is an inclusive-or which means that the whole expression is true if </span><span class="c26">either</span><span>&nbsp;one or the other or both conditions are true.<br><br>Maybe your parents might say you can go out if you can walk </span><span class="c26">or</span><span class="c5">&nbsp;they don&rsquo;t need the car.</span></p><a id="t.dff84c3b2b78e7d37aff38eeaee21decfd4cba8f"></a><a id="t.6"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">public class Main {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; boolean walking = false;</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; boolean carIsAvailable = false;</span></p>
+                <p class="c4 c17"><span class="c8"></span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; if (walking || carIsAvailable) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;You can go out&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; } else {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;womp womp&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c15" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">womp womp</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c3"><span><br>With numerical values, the </span><span class="c26">or (||)</span><span>&nbsp;operator is often used to check for error conditions on different ends of the number line, while the </span><span class="c26">and (&amp;&amp;)</span><span class="c5">&nbsp;operator is often used to see if a number is within a range.</span></p><a id="t.f3ae319497f4cd7e9c2a03a9a17f631e645fe68f"></a><a id="t.7"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">int score = 10;</span></p>
+                <p class="c4"><span class="c24 c19 c22">// Checking if the score IS NOT within valid bounds of 0 to 100</span></p>
+                <p class="c4"><span class="c8">if (score &lt; 0 || score &gt; 100) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;Score has an invalid value.&quot;);</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+                <p class="c4"><span class="c19 c22">// Checking if the score IS within valid bounds of 0 to 100</span></p>
+                <p class="c4"><span class="c8">if (score &gt;= 0 &amp;&amp; score &lt;= 100) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;Score is in the range 0-100&quot;);</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <h2 class="c3 c14" id="h.844pxle3xgpe"><span class="c18"></span></h2>
+    <h2 class="c3 c38" id="h.1kg0zpushvp1"><span class="c18">! (Not Operator)</span></h2>
+    <p class="c3"><span>The </span><span class="c26">not (!)</span><span>&nbsp;operator can be used to negate a boolean value. We&rsquo;ve seen </span><span class="c19">!</span><span>&nbsp;before in </span><span class="c19">!=</span><span>&nbsp;(not equal). If you use </span><span class="c19">!</span><span>&nbsp;in expressions with </span><span class="c19">&amp;&amp;</span><span>&nbsp;and </span><span class="c19">||,</span><span class="c5">&nbsp;be careful because the results are often the opposite of what you think it will be at first.</span></p>
+    <p class="c3"><span>The code below says if homework is </span><span class="c26">not</span><span class="c5">&nbsp;done, you can&rsquo;t have fun. </span></p><a id="t.6177bbec57789b1d9838f7c94992a05c333ba7f8"></a><a id="t.8"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">public class Main {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; boolean homeworkDone = false;</span></p>
+                <p class="c4 c17"><span class="c8"></span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; if (!homeworkDone) {</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;Sorry, no fun for you!!&quot;);</span></p>
+                <p class="c4"><span class="c8">&nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c4"><span class="c8">}</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c15" colspan="1" rowspan="1">
+                <p class="c4"><span class="c8">Sorry, no fun for you!</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c3"><span><br></span><span class="c25">NOTE: </span><span>In Java, </span><span class="c19">!</span><span>&nbsp;will be executed before </span><span class="c19">&amp;&amp;,</span><span>&nbsp;and </span><span class="c19">&amp;&amp;</span><span>&nbsp;will be executed before </span><span class="c19">||,</span><span class="c5">&nbsp;unless there are parentheses. Anything inside parentheses is executed first.</span></p>
+    <h1 class="c16" id="h.ofiqmqsi3psv"><span class="c43">Nested If-Statements</span></h1>
+    <p class="c3"><span class="c5">We can put if-statements within if-statements. These are called nested if-statements.</span></p>
+    <p class="c3"><span class="c5">For example, the code below checks if there is an &ldquo;a&rdquo; and an &ldquo;e&rdquo; using nested if-statements.</span></p><a id="t.3d2d833259964e1c6cb9cc9d9ee0aaa6ee22ce2b"></a><a id="t.9"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c20"><span class="c8">public class Main {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; String word = &quot;pear&quot;;</span></p>
+                <p class="c20 c17"><span class="c8"></span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; if (word.contains(&quot;a&quot;)) {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if (word.contains(&quot;e&quot;)) {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Lots of vowels!&quot;);</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp;}</span></p>
+                <p class="c20"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c3"><span><br>But with a </span><span class="c19">&amp;&amp;</span><span class="c5">, the code below could achieve the same goal:</span></p><a id="t.30ab7262c5e4c15dc3dc84e29f5eeedd9230abfe"></a><a id="t.10"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c20"><span class="c8">String word = &quot;pear&quot;;</span></p>
+                <p class="c20 c17"><span class="c8"></span></p>
+                <p class="c20"><span class="c8">if (word.contains(&quot;a&quot;) &amp;&amp; word.contains(&quot;e&quot;)) {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;Lots of vowels!&quot;);</span></p>
+                <p class="c20"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c3"><span><br>So why would you use a nested if-statement over the </span><span class="c19">&amp;&amp;</span><span class="c5">&nbsp;operator? Well, there may be code you&rsquo;d like to execute between checks. For example:</span></p><a id="t.b18af9e3dbfb99de45519b92a744d9c1206d7730"></a><a id="t.11"></a>
+    <table class="c10">
+        <tr class="c11">
+            <td class="c21" colspan="1" rowspan="1">
+                <p class="c20"><span class="c8">String word = &quot;pear&quot;;</span></p>
+                <p class="c20"><span class="c8">if (word.contains(&quot;a&quot;)) {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp;System.out.println(&quot;The letter \&quot;a\&quot; is pretty common.&quot;);</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; if (word.contains(&quot;e&quot;)) {</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;There&#39;s also \&quot;e\&quot;? Lots of vowels!&quot;);</span></p>
+                <p class="c20"><span class="c8">&nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c20"><span class="c8">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c3 c17"><span class="c36 c46"></span></p>
+    <div>
+        <p class="c27 c50"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 43.00px;"><img alt="" src="images/image1.png" style="width: 817.00px; height: 43.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="footer"></span></p>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+        <a class="button" href="https://docs.google.com/document/d/1PHU0YGL-IDX63uRaTCipDGp5NyWRAdX7Dcju77mMNz8/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+</body>
+
+</html>

@@ -1,0 +1,897 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Flow Structures</title>
+    <meta name="description" content="Second Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+
+		<script defer src="../../../js/script.js"></script>
+    <style type="text/css">
+        .lst-kix_63bcepos0x8f-6>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-6
+        }
+
+        ol.lst-kix_63bcepos0x8f-1.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-1 0
+        }
+
+        ol.lst-kix_63bcepos0x8f-7.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-7 0
+        }
+
+        .lst-kix_5jxn7mfjzub2-6>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-6
+        }
+
+        ol.lst-kix_63bcepos0x8f-4.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-4 0
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-0.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-0 0
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-8.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-8 0
+        }
+
+        .lst-kix_63bcepos0x8f-7>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-7
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-5.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-5 0
+        }
+
+        .lst-kix_63bcepos0x8f-5>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-5
+        }
+
+        .lst-kix_5jxn7mfjzub2-7>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-7
+        }
+
+        .lst-kix_5jxn7mfjzub2-4>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-4
+        }
+
+        ol.lst-kix_63bcepos0x8f-6.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-6 0
+        }
+
+        .lst-kix_63bcepos0x8f-8>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-8
+        }
+
+        .lst-kix_63bcepos0x8f-4>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-4
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-3.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-3 0
+        }
+
+        .lst-kix_5jxn7mfjzub2-5>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-5
+        }
+
+        .lst-kix_5jxn7mfjzub2-8>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-8
+        }
+
+        ol.lst-kix_63bcepos0x8f-0.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-0 0
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_5jxn7mfjzub2-2>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-2
+        }
+
+        .lst-kix_oe3pnym4f407-6>li:before {
+            content: "-  "
+        }
+
+        ul.lst-kix_l3p0e9vd1xmf-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_oe3pnym4f407-7>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_oe3pnym4f407-8>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-4.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-4 0
+        }
+
+        ul.lst-kix_oe3pnym4f407-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_oe3pnym4f407-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_63bcepos0x8f-2>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-2, lower-roman) ". "
+        }
+
+        .lst-kix_63bcepos0x8f-3>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-3, decimal) ". "
+        }
+
+        ul.lst-kix_oe3pnym4f407-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_oe3pnym4f407-0>li:before {
+            content: "-  "
+        }
+
+        ul.lst-kix_oe3pnym4f407-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_oe3pnym4f407-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_63bcepos0x8f-1>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-1, lower-latin) ". "
+        }
+
+        .lst-kix_63bcepos0x8f-5>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_oe3pnym4f407-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_oe3pnym4f407-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_63bcepos0x8f-4>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-4, lower-latin) ". "
+        }
+
+        .lst-kix_63bcepos0x8f-0>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-0
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_oe3pnym4f407-5>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_oe3pnym4f407-4>li:before {
+            content: "-  "
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_5jxn7mfjzub2-0>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-0
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_oe3pnym4f407-2>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_63bcepos0x8f-1>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-1
+        }
+
+        .lst-kix_oe3pnym4f407-1>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_oe3pnym4f407-3>li:before {
+            content: "-  "
+        }
+
+        .lst-kix_63bcepos0x8f-0>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-0, decimal) ". "
+        }
+
+        ol.lst-kix_63bcepos0x8f-5.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-5 0
+        }
+
+        .lst-kix_63bcepos0x8f-2>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-2
+        }
+
+        ul.lst-kix_oe3pnym4f407-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_oe3pnym4f407-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_5jxn7mfjzub2-1>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-1
+        }
+
+        ol.lst-kix_63bcepos0x8f-8.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-8 0
+        }
+
+        .lst-kix_l3p0e9vd1xmf-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_63bcepos0x8f-3>li {
+            counter-increment: lst-ctn-kix_63bcepos0x8f-3
+        }
+
+        .lst-kix_l3p0e9vd1xmf-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-2.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-2 0
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-6.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-6 0
+        }
+
+        ol.lst-kix_63bcepos0x8f-2.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-2 0
+        }
+
+        ol.lst-kix_63bcepos0x8f-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_63bcepos0x8f-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_63bcepos0x8f-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_63bcepos0x8f-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_5jxn7mfjzub2-3>li {
+            counter-increment: lst-ctn-kix_5jxn7mfjzub2-3
+        }
+
+        .lst-kix_5jxn7mfjzub2-0>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-0, decimal) ". "
+        }
+
+        .lst-kix_5jxn7mfjzub2-1>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_63bcepos0x8f-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_63bcepos0x8f-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_63bcepos0x8f-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_63bcepos0x8f-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_5jxn7mfjzub2-2>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-2, lower-roman) ". "
+        }
+
+        .lst-kix_5jxn7mfjzub2-3>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-3, decimal) ". "
+        }
+
+        ol.lst-kix_63bcepos0x8f-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_5jxn7mfjzub2-6>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-6, decimal) ". "
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-1.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-1 0
+        }
+
+        ol.lst-kix_63bcepos0x8f-3.start {
+            counter-reset: lst-ctn-kix_63bcepos0x8f-3 0
+        }
+
+        .lst-kix_5jxn7mfjzub2-4>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-4, lower-latin) ". "
+        }
+
+        .lst-kix_5jxn7mfjzub2-8>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-8, lower-roman) ". "
+        }
+
+        .lst-kix_5jxn7mfjzub2-5>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_5jxn7mfjzub2-7.start {
+            counter-reset: lst-ctn-kix_5jxn7mfjzub2-7 0
+        }
+
+        .lst-kix_63bcepos0x8f-6>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-6, decimal) ". "
+        }
+
+        .lst-kix_63bcepos0x8f-7>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-7, lower-latin) ". "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_l3p0e9vd1xmf-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_63bcepos0x8f-8>li:before {
+            content: "" counter(lst-ctn-kix_63bcepos0x8f-8, lower-roman) ". "
+        }
+
+        .lst-kix_5jxn7mfjzub2-7>li:before {
+            content: "" counter(lst-ctn-kix_5jxn7mfjzub2-7, lower-latin) ". "
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c5 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 270pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c17 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: italic
+        }
+
+        .c3 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 26pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c13 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c7 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c2 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Courier New";
+            font-style: normal
+        }
+
+        .c1 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c9 {
+            margin-left: auto;
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c16 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c4 {
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c15 {
+            margin-right: 252pt
+        }
+
+        .c11 {
+            height: 0pt
+        }
+
+        .c12 {
+            vertical-align: super
+        }
+
+        .c10 {
+            height: 61.4pt
+        }
+
+        .c14 {
+            font-weight: 700
+        }
+
+        .c8 {
+            font-size: 12pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c16 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+      </div>
+    <p class="c13 c15"><span class="c7"></span></p><a id="t.6ca3769da6c6f0df06da5639694745b286406656"></a><a id="t.0"></a>
+    <table class="c9">
+        <tr class="c11">
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Problem</span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Examples</span></p>
+            </td>
+        </tr>
+        <tr class="c10">
+            <td class="c5" colspan="1" rowspan="2">
+                <p class="c6"><span class="c0">Rectangular Box</span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span>Write a program that prompts the user for two ints, a </span><span class="c4">width </span><span>and a </span><span class="c4">height</span><span class="c7">, and then prints the border of an unfilled box with the given dimensions, using asterisks (*).</span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="2">
+                <p class="c6"><span class="c2">width = 5, height = 4</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">* * * * *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; &nbsp; &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; &nbsp; &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* * * * *</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">width = 3, height = 7</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">* * *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* &nbsp; *</span></p>
+                <p class="c6"><span class="c2">* * *</span></p>
+            </td>
+        </tr>
+        <tr class="c10"></tr>
+        <tr class="c11">
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Triangular Numbers</span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span>Write a program that prompts the user for int </span><span class="c4">n</span><span>, and prints out the </span><span class="c4">n</span><span class="c12">th</span><span>&nbsp;triangle number, where a triangular number is the sum of all positive integers between 1 and </span><span class="c4">n</span><span class="c7">, inclusive. </span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span class="c17">Bonus: Find an alternate way to do this without a loop.</span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c4">n = 3 </span><span class="c4 c8">&rarr;</span><span class="c2">&nbsp;6</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c4">n = 5 </span><span class="c4 c8">&rarr;</span><span class="c2">&nbsp;15</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c4">n = 10 </span><span class="c4 c8">&rarr;</span><span class="c2">&nbsp;55</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c4">n = 21 </span><span class="c4 c8">&rarr; </span><span class="c2">231</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c4">n = 532 </span><span class="c4 c8">&rarr; </span><span class="c2">141778</span></p>
+                <p class="c1"><span class="c2"></span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Factors</span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span>Write a program that prompts the user for positive integer </span><span class="c4">n</span><span class="c7">, and prints out a list of all of the factors of that number. </span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c2">n = 27</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">1, 3, 9, 27</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">n = 32</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">1, 2, 4, 8, 16, 32</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">n = 53</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">1, 53</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Prime Numbers</span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span>Write a program that prompts the user for positive integer </span><span class="c4">n</span><span>, and prints out a list of all of the prime numbers up to and including </span><span class="c4">n</span><span class="c7">.</span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span class="c17">Bonus: there are many solutions to this problem. Once you have a basic working algorithm, consider optimizations you might be able to make. Checking </span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c2">n = 100</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 </span></p>
+                <p class="c6"><span class="c2">97</span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c14">Anagrams</span></p>
+                <p class="c1"><span class="c7"></span></p>
+                <p class="c6"><span>Write a program that prompts the user for two strings, and prints &quot;True&quot; if they are anagrams of one another, or &quot;False&quot; otherwise. Your program should ignore case.</span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c2">evil, vile &rarr; True</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">cheater, teacher &rarr; True</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">python, java &rarr; False </span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">train, brain &rarr; False</span></p>
+                <p class="c1"><span class="c2"></span></p>
+            </td>
+        </tr>
+        <tr class="c11">
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c0">Palindromes</span></p>
+                <p class="c1"><span class="c0"></span></p>
+                <p class="c6"><span class="c7">Write a program that prompts the user for a string, and prints &quot;True&quot; if the string is a palindrome, and &quot;False&quot; otherwise.</span></p>
+            </td>
+            <td class="c5" colspan="1" rowspan="1">
+                <p class="c6"><span class="c4">rotator </span><span class="c2">&rarr; True</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">cinnamon &rarr; False</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">deified &rarr; True</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c6"><span class="c2">racecar &rarr; True</span></p>
+                <p class="c1"><span class="c2"></span></p>
+                <p class="c1"><span class="c2"></span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c13"><span class="c7"></span></p>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+
+        <a class="button" href="https://docs.google.com/document/d/132VCNF4SDAxSi9ZRKr9h-5Le7B-jiqjKDCG_o3Jbh-M/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+</body>
+
+</html>

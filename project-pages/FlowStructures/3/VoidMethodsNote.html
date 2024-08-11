@@ -1,0 +1,3580 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="icon" href="../assets/images/1311.png" />
+     <title>Flow Structures</title>
+    <meta name="description" content="Second Chapter of ICS4U">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/typography.css">
+    <link rel="stylesheet" href="../../../css/utilities.css">
+
+		<script defer src="../../../js/script.js"></script>
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A);
+
+        .lst-kix_z9ypi1c9ifj3-2>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-2, lower-roman) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-1, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-3, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-5
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-2
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-7, lower-latin) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-0, decimal) ". "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-8, lower-roman) ". "
+        }
+
+        .lst-kix_r6kx37hmbdo8-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l90hhdt471tz-4>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-4
+        }
+
+        .lst-kix_r6kx37hmbdo8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r6kx37hmbdo8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li:before {
+            content: "" counter(lst-ctn-kix_z9ypi1c9ifj3-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r6kx37hmbdo8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_71tx4o9juzo2-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_71tx4o9juzo2-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-5 0
+        }
+
+        .lst-kix_40jbkv9xmssj-5>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-5
+        }
+
+        ul.lst-kix_le0h346em95v-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_fjre9nmsucqf-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-4, lower-latin) ". "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_r6kx37hmbdo8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_r6kx37hmbdo8-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_fjre9nmsucqf-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-6, decimal) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-8, lower-roman) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-7, lower-latin) ". "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_xxeu1qxpdltt-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-6 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_le0h346em95v-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-2
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-1 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-3 0
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_bbqp7cp8bbkt-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_hn53vb3ocyre-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_hn53vb3ocyre-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hn53vb3ocyre-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_hn53vb3ocyre-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-8 0
+        }
+
+        .lst-kix_hn53vb3ocyre-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-5.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-5 0
+        }
+
+        .lst-kix_hn53vb3ocyre-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-2>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-8>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-8
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-3
+        }
+
+        .lst-kix_z9ypi1c9ifj3-6>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-6
+        }
+
+        .lst-kix_hn53vb3ocyre-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-4 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li:before {
+            content: "" counter(lst-ctn-kix_ti40x3gm2qz5-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-5.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-5 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-0 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-6>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-6
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-3.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-3 0
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-8 0
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_p1rqzwwj4p1g-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-5 0
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-2>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-2
+        }
+
+        .lst-kix_r109uyvbxeos-7>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-7
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-6
+        }
+
+        ul.lst-kix_pltnxixhavry-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pltnxixhavry-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pltnxixhavry-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-6>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-6
+        }
+
+        .lst-kix_m5w41owby8wq-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_pltnxixhavry-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-3>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-3
+        }
+
+        ul.lst-kix_pltnxixhavry-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-5>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-3>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-3, decimal) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-7>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-8.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-8 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_vbwtcx7rz8af-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-1, lower-latin) ". "
+        }
+
+        .lst-kix_ti40x3gm2qz5-5>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-5
+        }
+
+        .lst-kix_r109uyvbxeos-7>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-5.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-5 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-5>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-3>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-3, decimal) ". "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-7 0
+        }
+
+        .lst-kix_r109uyvbxeos-1>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-1, lower-latin) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-2>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-2, lower-roman) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_m5w41owby8wq-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-3 0
+        }
+
+        .lst-kix_i5yx34vs96em-6>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-6
+        }
+
+        ol.lst-kix_r109uyvbxeos-8.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-8 0
+        }
+
+        .lst-kix_l90hhdt471tz-0>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-8>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-8, lower-roman) ". "
+        }
+
+        ul.lst-kix_hn53vb3ocyre-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-6>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-6, decimal) ". "
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_pb5xe7caz2k8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hn53vb3ocyre-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-8.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-8 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-1 0
+        }
+
+        ul.lst-kix_hn53vb3ocyre-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-2.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-2 0
+        }
+
+        .lst-kix_le0h346em95v-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-1.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-1 0
+        }
+
+        .lst-kix_le0h346em95v-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-1>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-1 0
+        }
+
+        .lst-kix_le0h346em95v-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-1.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-1 0
+        }
+
+        .lst-kix_te5tx1818qv-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-7.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-7 0
+        }
+
+        .lst-kix_le0h346em95v-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_hv7nwkykyjeu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_40jbkv9xmssj-8>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-8
+        }
+
+        ul.lst-kix_m5w41owby8wq-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_v8xs2tkb14vu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-7>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-7
+        }
+
+        .lst-kix_l90hhdt471tz-5>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-5
+        }
+
+        .lst-kix_hv7nwkykyjeu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_m5w41owby8wq-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_r109uyvbxeos-0>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-0
+        }
+
+        ul.lst-kix_m5w41owby8wq-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_wdf64lki3c2j-4.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-4 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-7.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-7 0
+        }
+
+        .lst-kix_v8xs2tkb14vu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-1
+        }
+
+        ul.lst-kix_m5w41owby8wq-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-8 0
+        }
+
+        ul.lst-kix_m5w41owby8wq-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-6 0
+        }
+
+        .lst-kix_fjre9nmsucqf-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_fjre9nmsucqf-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_40jbkv9xmssj-1>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-1, lower-latin) ". "
+        }
+
+        .lst-kix_fjre9nmsucqf-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-5
+        }
+
+        ul.lst-kix_91xithwdszw3-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-1>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-1
+        }
+
+        .lst-kix_xxeu1qxpdltt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_91xithwdszw3-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-5>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-5, lower-roman) ". "
+        }
+
+        .lst-kix_xxeu1qxpdltt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_40jbkv9xmssj-6>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-6, decimal) ". "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-6.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-2
+        }
+
+        .lst-kix_fjre9nmsucqf-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-3
+        }
+
+        .lst-kix_v8xs2tkb14vu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_91xithwdszw3-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_91xithwdszw3-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_lel17yktjca4-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_lel17yktjca4-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_91xithwdszw3-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-0>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-0
+        }
+
+        ul.lst-kix_91xithwdszw3-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-2>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-8.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-8 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-3>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-3
+        }
+
+        .lst-kix_p1rqzwwj4p1g-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_vbwtcx7rz8af-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-2.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-2 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-1.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-1 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-7 0
+        }
+
+        .lst-kix_40jbkv9xmssj-6>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-6
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-7.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-7 0
+        }
+
+        .lst-kix_p1rqzwwj4p1g-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ovapphg3t8uo-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_428ya8ue2a7q-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-3.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-3 0
+        }
+
+        .lst-kix_m5w41owby8wq-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-7
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-0
+        }
+
+        .lst-kix_ovapphg3t8uo-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_40jbkv9xmssj-1>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-1
+        }
+
+        .lst-kix_m5w41owby8wq-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-0.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-0 4
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-3.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-3 0
+        }
+
+        .lst-kix_lel17yktjca4-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-6.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-6 0
+        }
+
+        .lst-kix_l90hhdt471tz-6>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-6, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-0.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-0 0
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-3.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-3 0
+        }
+
+        .lst-kix_ti40x3gm2qz5-8>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-8
+        }
+
+        .lst-kix_r109uyvbxeos-5>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-5
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-0 0
+        }
+
+        .lst-kix_l90hhdt471tz-2>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-2, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-8
+        }
+
+        .lst-kix_r109uyvbxeos-4>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-4, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-8, lower-roman) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-5>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-5
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-2.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-2 0
+        }
+
+        .lst-kix_r109uyvbxeos-0>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-0, decimal) ". "
+        }
+
+        .lst-kix_71tx4o9juzo2-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_71tx4o9juzo2-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_wdf64lki3c2j-5.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-5 0
+        }
+
+        .lst-kix_i5yx34vs96em-1>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-1, lower-latin) ". "
+        }
+
+        .lst-kix_m5w41owby8wq-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-3
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-2 0
+        }
+
+        .lst-kix_hv7nwkykyjeu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-6>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-7
+        }
+
+        .lst-kix_i5yx34vs96em-5>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-5, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-7>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-7, lower-latin) ". "
+        }
+
+        .lst-kix_l90hhdt471tz-3>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-3
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-2, lower-roman) ". "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-4.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-4 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-6.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-3, decimal) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-4.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-4 0
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-0, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-1, lower-latin) ". "
+        }
+
+        .lst-kix_r109uyvbxeos-1>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-1
+        }
+
+        .lst-kix_z9ypi1c9ifj3-8>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-8
+        }
+
+        ol.lst-kix_l90hhdt471tz-0.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-0 0
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-3, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-2>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-2, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-4, lower-latin) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-7>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-7.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-7 0
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-5.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-5 0
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-6, decimal) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-8, lower-roman) ". "
+        }
+
+        .lst-kix_8vsi0wpbee47-5>li:before {
+            content: "" counter(lst-ctn-kix_8vsi0wpbee47-5, lower-roman) ". "
+        }
+
+        .lst-kix_40jbkv9xmssj-7>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-7
+        }
+
+        ol.lst-kix_c7aq0g78wdwq-4.start {
+            counter-reset: lst-ctn-kix_c7aq0g78wdwq-4 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-4.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-4 0
+        }
+
+        .lst-kix_pb5xe7caz2k8-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_l90hhdt471tz-2>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-2
+        }
+
+        .lst-kix_pb5xe7caz2k8-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-0>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-0
+        }
+
+        ol.lst-kix_40jbkv9xmssj-4.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-4 0
+        }
+
+        .lst-kix_i5yx34vs96em-8>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-8
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-3 0
+        }
+
+        .lst-kix_91xithwdszw3-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_91xithwdszw3-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_91xithwdszw3-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_91xithwdszw3-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_i5yx34vs96em-1>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-1
+        }
+
+        .lst-kix_jh8oad94l2zn-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-3>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-3
+        }
+
+        ol.lst-kix_wdf64lki3c2j-2.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-2 0
+        }
+
+        .lst-kix_91xithwdszw3-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_ti40x3gm2qz5-0.start {
+            counter-reset: lst-ctn-kix_ti40x3gm2qz5-0 1
+        }
+
+        .lst-kix_jh8oad94l2zn-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-7
+        }
+
+        ol.lst-kix_l90hhdt471tz-5.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-5 0
+        }
+
+        .lst-kix_jh8oad94l2zn-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-0>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-0
+        }
+
+        .lst-kix_pb5xe7caz2k8-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_pb5xe7caz2k8-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_jh8oad94l2zn-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_40jbkv9xmssj-3>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-3
+        }
+
+        .lst-kix_jh8oad94l2zn-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_jh8oad94l2zn-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_pltnxixhavry-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_428ya8ue2a7q-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_pltnxixhavry-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-5 0
+        }
+
+        .lst-kix_428ya8ue2a7q-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_pltnxixhavry-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-6 0
+        }
+
+        ol.lst-kix_wdf64lki3c2j-0.start {
+            counter-reset: lst-ctn-kix_wdf64lki3c2j-0 0
+        }
+
+        .lst-kix_ovapphg3t8uo-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ovapphg3t8uo-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_z9ypi1c9ifj3-1>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-1
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-4
+        }
+
+        ul.lst-kix_ovapphg3t8uo-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_ovapphg3t8uo-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ovapphg3t8uo-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_ovapphg3t8uo-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-8>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-8
+        }
+
+        ol.lst-kix_r109uyvbxeos-6.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-6 0
+        }
+
+        .lst-kix_i5yx34vs96em-5>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-5
+        }
+
+        .lst-kix_91xithwdszw3-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-2.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-2 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-4 0
+        }
+
+        .lst-kix_bbqp7cp8bbkt-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_71tx4o9juzo2-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_71tx4o9juzo2-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ti40x3gm2qz5-4>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-4
+        }
+
+        .lst-kix_40jbkv9xmssj-4>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-4
+        }
+
+        .lst-kix_i5yx34vs96em-0>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-0
+        }
+
+        .lst-kix_71tx4o9juzo2-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-4>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-4
+        }
+
+        .lst-kix_bbqp7cp8bbkt-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-6.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-6 0
+        }
+
+        .lst-kix_wdf64lki3c2j-2>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-2, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-4
+        }
+
+        .lst-kix_hv7nwkykyjeu-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-6, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-0>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-0, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-7>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-7, lower-latin) ". "
+        }
+
+        .lst-kix_hv7nwkykyjeu-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_l90hhdt471tz-6>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-6
+        }
+
+        .lst-kix_c7aq0g78wdwq-1>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-1, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-5>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8.start {
+            counter-reset: lst-ctn-kix_8vsi0wpbee47-8 0
+        }
+
+        .lst-kix_wdf64lki3c2j-4>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-4, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-3>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-3, decimal) ". "
+        }
+
+        ol.lst-kix_i5yx34vs96em-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_i5yx34vs96em-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_8vsi0wpbee47-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-7 0
+        }
+
+        ol.lst-kix_8vsi0wpbee47-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-1>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-1
+        }
+
+        ol.lst-kix_8vsi0wpbee47-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_8vsi0wpbee47-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_te5tx1818qv-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_lel17yktjca4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_r109uyvbxeos-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_hv7nwkykyjeu-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_lel17yktjca4-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_428ya8ue2a7q-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_428ya8ue2a7q-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-6>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-6
+        }
+
+        ul.lst-kix_428ya8ue2a7q-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-0>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-0, decimal) ". "
+        }
+
+        .lst-kix_te5tx1818qv-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-5>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_8vsi0wpbee47-3>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-3
+        }
+
+        ol.lst-kix_40jbkv9xmssj-1.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-1 0
+        }
+
+        .lst-kix_hv7nwkykyjeu-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_71tx4o9juzo2-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_te5tx1818qv-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-3.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-3 0
+        }
+
+        ol.lst-kix_i5yx34vs96em-6.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-6 0
+        }
+
+        .lst-kix_71tx4o9juzo2-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-2>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-2
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-2 0
+        }
+
+        .lst-kix_40jbkv9xmssj-7>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-7, lower-latin) ". "
+        }
+
+        .lst-kix_fjre9nmsucqf-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_40jbkv9xmssj-8>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-8, lower-roman) ". "
+        }
+
+        .lst-kix_fjre9nmsucqf-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_te5tx1818qv-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_xxeu1qxpdltt-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_te5tx1818qv-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_xxeu1qxpdltt-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_xxeu1qxpdltt-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_fjre9nmsucqf-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_wdf64lki3c2j-8>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-8
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-0>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-0, decimal) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-7>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-7
+        }
+
+        .lst-kix_fjre9nmsucqf-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-7>li {
+            counter-increment: lst-ctn-kix_l90hhdt471tz-7
+        }
+
+        .lst-kix_fjre9nmsucqf-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_r6kx37hmbdo8-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_lel17yktjca4-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_v8xs2tkb14vu-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_i5yx34vs96em-7.start {
+            counter-reset: lst-ctn-kix_i5yx34vs96em-7 0
+        }
+
+        .lst-kix_40jbkv9xmssj-4>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-4, lower-latin) ". "
+        }
+
+        .lst-kix_xxeu1qxpdltt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_40jbkv9xmssj-3>li:before {
+            content: "" counter(lst-ctn-kix_40jbkv9xmssj-3, decimal) ". "
+        }
+
+        ul.lst-kix_jh8oad94l2zn-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1.start {
+            counter-reset: lst-ctn-kix_z9ypi1c9ifj3-1 0
+        }
+
+        ol.lst-kix_40jbkv9xmssj-2.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-2 0
+        }
+
+        ul.lst-kix_jh8oad94l2zn-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_jh8oad94l2zn-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_p1rqzwwj4p1g-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_v8xs2tkb14vu-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-4.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-4 0
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_l90hhdt471tz-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_p1rqzwwj4p1g-2>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_le0h346em95v-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_z9ypi1c9ifj3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_vbwtcx7rz8af-3>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_l90hhdt471tz-7.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-7 0
+        }
+
+        .lst-kix_428ya8ue2a7q-4>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-0.start {
+            counter-reset: lst-ctn-kix_40jbkv9xmssj-0 0
+        }
+
+        ul.lst-kix_te5tx1818qv-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-4>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-4
+        }
+
+        ul.lst-kix_te5tx1818qv-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_te5tx1818qv-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_428ya8ue2a7q-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_te5tx1818qv-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_8vsi0wpbee47-8>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-8
+        }
+
+        ul.lst-kix_te5tx1818qv-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_40jbkv9xmssj-0>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-0
+        }
+
+        .lst-kix_pltnxixhavry-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_m5w41owby8wq-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-0.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-0 4
+        }
+
+        .lst-kix_ti40x3gm2qz5-7>li {
+            counter-increment: lst-ctn-kix_ti40x3gm2qz5-7
+        }
+
+        .lst-kix_ovapphg3t8uo-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_8vsi0wpbee47-6>li {
+            counter-increment: lst-ctn-kix_8vsi0wpbee47-6
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-4>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-4, lower-latin) ". "
+        }
+
+        .lst-kix_40jbkv9xmssj-2>li {
+            counter-increment: lst-ctn-kix_40jbkv9xmssj-2
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_z9ypi1c9ifj3-4>li {
+            counter-increment: lst-ctn-kix_z9ypi1c9ifj3-4
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_lel17yktjca4-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-3.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-3 0
+        }
+
+        .lst-kix_ovapphg3t8uo-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_i5yx34vs96em-2>li {
+            counter-increment: lst-ctn-kix_i5yx34vs96em-2
+        }
+
+        ol.lst-kix_40jbkv9xmssj-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_l90hhdt471tz-0>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-0, lower-latin) ". "
+        }
+
+        ol.lst-kix_40jbkv9xmssj-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-2 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_40jbkv9xmssj-1 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_hv7nwkykyjeu-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_91xithwdszw3-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_r109uyvbxeos-6>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-6, decimal) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_r109uyvbxeos-4>li {
+            counter-increment: lst-ctn-kix_r109uyvbxeos-4
+        }
+
+        .lst-kix_r109uyvbxeos-2>li:before {
+            content: "" counter(lst-ctn-kix_r109uyvbxeos-2, lower-roman) ". "
+        }
+
+        .lst-kix_71tx4o9juzo2-0>li:before {
+            content: "\0025cf   "
+        }
+
+        ol.lst-kix_r109uyvbxeos-2.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-2 0
+        }
+
+        .lst-kix_l90hhdt471tz-8>li:before {
+            content: "" counter(lst-ctn-kix_l90hhdt471tz-8, lower-roman) ". "
+        }
+
+        .lst-kix_71tx4o9juzo2-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-8>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-8, lower-roman) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li {
+            counter-increment: lst-ctn-kix_wdf64lki3c2j-1
+        }
+
+        .lst-kix_m5w41owby8wq-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_wdf64lki3c2j-1>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-1, lower-latin) ". "
+        }
+
+        .lst-kix_i5yx34vs96em-3>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-3, decimal) ". "
+        }
+
+        .lst-kix_wdf64lki3c2j-5>li:before {
+            content: "" counter(lst-ctn-kix_wdf64lki3c2j-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_l90hhdt471tz-8.start {
+            counter-reset: lst-ctn-kix_l90hhdt471tz-8 0
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        .lst-kix_hv7nwkykyjeu-7>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_c7aq0g78wdwq-0>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-0, lower-latin) ". "
+        }
+
+        .lst-kix_bbqp7cp8bbkt-8>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_i5yx34vs96em-7>li:before {
+            content: "" counter(lst-ctn-kix_i5yx34vs96em-7, lower-latin) ". "
+        }
+
+        .lst-kix_c7aq0g78wdwq-2>li {
+            counter-increment: lst-ctn-kix_c7aq0g78wdwq-2
+        }
+
+        .lst-kix_c7aq0g78wdwq-4>li:before {
+            content: "" counter(lst-ctn-kix_c7aq0g78wdwq-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_r109uyvbxeos-1.start {
+            counter-reset: lst-ctn-kix_r109uyvbxeos-1 0
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c17 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 265.5pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c34 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #d9d2e9;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c22 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 468pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c30 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            background-color: #cfe2f3;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 268.5pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c6 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #ffffff;
+            vertical-align: top;
+            border-right-color: #ffffff;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 265.5pt;
+            border-top-color: #ffffff;
+            border-bottom-style: solid
+        }
+
+        .c43 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #ffffff;
+            vertical-align: top;
+            border-right-color: #ffffff;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 268.5pt;
+            border-top-color: #ffffff;
+            border-bottom-style: solid
+        }
+
+        .c41 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c23 {
+            color: #039be5;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c11 {
+            padding-top: 24pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c5 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c26 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
+
+        .c1 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c8 {
+            padding-top: 12pt;
+            padding-bottom: 12pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c12 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c28 {
+            padding-top: 32pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c33 {
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 30pt;
+            font-family: "Proxima Nova";
+            font-style: normal
+        }
+
+        .c27 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 14pt;
+            font-style: normal
+        }
+
+        .c38 {
+            color: #666666;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-style: normal
+        }
+
+        .c35 {
+            margin-left: -34.5pt;
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c14 {
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 9pt;
+            font-style: normal
+        }
+
+        .c37 {
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 2pt;
+            font-style: normal
+        }
+
+        .c7 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c2 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c9 {
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-style: normal
+        }
+
+        .c42 {
+            padding-top: 10pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c40 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c10 {
+            color: #000000;
+            font-weight: 400;
+            font-family: "Courier New"
+        }
+
+        .c0 {
+            font-family: "Courier New";
+            color: #a64d79;
+            font-weight: 400
+        }
+
+        .c15 {
+            background-color: #cfe2f3;
+            font-family: "Courier New";
+            font-weight: 400
+        }
+
+        .c29 {
+            orphans: 2;
+            widows: 2
+        }
+
+        .c21 {
+            color: #cc0000;
+            font-weight: 700
+        }
+
+        .c20 {
+            font-family: "Courier New";
+            font-weight: 400
+        }
+
+        .c39 {
+            font-weight: 700;
+            font-family: "Proxima Nova"
+        }
+
+        .c24 {
+            font-weight: 400;
+            font-family: "Proxima Nova"
+        }
+
+        .c31 {
+            margin-left: 36pt;
+            padding-left: 0pt
+        }
+
+        .c4 {
+            font-weight: 700;
+            font-family: "Courier New"
+        }
+
+        .c18 {
+            margin-left: 72pt;
+            padding-left: 0pt
+        }
+
+        .c25 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c32 {
+            height: 11pt
+        }
+
+        .c13 {
+            page-break-after: avoid
+        }
+
+        .c36 {
+            color: #000000
+        }
+
+        .c16 {
+            height: 0pt
+        }
+
+        .c3 {
+            color: #404040
+        }
+
+        .c19 {
+            font-size: 9pt
+        }
+
+        .title {
+            padding-top: 10pt;
+            color: #404040;
+            font-weight: 700;
+            font-size: 30pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 6pt;
+            color: #404040;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Proxima Nova"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #039be5;
+            font-size: 18pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 14pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 10pt;
+            color: #000000;
+            font-size: 12pt;
+            padding-bottom: 0pt;
+            font-family: "Proxima Nova";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 8pt;
+            -webkit-text-decoration-skip: none;
+            color: #666666;
+            text-decoration: underline;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            line-height: 1.25;
+            page-break-after: avoid;
+            text-decoration-skip-ink: none;
+            font-family: "Trebuchet MS";
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 8pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 0pt;
+            font-family: "Trebuchet MS";
+            line-height: 1.25;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c40 doc-content">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../../../index.html">
+          <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+          <span class="nav-title">ICS4U</span>
+           <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+          <a class="button" href="https://github.com/MilkFlavor/ICS4U.github.io">
+            <span class="button-text">Give Me a Star!</span>
+          </a>
+        </a>
+      </div>
+    <div>
+        <p class="c28"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 10.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 10.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="horizontal line"></span></p>
+        <p class="c1"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image_2.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    </div>
+    <p class="c29 c13 c42 title" id="h.kk1966kbedef"><span>Void Methods</span></p>
+    <p class="c2 c29"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 47.00px; height: 6.00px;"><img alt="" src="images/image_2.png" style="width: 47.00px; height: 6.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="short line"></span></p>
+    <p class="c1"><span><br></span><span class="c23">What is a method?</span></p>
+    <p class="c1"><span>A method is a set of code that is grouped together under one name to perform a specific task. </span><span>You&rsquo;ve seen methods before when you used pre-written methods, like </span><span class="c15">readLine()</span><span>, </span><span class="c15">println()</span><span>, or </span><span class="c15">parseInt()</span><span>.</span></p>
+    <ul class="c25 lst-kix_71tx4o9juzo2-0 start">
+        <li class="c1 c31 li-bullet-0"><span class="c15">readLine()</span><span class="c5">, for example, has the specific task of reading in one String ending with a newline character into your program.</span></li>
+    </ul>
+    <p class="c8"><span>To do this task, someone out there has written the set of code for you that tells the computer to do this, and you &ldquo;call&rdquo; that set of code through the method&rsquo;s name. Now, we want to write our own custom methods.</span></p>
+    <h2 class="c1 c13" id="h.8dn9d55xgzpk"><span class="c27 c24">Why should I write methods? Why can&rsquo;t all my code just exist in main()?</span></h2>
+    <p class="c1"><span class="c5">It&rsquo;s sloppy. Methods are a way to organize your code and make it more readable for you and any other programmers that may need to understand your code. </span></p>
+    <p class="c1"><span class="c5">Compare the two programs below.</span></p><a id="t.3e5d397b108e424a3ed161bf00b6f8a42e1193d0"></a><a id="t.0"></a>
+    <table class="c35">
+        <tr class="c16">
+            <td class="c43" colspan="1" rowspan="1">
+                <p class="c2"><span class="c5">This program has one long, complex method containing all statements necessary to solve the problem...</span></p>
+            </td>
+            <td class="c6" colspan="1" rowspan="1">
+                <p class="c2"><span class="c5">This program has been divided into smaller problems, each handled by a separate method...</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c30" colspan="1" rowspan="1">
+                <p class="c2"><span class="c14 c10">public class BigProblem {</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c10 c14">&nbsp; &nbsp; &nbsp; ...</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp;}</span></p>
+                <p class="c2"><span class="c14 c10">}</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c2"><span class="c14 c10">public class DividedProblem {</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp;public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; method2();</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; method3();</span></p>
+                <p class="c2"><span class="c19 c20">&nbsp; &nbsp;} </span><span class="c14 c0">// end main</span></p>
+                <p class="c2 c32"><span class="c14 c10"></span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp;public static void method2() {</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c20 c19">&nbsp; &nbsp;} </span><span class="c0 c19">// end method2</span><span class="c14 c10"><br></span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp;public static void method3() {</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c14 c10">&nbsp; &nbsp; &nbsp; statement;</span></p>
+                <p class="c2"><span class="c20 c19">&nbsp; &nbsp;} </span><span class="c0 c19">// end method3</span></p>
+                <p class="c2"><span class="c20 c19">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c8"><span>A better reason for methods is the </span><span class="c21">divide &amp; conquer</span><span class="c5">&nbsp;problem-solving strategy.</span></p>
+    <p class="c8"><span>The idea is that smaller problems are easier to solve than bigger ones. So by breaking up your program&rsquo;s overall task into smaller, more manageable pieces, a large problem divided into several smaller problems becomes easier to solve than trying to tackle it all at once.</span></p>
+    <p class="c8"><span>It also helps with </span><span class="c21">debugging</span><span class="c5">. For instance, if you knew a problem was occuring with step 1 of your problem, you only need to look at the method that is responsible for executing step 1.</span></p>
+    <p class="c1"><span>Finally, it can make your code more readable with </span><span class="c21">code reuse</span><span class="c5">. Think of it like reusable water-bottles versus grocery store water-bottles.</span></p>
+    <p class="c8"><span class="c5">If a specific task is performed several times throughout your program, a method can be written once to perform that task, and then be called upon every time that task is needed. Without methods, you&rsquo;d have to copy-paste a whole lot!</span></p>
+    <h1 class="c11" id="h.xwbmpa701vwm"><span>Types of Methods</span></h1>
+    <p class="c1"><span>We will cover two general categories of methods: void methods and value-returning methods. A </span><span>void method</span><span class="c5">&nbsp;is one that simply performs a task and then terminates. </span></p>
+    <p class="c1"><span>For example, </span><span class="c15">println()</span><span class="c5">&nbsp;is a void method...</span></p><a id="t.647d5194aa7b0de0ca5e252c398ca93e3c85da4b"></a><a id="t.1"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">int num = 16;</span></p>
+                <p class="c2"><span class="c9 c10">System.out.println(num);</span></p>
+                <p class="c2"><span class="c9 c10">num = 0;</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c8"><span>In this example, we called the method </span><span class="c15">System.out.println()</span><span>&nbsp;and passed in the argument &ldquo;</span><span class="c15">num</span><span>&rdquo;. With num, </span><span class="c15">println()</span><span>&nbsp;did it&rsquo;s job of printing out the value of </span><span class="c15">num</span><span>&nbsp;to the console, and then terminated. The code then resumes to change the value of </span><span class="c15">num</span><span class="c5">&nbsp;to 0.</span></p>
+    <p class="c8"><span class="c5">A value-returning method not only performs a task, but also sends some data back to the code that called it.</span></p>
+    <p class="c1"><span>For example, </span><span class="c15">Integer.parseInt()</span><span>&nbsp;is a value-returning method...</span></p><a id="t.84965909f36e50c810cd07c391d5d5024b7188eb"></a><a id="t.2"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c12"><span class="c9 c10">String num = &quot;-3&quot;;</span></p>
+                <p class="c12"><span class="c9 c10">int intNum = Integer.parseInt(num);</span></p>
+                <p class="c12"><span class="c9 c10">System.out.println(intNum);</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c8"><span>In that example, we called </span><span class="c15">Integer.parseInt()</span><span>, a method that returns an integer version of the variable passed in (if possible). We passed in </span><span class="c15">num</span><span>, which was -3. </span><span class="c15">Integer.parseInt(num)</span><span>&nbsp;will return a value of 3, and we store that value into a new variable, </span><span class="c15">intNum</span><span>. When we print out </span><span class="c15">intNum</span><span class="c5">, a &ldquo;3&rdquo; is printed to the console.</span></p>
+    <h1 class="c11" id="h.2d2tywzdblqk"><span>Defining a void method</span></h1>
+    <p class="c8"><span class="c5">To create your own method, you must write its &ldquo;definition&rdquo;, which consists of two parts: a header and a body.</span></p>
+    <p class="c8"><span class="c5">The method header occurs at the beginning of the definition. For example, main()&rsquo;s header is&hellip;</span></p>
+    <p class="c12"><span class="c4">public static void main(String[] args)</span></p>
+    <p class="c12 c32"><span class="c5"></span></p>
+    <p class="c8"><span>Then the body of the method&rsquo;s definition is everything else&hellip;</span></p>
+    <p class="c12"><span class="c9 c4 c36">{</span></p>
+    <p class="c12"><span class="c20">&nbsp; &nbsp;</span><span class="c0">// Replace with code</span></p>
+    <p class="c12"><span class="c9 c4 c36">}</span></p>
+    <p class="c1"><span class="c9 c24 c3">Every complete Java program must have a main() method. But we can, and should, also write other methods as well.</span></p>
+    <p class="c1"><span class="c9 c24 c3">For example, this is a simple method that writes some text to the console...</span></p><a id="t.0c2af5ea453834eda26306ea30cc7883d0cdd1ea"></a><a id="t.3"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c0">/** </span></p>
+                <p class="c2"><span class="c9 c0">&nbsp;* Writes an informative message to the console. </span></p>
+                <p class="c2"><span class="c0">&nbsp;*/</span></p>
+                <p class="c2"><span class="c9 c10">public static void displayMessage() {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp;System.out.println(&quot;Hello from the displayMessage method!&quot;);</span></p>
+                <p class="c2"><span class="c20">} </span><span class="c0">// end displayMessage</span></p>
+            </td>
+        </tr>
+    </table>
+    <ul class="c25 lst-kix_r6kx37hmbdo8-0 start">
+        <li class="c1 c31 li-bullet-0"><span class="c15">public static</span><span class="c3">&nbsp;are &ldquo;</span><span class="c21">method modifiers</span><span class="c9 c24 c3">&rdquo;</span></li>
+    </ul>
+    <ul class="c25 lst-kix_r6kx37hmbdo8-1 start">
+        <li class="c1 c18 li-bullet-0"><span class="c3">The word &ldquo;</span><span class="c21">public</span><span class="c9 c24 c3">&rdquo; means that the method is publicly available to code outside the class; since we only have one class at this time, this doesn&rsquo;t matter much yet</span></li>
+        <li class="c1 c18 li-bullet-0"><span class="c3">The word &ldquo;</span><span class="c21">static</span><span class="c9 c24 c3">&rdquo; means that the method belongs to the class, not a specific Object. We will also worry about this later.</span></li>
+        <li class="c1 c18 li-bullet-0"><span class="c9 c3 c39">For now, your methods will all be &ldquo;public static&rdquo;.</span></li>
+    </ul>
+    <ul class="c25 lst-kix_r6kx37hmbdo8-0">
+        <li class="c1 c31 li-bullet-0"><span class="c15">void</span><span class="c3">&nbsp;specifies if the method returns anything, and if so, what data type it returns. Since the method returns nothing right now, we will write &ldquo;</span><span class="c21">void</span><span class="c9 c24 c3">&rdquo;.</span></li>
+        <li class="c1 c31 li-bullet-0"><span class="c15">displayMessage()</span><span class="c9 c24 c3">&nbsp;is the name we chose to call this method.</span></li>
+        <li class="c1 c31 li-bullet-0"><span class="c15">()</span><span class="c3">&nbsp;always follows a method name. We can pass values to a method, as you have done already. We will talk about how to declare methods that take in values soon!</span></li>
+    </ul>
+    <h1 class="c11" id="h.cwpgxthk12l6"><span class="c23">Calling a method</span></h1>
+    <p class="c1"><span>In order to use our methods, we need to call them! The exception to this is the </span><span class="c15">main()</span><span class="c5">&nbsp;method, which automatically is called when the program starts. </span></p>
+    <p class="c1"><span>You have had plenty of practice calling a method, but to call </span><span class="c15">displayMessage()</span><span>&nbsp;from earlier...</span></p><a id="t.9897ca28991f29c83860b7d0ca5bd8148807d46e"></a><a id="t.4"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">displayMessage();</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1"><span>This will cause the code to jump down to your code inside the method </span><span class="c15">displayMessage()</span><span class="c5">, execute that code, then jump back and continue to the next line.</span></p>
+    <p class="c1"><span>For example...</span></p><a id="t.6424e1dbaaef764e6630745851d62a9f9054f58d"></a><a id="t.5"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">1 &nbsp; &nbsp;public class Main {</span></p>
+                <p class="c2"><span class="c9 c10">2 &nbsp; &nbsp; &nbsp; public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c9 c10">3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Hello from main!&quot;);</span></p>
+                <p class="c2"><span class="c9 c10">4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; displayMessage();</span></p>
+                <p class="c2"><span class="c9 c10">5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Back in main!&quot;);</span></p>
+                <p class="c2"><span class="c20">6 &nbsp; &nbsp; &nbsp; } </span><span class="c0">// end main</span></p>
+                <p class="c2"><span class="c9 c10">7</span></p>
+                <p class="c2"><span class="c20">8 &nbsp; &nbsp;</span><span class="c0">/**</span><span class="c9 c10">&nbsp;</span></p>
+                <p class="c2"><span class="c20">9 &nbsp; &nbsp; </span><span class="c0">* Writes an informative message to the console. </span></p>
+                <p class="c2"><span class="c20">10 &nbsp; &nbsp;</span><span class="c0">*/</span></p>
+                <p class="c2"><span class="c9 c10">11 &nbsp; &nbsp; &nbsp;public static void displayMessage() {</span></p>
+                <p class="c2"><span class="c9 c10">12 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.println(&quot;Hello from displayMessage!&quot;);</span></p>
+                <p class="c2"><span class="c20">13 &nbsp; &nbsp; &nbsp;} </span><span class="c0">// end displayMessage</span></p>
+                <p class="c2"><span class="c9 c10">14 &nbsp; &nbsp;}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1"><span>When the program starts, the code runs line 3. Then on line 4, </span><span class="c15">displayMessage()</span><span>&nbsp;is called. The code will jump to that method and will run the code inside the body of that method (line 9). Once the last line in the called method is complete, the code will jump back to the line after </span><span class="c15">displayMessage()</span><span class="c5">&nbsp;was called, line 5 to continue.</span></p>
+    <p class="c1"><span>The output will be:</span></p><a id="t.acb5e63e5e86a26586c78b5e03de1155c2934c95"></a><a id="t.6"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c34" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">Hello from main!<br>Hello from displayMessage!</span></p>
+                <p class="c2"><span class="c9 c10">Back in main!</span></p>
+            </td>
+        </tr>
+    </table>
+    <h2 class="c1 c13" id="h.ihfh8wclb7w6"><span class="c27 c24"><br>From a loop</span></h2>
+    <p class="c1"><span class="c5">Methods can be called from within loops and control structures, like if-statements.</span></p>
+    <p class="c1"><span>For example...</span></p><a id="t.39368436e51b48e99d51532efc75fbcc41612cea"></a><a id="t.7"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">public class Main {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Hello from the main method!&quot;);</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; 5; i++) {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; displayMessage();</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Back in the main method!&quot;);</span></p>
+                <p class="c2"><span class="c20">&nbsp; &nbsp; } </span><span class="c9 c0">// end main</span></p>
+                <p class="c2 c32"><span class="c9 c10"></span></p>
+                <p class="c2"><span class="c9 c0">&nbsp; &nbsp; /** </span></p>
+                <p class="c2"><span class="c9 c0">&nbsp; &nbsp; &nbsp;* Writes an informative message to the console.</span></p>
+                <p class="c2"><span class="c0">&nbsp; &nbsp; &nbsp;*/</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; public static void displayMessage() {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Hello from the displayMessage method!&quot;);</span></p>
+                <p class="c2"><span class="c20">&nbsp; &nbsp; }</span><span class="c0">&nbsp;// end displayMessage</span></p>
+                <p class="c2"><span class="c9 c10">}</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c34" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">Hello from the main method!</span></p>
+                <p class="c2"><span class="c9 c10">Hello from the displayMessage method!</span></p>
+                <p class="c2"><span class="c9 c10">Hello from the displayMessage method!</span></p>
+                <p class="c2"><span class="c9 c10">Hello from the displayMessage method!</span></p>
+                <p class="c2"><span class="c9 c10">Hello from the displayMessage method!</span></p>
+                <p class="c2"><span class="c9 c10">Hello from the displayMessage method!</span></p>
+                <p class="c2"><span class="c9 c10">Back in the main method!</span></p>
+            </td>
+        </tr>
+    </table>
+    <h2 class="c1 c13" id="h.gtikdfe38j1w"><span class="c27 c24">From another method</span></h2>
+    <p class="c1"><span>Methods can also be called in a layered, or hierarchical fashion! In other words, method A can call method B, which can call method C. When C finishes, we return to B. When B finishes, we return to A, and when A finishes we return to main.</span></p><a id="t.078a5b7e7229eab004823ceb2a372662e0c59edf"></a><a id="t.8"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">public class Main {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; public static void main(String[] args) {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;I am starting in main.&quot;);</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; deep();</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;I have resurfaced in main!&quot;);</span></p>
+                <p class="c2"><span class="c20">&nbsp; &nbsp; } </span><span class="c9 c0">// end main</span></p>
+                <p class="c2 c32"><span class="c9 c10"></span></p>
+                <p class="c2"><span class="c9 c0">&nbsp; &nbsp; /** </span></p>
+                <p class="c2"><span class="c9 c0">&nbsp; &nbsp; &nbsp;* Writes a message to the console for the middle level of code.</span></p>
+                <p class="c2"><span class="c0">&nbsp; &nbsp; &nbsp;*/</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; public static void deep() {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;I am now in deep!&quot;);</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; deeper();</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;I have risen back to deep!&quot;);</span></p>
+                <p class="c2"><span class="c20">&nbsp; &nbsp; } </span><span class="c0">// end deep</span></p>
+                <p class="c2 c32"><span class="c9 c10"></span></p>
+                <p class="c2"><span class="c9 c0">&nbsp; &nbsp; /** </span></p>
+                <p class="c2"><span class="c9 c0">&nbsp; &nbsp; &nbsp;* Writes a message to the console for the deepest level of code.</span></p>
+                <p class="c2"><span class="c0">&nbsp; &nbsp; &nbsp;*/</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; public static void deeper() {</span></p>
+                <p class="c2"><span class="c9 c10">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;I am now in deeper!&quot;);</span></p>
+                <p class="c2"><span class="c20">&nbsp; &nbsp; } </span><span class="c0">// end deeper</span></p>
+                <p class="c2"><span class="c9 c10">}</span></p>
+            </td>
+        </tr>
+        <tr class="c16">
+            <td class="c34" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c10">I am starting in main.</span></p>
+                <p class="c2"><span class="c9 c10">I am now in deep!</span></p>
+                <p class="c2"><span class="c9 c10">I am now in deeper!</span></p>
+                <p class="c2"><span class="c9 c10">I have risen back to deep!</span></p>
+                <p class="c2"><span class="c9 c10">I have resurfaced in main!</span></p>
+            </td>
+        </tr>
+    </table>
+    <h1 class="c11" id="h.5gma2it775h"><span class="c23">Documenting a method</span></h1>
+    <h2 class="c1 c13" id="h.nxm2x1ln0g63"><span class="c27 c24">Method header comment</span></h2>
+    <p class="c1"><span class="c5">A method header should always be written -- it&rsquo;s like common courtesy. For now, a method header should provide a brief explanation of the method&rsquo;s purpose. As our methods get more complicated, we will add more things to the method header. But for now, a brief ( &lt; 1 sentence) will usually do.</span></p>
+    <p class="c1"><span class="c5">Notice that throughout the note there have been method headers in each example.</span></p>
+    <p class="c1"><span>Method headers start with </span><span class="c15">/**</span><span>&nbsp;on its own line. Each subsequent line afterwards includes a </span><span class="c15">*</span><span>&nbsp;in line with the first. The last line is </span><span class="c15">*/</span><span>, which is also inline with the first asterisk (*) from the first line.</span></p><a id="t.2dd4c3da4efb7989653956e167d723b304b13d3c"></a><a id="t.9"></a>
+    <table class="c7">
+        <tr class="c16">
+            <td class="c22" colspan="1" rowspan="1">
+                <p class="c2"><span class="c9 c0">/**</span></p>
+                <p class="c2"><span class="c0 c9">&nbsp;* Purpose of the method goes here&hellip;</span></p>
+                <p class="c2"><span class="c9 c0">&nbsp;*/</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c1"><span class="c5">The reason why we format our headers like this is because these types of comments can be read by a program named javadoc, which produces HTML documentation.</span></p>
+    <p class="c1"><span class="c5">Beyond that, method header comments are good for all the reasons that commenting is useful&hellip; Making your program more readable and easy to understand to a third-party, and for debugging or later code updates.</span></p>
+    <h2 class="c1 c13" id="h.td9x5qlpz8zu"><span class="c24 c27">Commenting throughout</span></h2>
+    <p class="c8"><span class="c5">Commenting throughout should exist as you would normally. Explain any weird logic or variable names that may not be self-explanatory.</span></p>
+    <h2 class="c8 c13" id="h.n71rgeahh966"><span class="c27 c24">End comment</span></h2>
+    <p class="c1"><span class="c5">You&rsquo;ll also notice that throughout the note, there has been another recurring comment.</span></p>
+    <p class="c1"><span>This one is a </span><span class="c15">//</span><span>&nbsp;comment, which occurs at every closing curly bracket, </span><span class="c15">}</span><span class="c5">.</span></p>
+    <p class="c1"><span>This is to help us keep track of which body of code or code structure we are in, so that we don&rsquo;t get lost in all the brackets, or accidentally add a line of code to the wrong section of our program.</span></p>
+    <div>
+        <p class="c26"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 817.00px; height: 43.00px;"><img alt="" src="images/image_1.png" style="width: 817.00px; height: 43.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="footer"></span></p>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+          TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/shibashish42/">
+          <image src="../../../assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" target="_blank" href="https://github.com/MilkFlavor">
+          <image src="../../../assets/icons/github.svg" class="footer-icon"/>
+        </a>
+        <!-- 
+          TODO - Change the email after "mailto" to your contact email 
+        
+          This should be the same across all pages.
+        -->
+        <a class="icon-link" href="https://mail.google.com/mail/u/shibashish785@gmail.com">
+          <image src="../../../assets/icons/mail.svg" class="footer-icon"/>
+        </a>
+
+        <a class="button" href="https://docs.google.com/document/d/16L1yGOdBCw962zDVV4bk0QCcbHl8LvEkujRYhdBAm6E/edit?usp=sharing">
+            <span class="button-text">Read as PDF</span>
+            <image src="../../../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+</body>
+
+</html>
